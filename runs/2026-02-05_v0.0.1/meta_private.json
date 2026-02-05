@@ -1,0 +1,25 @@
+{
+  "run_id": "v0.0.1",
+  "model": "claude-sonnet-4-20250514",
+  "prompt_version": "1.0",
+  "variant_a": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple",
+    "font_family": "DejaVu Sans"
+  },
+  "variant_b": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 4,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple",
+    "font_family": "DejaVu Sans"
+  }
+}
