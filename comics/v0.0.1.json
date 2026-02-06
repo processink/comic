@@ -1,0 +1,36 @@
+{
+  "run_id": "v0.0.1",
+  "date": "2026-02-06",
+  "timestamp": "2026-02-06T12:36:07.112937+00:00",
+  "topic": "hustle culture",
+  "topic_source": "predefined",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Deadpan delivery cuts through hustle culture satire with sharper, more biting commentary than absurdist exaggeration.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.1.svg"
+  },
+  "variants": {
+    "a": "v0.0.1-a.svg",
+    "b": "v0.0.1-b.svg"
+  },
+  "posting": {},
+  "voting": {}
+}
