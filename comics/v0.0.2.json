@@ -18,7 +18,7 @@
     "Cache",
     "Sifaka"
   ],
-  "learned": "",
+  "learned": "Thinner lines feel lighter and match the relatable, everyday tone of streaming fatigue.",
   "explore": {
     "dimension": "line_weight",
     "variant_a_value": "medium",
@@ -32,6 +32,11 @@
     "a": "v0.0.2-a.svg",
     "b": "v0.0.2-b.svg"
   },
-  "posting": {},
+  "posting": {
+    "ab_tweet_id": "2020133300086460711",
+    "ab_post_url": "https://x.com/i/status/2020133300086460711",
+    "winner_tweet_id": "2020206365734502660",
+    "winner_post_url": "https://x.com/i/status/2020206365734502660"
+  },
   "voting": {}
 }
