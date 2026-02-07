@@ -1,0 +1,37 @@
+{
+  "run_id": "v0.0.3",
+  "date": "2026-02-07",
+  "timestamp": "2026-02-07T11:22:13.497380+00:00",
+  "topic": "Jeffrey Snover: \"Welcome to the Room\"",
+  "topic_source": "hn",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "",
+  "explore": {
+    "dimension": "line_weight",
+    "variant_a_value": "medium",
+    "variant_b_value": "thick"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.3.svg"
+  },
+  "variants": {
+    "a": "v0.0.3-a.svg",
+    "b": "v0.0.3-b.svg"
+  },
+  "posting": {},
+  "voting": {}
+}
