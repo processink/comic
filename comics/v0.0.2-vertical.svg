@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 960">
+  <defs>
+    <radialGradient id="sq_fur_stream47" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_stream47" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <radialGradient id="hum_skin_stream47" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f5d3b8"/>
+      <stop offset="100%" style="stop-color:#e8b887"/>
+    </radialGradient>
+    <filter id="shadow_stream47">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Panel 1 -->
+  <rect x="10" y="10" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Abe scrolling through streaming apps -->
+  <g filter="url(#shadow_stream47)">
+    <!-- Body -->
+    <ellipse cx="200" cy="220" rx="28" ry="35" fill="#5d8aa8" stroke="#4a6d8c" stroke-width="1.3"/>
+    
+    <!-- Head -->
+    <ellipse cx="200" cy="170" rx="20" ry="23" fill="url(#hum_skin_stream47)" stroke="#c8a882" stroke-width="1.3"/>
+    
+    <!-- Hair -->
+    <path d="M 180 155 Q 200 148 220 155 Q 218 160 214 162 Q 200 158 186 162 Q 182 160 180 155" fill="#4a3728" stroke="#3a2618" stroke-width="1"/>
+    
+    <!-- Eyes looking tired -->
+    <ellipse cx="192" cy="170" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="192" cy="171" r="2" fill="#2a2a2a"/>
+    <ellipse cx="208" cy="170" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="208" cy="171" r="2" fill="#2a2a2a"/>
+    
+    <!-- Dark circles under eyes -->
+    <ellipse cx="192" cy="175" rx="4" ry="2" fill="#d4b8a0" opacity="0.6"/>
+    <ellipse cx="208" cy="175" rx="4" ry="2" fill="#d4b8a0" opacity="0.6"/>
+    
+    <!-- Nose and mouth -->
+    <path d="M 200 175 L 200 178" stroke="#a8896d" stroke-width="1"/>
+    <path d="M 195 183 Q 200 181 205 183" fill="none" stroke="#8a6d51" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Remote in hand -->
+    <rect x="215" y="215" width="15" height="30" rx="2" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1"/>
+    <circle cx="222" cy="225" r="1" fill="#ff0000"/>
+    <circle cx="222" cy="230" r="1" fill="#00ff00"/>
+    <circle cx="222" cy="235" r="1" fill="#0080ff"/>
+    
+    <!-- TV showing grid of streaming services -->
+    <rect x="120" y="240" width="100" height="60" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="2"/>
+    <rect x="125" y="245" width="90" height="50" fill="#2a2a2a"/>
+    
+    <!-- Streaming service icons grid -->
+    <rect x="130" y="250" width="18" height="18" fill="#E63946" stroke="#fff" stroke-width="0.5"/>
+    <rect x="152" y="250" width="18" height="18" fill="#457B9D" stroke="#fff" stroke-width="0.5"/>
+    <rect x="174" y="250" width="18" height="18" fill="#2A9D8F" stroke="#fff" stroke-width="0.5"/>
+    <rect x="196" y="250" width="18" height="18" fill="#F77F00" stroke="#fff" stroke-width="0.5"/>
+    <rect x="130" y="272" width="18" height="18" fill="#6A4C93" stroke="#fff" stroke-width="0.5"/>
+    <rect x="152" y="272" width="18" height="18" fill="#1D3557" stroke="#fff" stroke-width="0.5"/>
+    <rect x="174" y="272" width="18" height="18" fill="#E9C46A" stroke="#fff" stroke-width="0.5"/>
+    <rect x="196" y="272" width="18" height="18" fill="#264653" stroke="#fff" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="95" y="40" width="240" height="84" rx="14" fill="#fff" stroke="#333" stroke-width="2.4"/>
+  <polygon points="190,122 200,142 210,122" fill="#fff"/>
+  <path d="M 190 124 L 200 144 L 210 124" fill="none" stroke="#333" stroke-width="2.4"/>
+  
+  <text x="215" y="68" font-family="DejaVu Sans" font-size="17" text-anchor="middle" fill="#222">Eight subscriptions,</text>
+  <text x="215" y="89" font-family="DejaVu Sans" font-size="17" text-anchor="middle" fill="#222">twelve passwords,</text>
+  <text x="215" y="110" font-family="DejaVu Sans" font-size="17" text-anchor="middle" fill="#222">nothing to watch.</text>
+  
+  <!-- Panel 2 -->
+  <rect x="10" y="330" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Sifaka observing -->
+  <g filter="url(#shadow_stream47)">
+    <ellipse cx="200" cy="540" rx="22" ry="28" fill="url(#lem_fur_stream47)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="200" cy="510" rx="18" ry="16" fill="url(#lem_fur_stream47)" stroke="#5a5a5a" stroke-width="1.3"/>
+    
+    <!-- Moderately-sized ears -->
+    <ellipse cx="175" cy="505" rx="14" ry="16" fill="url(#lem_fur_stream47)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="225" cy="505" rx="14" ry="16" fill="url(#lem_fur_stream47)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="175" cy="505" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="225" cy="505" rx="8" ry="10" fill="#f5b5c5"/>
+    
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="188" cy="510" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="188" cy="510" r="8" fill="#1a1a1a"/>
+    <circle cx="186" cy="508" r="2" fill="#fff"/>
+    
+    <ellipse cx="212" cy="510" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="212" cy="510" r="8" fill="#1a1a1a"/>
+    <circle cx="210" cy="508" r="2" fill="#fff"/>
+    
+    <ellipse cx="200" cy="518" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 193 522 Q 200 523 207 522" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Ring tail with stripes -->
+    <path d="M 180 545 Q 170 555 165 575 Q 160 595 165 610 Q 170 625 180 630 Q 190 632 200 625 Q 195 605 195 585 Q 195 565 190 550" fill="url(#lem_fur_stream47)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="165" y="575" width="30" height="8" fill="#1a1a1a"/>
+    <rect x="165" y="591" width="30" height="8" fill="#1a1a1a"/>
+    <rect x="165" y="607" width="30" height="8" fill="#1a1a1a"/>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="80" y="360" width="264" height="106" rx="14" fill="#fff" stroke="#333" stroke-width="2.4"/>
+  <polygon points="190,464 200,484 210,464" fill="#fff"/>
+  <path d="M 190 466 L 200 486 L 210 466" fill="none" stroke="#333" stroke-width="2.4"/>
+  
+  <text x="212" y="388" font-family="DejaVu Sans" font-size="17" text-anchor="middle" fill="#222">Remember when we paid</text>
+  <text x="212" y="409" font-family="DejaVu Sans" font-size="17" text-anchor="middle" fill="#222">for cable to avoid</text>
+  <text x="212" y="430" font-family="DejaVu Sans" font-size="17" text-anchor="middle" fill="#222">having too many</text>
+  <text x="212" y="451" font-family="DejaVu Sans" font-size="17" text-anchor="middle" fill="#222">channels?</text>
+  
+  <!-- Panel 3 -->
+  <rect x="10" y="650" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Cache with cigarette and sunglasses -->
+  <g filter="url(#shadow_stream47)">
+    <ellipse cx="200" cy="860" rx="18" ry="20" fill="url(#sq_fur_stream47)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="200" cy="838" rx="14" ry="13" fill="url(#sq_fur_stream47)" stroke="#5d4a2f" stroke-width="1.3"/>
+    
+    <!-- Tall triangle ears -->
+    <ellipse cx="193" cy="832" rx="6" ry="11" fill="url(#sq_fur_stream47)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 193 832)"/>
+    <ellipse cx="207" cy="832" rx="6" ry="11" fill="url(#sq_fur_stream47)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 207 832)"/>
+    <ellipse cx="193" cy="835" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 193 835)"/>
+    <ellipse cx="207" cy="835" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 207 835)"/>
+    
+    <!-- Sunglasses -->
+    <rect x="187" y="834" width="26" height="10" rx="3" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="1"/>
+    <rect x="189" y="836" width="10" height="6" rx="2" fill="#333"/>
+    <rect x="201" y="836" width="10" height="6" rx="2" fill="#333"/>
+    <line x1="199" y1="839" x2="201" y2="839" stroke="#0a0a0a" stroke-width="1"/>
+    
+    <ellipse cx="200" cy="845" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    
+    <!-- Cigarette -->
+    <rect x="205" y="844" width="18" height="1.5" fill="#f4f4f4" stroke="#8b7355" stroke-width="0.5"/>
+    <rect x="221" y="843.5" width="3" height="2.5" fill="#e85a3c" stroke="#c43a1c" stroke-width="0.5"/>
+    
+    <!-- Smoke -->
+    <path d="M 224 843 Q 227 840 230 841 Q 233 842 235 839" fill="none" stroke="#aaa" stroke-width="1" opacity="0.6"/>
+    
+    <!-- Fluffy tail -->
+    <path d="M 180 865 Q 165 870 160 885 Q 155 900 165 910 Q 175 920 185 910 Q 180 895 180 880 Q 180 872 180 865" fill="url(#sq_fur_stream47)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="80" y="680" width="264" height="106" rx="14" fill="#fff" stroke="#333" stroke-width="2.4"/>
+  <polygon points="190,784 200,804 210,784" fill="#fff"/>
+  <path d="M 190 786 L 200 806 L 210 786" fill="none" stroke="#333" stroke-width="2.4"/>
+  
+  <text x="212" y="708" font-family="DejaVu Sans" font-size="17" text-anchor="middle" fill="#222">We've successfully</text>
+  <text x="212" y="729" font-family="DejaVu Sans" font-size="17" text-anchor="middle" fill="#222">reinvented cable with</text>
+  <text x="212" y="750" font-family="DejaVu Sans" font-size="17" text-anchor="middle" fill="#222">extra steps and</text>
+  <text x="212" y="771" font-family="DejaVu Sans" font-size="17" text-anchor="middle" fill="#222">login screens.</text>
+</svg>
