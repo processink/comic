@@ -1,0 +1,27 @@
+{
+  "run_id": "v0.0.4-beta",
+  "date": "2026-02-07",
+  "timestamp": "2026-02-07T19:13:55.709933+00:00",
+  "type": "standalone",
+  "topic": "test",
+  "topic_source": "manual",
+  "context": "",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Cache",
+    "Sifaka"
+  ],
+  "file": "v0.0.4-beta.svg",
+  "posting": {
+    "tweet_id": "2020214468806897883",
+    "tweet_url": "https://x.com/i/status/2020214468806897883"
+  }
+}
