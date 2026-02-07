@@ -1,0 +1,36 @@
+{
+  "run_id": "v0.0.1-beta",
+  "date": "2026-02-06",
+  "timestamp": "2026-02-07T11:08:10.801658+00:00",
+  "topic": "I studied 10 years of Instagram posts. Here\u2019s how social media has changed",
+  "topic_source": "news",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "",
+  "explore": {
+    "dimension": "line_weight",
+    "variant_a_value": "medium",
+    "variant_b_value": "thick"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.1-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.1-beta-a.svg",
+    "b": "v0.0.1-beta-b.svg"
+  },
+  "posting": {},
+  "voting": {}
+}

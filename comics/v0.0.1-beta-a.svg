@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_insta94" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_insta94" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <filter id="shadow_insta94">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Panel 1 -->
+  <rect x="5" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Sifaka with enormous pile of printed photos -->
+  <g filter="url(#shadow_insta94)">
+    <ellipse cx="150" cy="240" rx="22" ry="28" fill="url(#lem_fur_insta94)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="150" cy="210" rx="18" ry="16" fill="url(#lem_fur_insta94)" stroke="#5a5a5a" stroke-width="1.3"/>
+    
+    <!-- Moderately-sized ears -->
+    <ellipse cx="125" cy="205" rx="14" ry="16" fill="url(#lem_fur_insta94)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="175" cy="205" rx="14" ry="16" fill="url(#lem_fur_insta94)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="125" cy="205" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="175" cy="205" rx="8" ry="10" fill="#f5b5c5"/>
+    
+    <!-- ENORMOUS eyes looking at photos -->
+    <ellipse cx="138" cy="210" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="138" cy="211" r="8" fill="#1a1a1a"/>
+    <circle cx="136" cy="209" r="2" fill="#fff"/>
+    
+    <ellipse cx="162" cy="210" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="162" cy="211" r="8" fill="#1a1a1a"/>
+    <circle cx="160" cy="209" r="2" fill="#fff"/>
+    
+    <ellipse cx="150" cy="218" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 143 222 Q 150 223 157 222" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Massive pile of photos -->
+    <rect x="80" y="265" width="140" height="40" fill="#f5f5f5" stroke="#2a2a2a" stroke-width="1"/>
+    <rect x="85" y="260" width="130" height="5" fill="#f5f5f5" stroke="#2a2a2a" stroke-width="1"/>
+    <rect x="90" y="255" width="120" height="5" fill="#f5f5f5" stroke="#2a2a2a" stroke-width="1"/>
+    <rect x="95" y="250" width="110" height="5" fill="#f5f5f5" stroke="#2a2a2a" stroke-width="1"/>
+    <rect x="100" y="245" width="100" height="5" fill="#f5f5f5" stroke="#2a2a2a" stroke-width="1"/>
+    
+    <!-- Holding a photo -->
+    <rect x="130" y="235" width="40" height="30" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <rect x="135" y="240" width="30" height="20" fill="#e8e8e8"/>
+    
+    <!-- Ring tail with stripes -->
+    <path d="M 130 245 Q 120 255 115 275 Q 110 295 115 310 Q 120 325 130 330 Q 140 332 150 325 Q 145 305 145 285 Q 145 265 140 250" fill="url(#lem_fur_insta94)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="115" y="275" width="30" height="8" fill="#1a1a1a"/>
+    <rect x="115" y="291" width="30" height="8" fill="#1a1a1a"/>
+    <rect x="115" y="307" width="30" height="8" fill="#1a1a1a"/>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="40" y="50" width="220" height="88" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="140,136 150,156 160,136" fill="#fff"/>
+  <path d="M 140 138 L 150 158 L 160 138" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <text x="150" y="75" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">I analyzed 10 years of</text>
+  <text x="150" y="93" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">Instagram posts. In 2014,</text>
+  <text x="150" y="111" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">people showed their breakfast.</text>
+  <text x="150" y="129" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">Now they show their anxiety.</text>
+  
+  <!-- Panel 2 -->
+  <rect x="305" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Cache looking at graph -->
+  <g filter="url(#shadow_insta94)">
+    <ellipse cx="450" cy="240" rx="18" ry="20" fill="url(#sq_fur_insta94)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="450" cy="218" rx="14" ry="13" fill="url(#sq_fur_insta94)" stroke="#5d4a2f" stroke-width="1.3"/>
+    
+    <!-- Tall triangle ears -->
+    <ellipse cx="443" cy="212" rx="6" ry="11" fill="url(#sq_fur_insta94)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 443 212)"/>
+    <ellipse cx="457" cy="212" rx="6" ry="11" fill="url(#sq_fur_insta94)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 457 212)"/>
+    <ellipse cx="443" cy="215" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 443 215)"/>
+    <ellipse cx="457" cy="215" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 457 215)"/>
+    
+    <!-- Looking at chart -->
+    <ellipse cx="444" cy="220" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="444" cy="221" r="2" fill="#1a1a1a"/>
+    <ellipse cx="456" cy="220" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="456" cy="221" r="2" fill="#1a1a1a"/>
+    
+    <ellipse cx="450" cy="225" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    
+    <!-- Holding chart -->
+    <rect x="380" y="240" width="80" height="60" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <!-- Chart line going down -->
+    <path d="M 390 250 L 410 260 L 430 270 L 450 285" fill="none" stroke="#E63946" stroke-width="2"/>
+    <text x="420" y="295" font-family="DejaVu Sans" font-size="8" text-anchor="middle" fill="#222">AUTHENTICITY</text>
+    
+    <!-- Fluffy tail -->
+    <path d="M 430 245 Q 415 250 410 265 Q 405 280 415 290 Q 425 300 435 290 Q 430 275 430 260 Q 430 252 430 245" fill="url(#sq_fur_insta94)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="340" y="50" width="220" height="88" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="440,136 450,156 460,136" fill="#fff"/>
+  <path d="M 440 138 L 450 158 L 460 138" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <text x="450" y="75" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">The more filters we invented</text>
+  <text x="450" y="93" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">to show perfect lives,</text>
+  <text x="450" y="111" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">the more desperate we became</text>
+  <text x="450" y="129" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">to show real ones.</text>
+  
+  <!-- Panel 3 -->
+  <rect x="605" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Both looking at phone showing "BeReal" notification -->
+  <g filter="url(#shadow_insta94)">
+    <!-- Sifaka -->
+    <ellipse cx="700" cy="240" rx="22" ry="28" fill="url(#lem_fur_insta94)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="700" cy="210" rx="18" ry="16" fill="url(#lem_fur_insta94)" stroke="#5a5a5a" stroke-width="1.3"/>
+    
+    <ellipse cx="675" cy="205" rx="14" ry="16" fill="url(#lem_fur_insta94)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="725" cy="205" rx="14" ry="16" fill="url(#lem_fur_insta94)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="675" cy="205" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="725" cy="205" rx="8" ry="10" fill="#f5b5c5"/>
+    
+    <ellipse cx="688" cy="210" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="688" cy="210" r="8" fill="#1a1a1a"/>
+    <circle cx="686" cy="208" r="2" fill="#fff"/>
+    
+    <ellipse cx="712" cy="210" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="712" cy="210" r="8" fill="#1a1a1a"/>
+    <circle cx="710" cy="208" r="2" fill="#fff"/>
+    
+    <ellipse cx="700" cy="218" rx="2" ry="1.5" fill="#1a1a1a"/>
+    
+    <!-- Cache -->
+    <ellipse cx="780" cy="240" rx="18" ry="20" fill="url(#sq_fur_insta94)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="780" cy="218" rx="14" ry="13" fill="url(#sq_fur_insta94)" stroke="#5d4a2f" stroke-width="1.3"/>
+    
+    <ellipse cx="773" cy="212" rx="6" ry="11" fill="url(#sq_fur_insta94)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 773 212)"/>
+    <ellipse cx="787" cy="212" rx="6" ry="11" fill="url(#sq_fur_insta94)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 787 212)"/>
+    <ellipse cx="773" cy="215" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 773 215)"/>
+    <ellipse cx="787" cy="215" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 787 215)"/>
+    
+    <!-- Half-lidded, weary eyes -->
+    <ellipse cx="774" cy="220" rx="3" ry="2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="774" cy="220" r="1.5" fill="#1a1a1a"/>
+    <ellipse cx="786" cy="220" rx="3" ry="2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="786" cy="220" r="1.5" fill="#1a1a1a"/>
+    
+    <ellipse cx="780" cy="225" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    
+    <!-- Phone between them -->
+    <rect x="725" y="250" width="30" height="45" rx="3" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1"/>
+    <rect x="728" y="255" width="24" height="32" fill="#fff"/>
+    <text x="740" y="270" font-family="DejaVu Sans" font-size="8" text-anchor="middle" fill="#222">Time to</text>
+    <text x="740" y="280" font-family="DejaVu Sans" font-size="8" text-anchor="middle" fill="#222">BeReal</text>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="640" y="50" width="220" height="70" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="740,118 750,138 760,118" fill="#fff"/>
+  <path d="M 740 120 L 750 140 L 760 120" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <text x="750" y="75" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">We scheduled spontaneity.</text>
+  <text x="750" y="93" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">Curated authenticity.</text>
+  <text x="750" y="111" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">Performed realness.</text>
+</svg>

@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_sys89" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_sys89" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <filter id="shadow_sys89">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Panel 1 -->
+  <rect x="5" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Cache organizing acorns into complex diagram -->
+  <g filter="url(#shadow_sys89)">
+    <ellipse cx="150" cy="240" rx="18" ry="20" fill="url(#sq_fur_sys89)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="150" cy="218" rx="14" ry="13" fill="url(#sq_fur_sys89)" stroke="#5d4a2f" stroke-width="1.3"/>
+    
+    <!-- Tall triangle ears -->
+    <ellipse cx="143" cy="212" rx="6" ry="11" fill="url(#sq_fur_sys89)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 143 212)"/>
+    <ellipse cx="157" cy="212" rx="6" ry="11" fill="url(#sq_fur_sys89)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 157 212)"/>
+    <ellipse cx="143" cy="215" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 143 215)"/>
+    <ellipse cx="157" cy="215" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 157 215)"/>
+    
+    <!-- Focused eyes -->
+    <ellipse cx="144" cy="220" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="144" cy="221" r="2" fill="#1a1a1a"/>
+    <ellipse cx="156" cy="220" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="156" cy="221" r="2" fill="#1a1a1a"/>
+    
+    <ellipse cx="150" cy="225" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    
+    <!-- Arms arranging -->
+    <ellipse cx="130" cy="235" rx="8" ry="6" fill="url(#sq_fur_sys89)" stroke="#5d4a2f" stroke-width="1" transform="rotate(-45 130 235)"/>
+    <ellipse cx="170" cy="235" rx="8" ry="6" fill="url(#sq_fur_sys89)" stroke="#5d4a2f" stroke-width="1" transform="rotate(45 170 235)"/>
+    
+    <!-- Complex acorn diagram with arrows -->
+    <ellipse cx="100" cy="270" rx="5" ry="6" fill="#8b6f47" stroke="#5d4a2f" stroke-width="1"/>
+    <ellipse cx="120" cy="260" rx="5" ry="6" fill="#8b6f47" stroke="#5d4a2f" stroke-width="1"/>
+    <ellipse cx="140" cy="270" rx="5" ry="6" fill="#8b6f47" stroke="#5d4a2f" stroke-width="1"/>
+    <ellipse cx="160" cy="260" rx="5" ry="6" fill="#8b6f47" stroke="#5d4a2f" stroke-width="1"/>
+    <ellipse cx="180" cy="270" rx="5" ry="6" fill="#8b6f47" stroke="#5d4a2f" stroke-width="1"/>
+    <ellipse cx="200" cy="260" rx="5" ry="6" fill="#8b6f47" stroke="#5d4a2f" stroke-width="1"/>
+    
+    <!-- Arrows connecting acorns -->
+    <path d="M 105 270 L 115 262" stroke="#4a4a4a" stroke-width="1" marker-end="url(#arrow89)"/>
+    <path d="M 125 260 L 135 268" stroke="#4a4a4a" stroke-width="1" marker-end="url(#arrow89)"/>
+    <path d="M 145 270 L 155 262" stroke="#4a4a4a" stroke-width="1" marker-end="url(#arrow89)"/>
+    <path d="M 165 260 L 175 268" stroke="#4a4a4a" stroke-width="1" marker-end="url(#arrow89)"/>
+    <path d="M 185 270 L 195 262" stroke="#4a4a4a" stroke-width="1" marker-end="url(#arrow89)"/>
+    
+    <!-- Feedback loop arrow -->
+    <path d="M 200 255 Q 210 240 190 230 Q 170 220 150 230 Q 130 240 110 250 Q 100 260 100 265" 
+          fill="none" stroke="#4a4a4a" stroke-width="1" stroke-dasharray="2,2"/>
+    
+    <!-- Fluffy tail -->
+    <path d="M 130 245 Q 115 250 110 265 Q 105 280 115 290 Q 125 300 135 290 Q 130 275 130 260 Q 130 252 130 245" fill="url(#sq_fur_sys89)" stroke="#5d4a2f" stroke-width="1.3"/>
+    
+    <!-- Arrow marker -->
+    <defs>
+      <marker id="arrow89" markerWidth="4" markerHeight="4" refX="3" refY="2" orient="auto">
+        <polygon points="0 0, 4 2, 0 4" fill="#4a4a4a"/>
+      </marker>
+    </defs>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="40" y="50" width="220" height="88" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="140,136 150,156 160,136" fill="#fff"/>
+  <path d="M 140 138 L 150 158 L 160 138" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <text x="150" y="75" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">Mapping the complex feedback</text>
+  <text x="150" y="93" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">loops between acorn storage,</text>
+  <text x="150" y="111" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">retrieval efficiency, and</text>
+  <text x="150" y="129" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">seasonal survival rates.</text>
+  
+  <!-- Panel 2 -->
+  <rect x="305" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Sifaka watching Cache -->
+  <g filter="url(#shadow_sys89)">
+    <ellipse cx="450" cy="240" rx="22" ry="28" fill="url(#lem_fur_sys89)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="450" cy="210" rx="18" ry="16" fill="url(#lem_fur_sys89)" stroke="#5a5a5a" stroke-width="1.3"/>
+    
+    <!-- Moderately-sized ears -->
+    <ellipse cx="425" cy="205" rx="14" ry="16" fill="url(#lem_fur_sys89)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="475" cy="205" rx="14" ry="16" fill="url(#lem_fur_sys89)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="425" cy="205" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="475" cy="205" rx="8" ry="10" fill="#f5b5c5"/>
+    
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="438" cy="210" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="438" cy="210" r="8" fill="#1a1a1a"/>
+    <circle cx="436" cy="208" r="2" fill="#fff"/>
+    
+    <ellipse cx="462" cy="210" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="462" cy="210" r="8" fill="#1a1a1a"/>
+    <circle cx="460" cy="208" r="2" fill="#fff"/>
+    
+    <ellipse cx="450" cy="218" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 443 222 Q 450 224 457 222" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Ring tail with stripes -->
+    <path d="M 430 245 Q 420 255 415 275 Q 410 295 415 310 Q 420 325 430 330 Q 440 332 450 325 Q 445 305 445 285 Q 445 265 440 250" fill="url(#lem_fur_sys89)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="415" y="275" width="30" height="8" fill="#1a1a1a"/>
+    <rect x="415" y="291" width="30" height="8" fill="#1a1a1a"/>
+    <rect x="415" y="307" width="30" height="8" fill="#1a1a1a"/>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="340" y="50" width="220" height="70" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="440,118 450,138 460,118" fill="#fff"/>
+  <path d="M 440 120 L 450 140 L 460 120" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <text x="450" y="75" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">Why don't you just</text>
+  <text x="450" y="93" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">remember where you</text>
+  <text x="450" y="111" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">put them?</text>
+  
+  <!-- Panel 3 -->
+  <rect x="605" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Cache looking at Sifaka -->
+  <g filter="url(#shadow_sys89)">
+    <ellipse cx="750" cy="240" rx="18" ry="20" fill="url(#sq_fur_sys89)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="750" cy="218" rx="14" ry="13" fill="url(#sq_fur_sys89)" stroke="#5d4a2f" stroke-width="1.3"/>
+    
+    <!-- Tall triangle ears -->
+    <ellipse cx="743" cy="212" rx="6" ry="11" fill="url(#sq_fur_sys89)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 743 212)"/>
+    <ellipse cx="757" cy="212" rx="6" ry="11" fill="url(#sq_fur_sys89)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 757 212)"/>
+    <ellipse cx="743" cy="215" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 743 215)"/>
+    <ellipse cx="757" cy="215" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 757 215)"/>
+    
+    <!-- Half-lidded eyes -->
+    <ellipse cx="744" cy="220" rx="3" ry="2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="744" cy="220" r="1.5" fill="#1a1a1a"/>
+    <ellipse cx="756" cy="220" rx="3" ry="2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="756" cy="220" r="1.5" fill="#1a1a1a"/>
+    
+    <ellipse cx="750" cy="225" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    
+    <!-- Fluffy tail -->
+    <path d="M 730 245 Q 715 250 710 265 Q 705 280 715 290 Q 725 300 735 290 Q 730 275 730 260 Q 730 252 730 245" fill="url(#sq_fur_sys89)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="640" y="50" width="220" height="88" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="740,136 750,156 760,136" fill="#fff"/>
+  <path d="M 740 138 L 750 158 L 760 138" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <text x="750" y="75" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">That's not a system.</text>
+  <text x="750" y="93" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">That's memory. I forget</text>
+  <text x="750" y="111" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">70% to create new forest</text>
+  <text x="750" y="129" font-family="DejaVu Sans" font-size="14" text-anchor="middle" fill="#222">growth. I'm reforesting.</text>
+</svg>
