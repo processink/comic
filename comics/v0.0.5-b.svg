@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_addict92" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_addict92" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <filter id="shadow_addict92">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Panel 1 -->
+  <rect x="5" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Cache smoking with sunglasses -->
+  <g filter="url(#shadow_addict92)">
+    <ellipse cx="150" cy="200" rx="18" ry="20" fill="url(#sq_fur_addict92)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="150" cy="178" rx="14" ry="13" fill="url(#sq_fur_addict92)" stroke="#5d4a2f" stroke-width="1.3"/>
+    
+    <!-- Tall triangle ears -->
+    <ellipse cx="143" cy="172" rx="6" ry="11" fill="url(#sq_fur_addict92)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 143 172)"/>
+    <ellipse cx="157" cy="172" rx="6" ry="11" fill="url(#sq_fur_addict92)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 157 172)"/>
+    <ellipse cx="143" cy="175" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 143 175)"/>
+    <ellipse cx="157" cy="175" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 157 175)"/>
+    
+    <!-- Sunglasses -->
+    <path d="M 135 178 L 165 178" stroke="#1a1a1a" stroke-width="3"/>
+    <ellipse cx="142" cy="180" rx="7" ry="6" fill="#1a1a1a"/>
+    <ellipse cx="158" cy="180" rx="7" ry="6" fill="#1a1a1a"/>
+    <path d="M 135 178 Q 133 176 133 180" stroke="#1a1a1a" stroke-width="2"/>
+    <path d="M 165 178 Q 167 176 167 180" stroke="#1a1a1a" stroke-width="2"/>
+    
+    <!-- Cigarette -->
+    <rect x="160" y="185" width="20" height="3" fill="#f5f5f5" stroke="#d4d4d4" stroke-width="0.5"/>
+    <circle cx="180" cy="186.5" r="2" fill="#ff6b35"/>
+    <path d="M 182 185 Q 184 182 185 178" stroke="#999" stroke-width="0.5" fill="none" opacity="0.7"/>
+    
+    <ellipse cx="150" cy="185" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 146 187 L 149 187" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Fluffy tail -->
+    <path d="M 130 205 Q 115 210 110 225 Q 105 240 115 250 Q 125 260 135 250 Q 130 235 130 220 Q 130 212 130 205" fill="url(#sq_fur_addict92)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="35" y="50" width="220" height="88" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="140,136 150,156 160,136" fill="#fff"/>
+  <path d="M 140 138 L 150 158 L 160 138" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <text x="145" y="75" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Instagram chief says</text>
+  <text x="145" y="99" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">we can't get addicted</text>
+  <text x="145" y="123" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">to social media.</text>
+  
+  <!-- Panel 2 -->
+  <rect x="305" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Sifaka scrolling frantically -->
+  <g filter="url(#shadow_addict92)">
+    <ellipse cx="450" cy="240" rx="22" ry="28" fill="url(#lem_fur_addict92)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="450" cy="210" rx="18" ry="16" fill="url(#lem_fur_addict92)" stroke="#5a5a5a" stroke-width="1.3"/>
+    
+    <!-- Moderately-sized ears -->
+    <ellipse cx="425" cy="205" rx="14" ry="16" fill="url(#lem_fur_addict92)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="475" cy="205" rx="14" ry="16" fill="url(#lem_fur_addict92)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="425" cy="205" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="475" cy="205" rx="8" ry="10" fill="#f5b5c5"/>
+    
+    <!-- ENORMOUS eyes with dilated pupils -->
+    <ellipse cx="438" cy="210" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="438" cy="210" r="9" fill="#1a1a1a"/>
+    <circle cx="436" cy="208" r="1" fill="#fff"/>
+    
+    <ellipse cx="462" cy="210" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="462" cy="210" r="9" fill="#1a1a1a"/>
+    <circle cx="460" cy="208" r="1" fill="#fff"/>
+    
+    <!-- Bloodshot veins in eyes -->
+    <path d="M 428 208 L 430 209" stroke="#ff6b6b" stroke-width="0.5"/>
+    <path d="M 429 212 L 431 211" stroke="#ff6b6b" stroke-width="0.5"/>
+    <path d="M 472 208 L 470 209" stroke="#ff6b6b" stroke-width="0.5"/>
+    <path d="M 471 212 L 469 211" stroke="#ff6b6b" stroke-width="0.5"/>
+    
+    <ellipse cx="450" cy="218" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 443 222 Q 450 223 457 222" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Phone with multiple notification badges -->
+    <rect x="435" y="235" width="30" height="45" rx="3" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="1"/>
+    <rect x="437" y="238" width="26" height="38" fill="#e63946"/>
+    
+    <!-- Notification badges -->
+    <circle cx="445" cy="245" r="3" fill="#fff"/>
+    <text x="445" y="248" font-family="DejaVu Sans" font-size="6" text-anchor="middle" fill="#e63946">99+</text>
+    <circle cx="455" cy="245" r="3" fill="#fff"/>
+    <text x="455" y="248" font-family="DejaVu Sans" font-size="6" text-anchor="middle" fill="#e63946">47</text>
+    <circle cx="445" cy="255" r="3" fill="#fff"/>
+    <text x="445" y="258" font-family="DejaVu Sans" font-size="6" text-anchor="middle" fill="#e63946">823</text>
+    <circle cx="455" cy="255" r="3" fill="#fff"/>
+    <text x="455" y="258" font-family="DejaVu Sans" font-size="6" text-anchor="middle" fill="#e63946">NEW</text>
+    
+    <!-- Shaking hands (motion lines) -->
+    <path d="M 430 240 L 428 242" stroke="#8a8a8a" stroke-width="0.5"/>
+    <path d="M 430 245 L 428 247" stroke="#8a8a8a" stroke-width="0.5"/>
+    <path d="M 470 240 L 472 242" stroke="#8a8a8a" stroke-width="0.5"/>
+    <path d="M 470 245 L 472 247" stroke="#8a8a8a" stroke-width="0.5"/>
+    
+    <!-- Ring tail with stripes -->
+    <path d="M 430 245 Q 420 255 415 275 Q 410 295 415 310 Q 420 325 430 330 Q 440 332 450 325 Q 445 305 445 285 Q 445 265 440 250" fill="url(#lem_fur_addict92)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="415" y="275" width="30" height="8" fill="#1a1a1a"/>
+    <rect x="415" y="291" width="30" height="8" fill="#f5f5f5"/>
+    <rect x="415" y="307" width="30" height="8" fill="#1a1a1a"/>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="340" y="50" width="220" height="70" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="440,118 450,138 460,118" fill="#fff"/>
+  <path d="M 440 120 L 450 140 L 460 120" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <text x="450" y="75" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">*hasn't blinked in</text>
+  <text x="450" y="99" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">forty-seven minutes*</text>
+  
+  <!-- Panel 3 -->
+  <rect x="605" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Cache still smoking -->
+  <g filter="url(#shadow_addict92)">
+    <ellipse cx="750" cy="200" rx="18" ry="20" fill="url(#sq_fur_addict92)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="750" cy="178" rx="14" ry="13" fill="url(#sq_fur_addict92)" stroke="#5d4a2f" stroke-width="1.3"/>
+    
+    <!-- Ears -->
+    <ellipse cx="743" cy="172" rx="6" ry="11" fill="url(#sq_fur_addict92)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 743 172)"/>
+    <ellipse cx="757" cy="172" rx="6" ry="11" fill="url(#sq_fur_addict92)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 757 172)"/>
+    <ellipse cx="743" cy="175" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 743 175)"/>
+    <ellipse cx="757" cy="175" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 757 175)"/>
+    
+    <!-- Sunglasses -->
+    <path d="M 735 178 L 765 178" stroke="#1a1a1a" stroke-width="3"/>
+    <ellipse cx="742" cy="180" rx="7" ry="6" fill="#1a1a1a"/>
+    <ellipse cx="758" cy="180" rx="7" ry="6" fill="#1a1a1a"/>
+    <path d="M 735 178 Q 733 176 733 180" stroke="#1a1a1a" stroke-width="2"/>
+    <path d="M 765 178 Q 767 176 767 180" stroke="#1a1a1a" stroke-width="2"/>
+    
+    <!-- Cigarette -->
+    <rect x="760" y="185" width="20" height="3" fill="#f5f5f5" stroke="#d4d4d4" stroke-width="0.5"/>
+    <circle cx="780" cy="186.5" r="2" fill="#ff6b35"/>
+    <path d="M 782 185 Q 784 182 785 178" stroke="#999" stroke-width="0.5" fill="none" opacity="0.7"/>
+    <path d="M 782 183 Q 783 180 784 176" stroke="#999" stroke-width="0.5" fill="none" opacity="0.7"/>
+    
+    <ellipse cx="750" cy="185" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 746 187 L 749 187" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Tail -->
+    <path d="M 730 205 Q 715 210 710 225 Q 705 240 715 250 Q 725 260 735 250 Q 730 235 730 220 Q 730 212 730 205" fill="url(#sq_fur_addict92)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="635" y="50" width="230" height="88" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="740,136 750,156 760,136" fill="#fff"/>
+  <path d="M 740 138 L 750 158 L 760 138" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <text x="750" y="75" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Tobacco exec says</text>
+  <text x="750" y="99" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">he also has some</text>
+  <text x="750" y="123" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">thoughts on addiction.</text>
+</svg>

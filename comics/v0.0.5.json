@@ -1,0 +1,37 @@
+{
+  "run_id": "v0.0.5",
+  "date": "2026-02-12",
+  "timestamp": "2026-02-12T11:51:10.902259+00:00",
+  "topic": "Instagram chief says he does not believe people can get clinically addicted to social media",
+  "topic_source": "news",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [],
+  "learned": "",
+  "explore": {
+    "dimension": "detail_level",
+    "variant_a_value": "minimal",
+    "variant_b_value": "detailed"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.5.svg"
+  },
+  "variants": {
+    "a": "v0.0.5-a.svg",
+    "b": "v0.0.5-b.svg"
+  },
+  "posting": {},
+  "voting": {
+    "parsed_votes": 0,
+    "votes_a": 0,
+    "votes_b": 0,
+    "winner_method": "manual"
+  }
+}

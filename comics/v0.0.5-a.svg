@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_addict42" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_addict42" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <filter id="shadow_addict42">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Panel 1 -->
+  <rect x="5" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Cache scrolling frantically -->
+  <g filter="url(#shadow_addict42)">
+    <!-- Phone -->
+    <rect x="140" y="180" width="30" height="50" rx="3" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="1.5"/>
+    <rect x="142" y="185" width="26" height="40" fill="#e1306c"/>
+    
+    <!-- Instagram feed (hearts floating up) -->
+    <path d="M 150 195 Q 150 193 151.5 193 Q 153 193 153 195 L 153 197 L 151.5 198.5 L 150 197 Z" fill="#fff" opacity="0.8"/>
+    <path d="M 157 200 Q 157 198 158.5 198 Q 160 198 160 200 L 160 202 L 158.5 203.5 L 157 202 Z" fill="#fff" opacity="0.6"/>
+    <path d="M 148 210 Q 148 208 149.5 208 Q 151 208 151 210 L 151 212 L 149.5 213.5 L 148 212 Z" fill="#fff" opacity="0.4"/>
+    
+    <!-- Cache body -->
+    <ellipse cx="150" cy="150" rx="18" ry="20" fill="url(#sq_fur_addict42)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="150" cy="128" rx="14" ry="13" fill="url(#sq_fur_addict42)" stroke="#5d4a2f" stroke-width="1.3"/>
+    
+    <!-- Tall triangle ears -->
+    <ellipse cx="143" cy="122" rx="6" ry="11" fill="url(#sq_fur_addict42)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 143 122)"/>
+    <ellipse cx="157" cy="122" rx="6" ry="11" fill="url(#sq_fur_addict42)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 157 122)"/>
+    <ellipse cx="143" cy="125" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 143 125)"/>
+    <ellipse cx="157" cy="125" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 157 125)"/>
+    
+    <!-- Wide dilated eyes -->
+    <ellipse cx="144" cy="130" rx="5" ry="6" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="144" cy="130" r="4" fill="#1a1a1a"/>
+    <circle cx="142" cy="128" r="1" fill="#fff"/>
+    <ellipse cx="156" cy="130" rx="5" ry="6" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="156" cy="130" r="4" fill="#1a1a1a"/>
+    <circle cx="154" cy="128" r="1" fill="#fff"/>
+    
+    <!-- Dark circles under eyes -->
+    <ellipse cx="144" cy="136" rx="4" ry="2" fill="#8b6842" opacity="0.5"/>
+    <ellipse cx="156" cy="136" rx="4" ry="2" fill="#8b6842" opacity="0.5"/>
+    
+    <ellipse cx="150" cy="135" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 146 138 Q 150 137 154 138" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Paw swiping up -->
+    <ellipse cx="155" cy="175" rx="6" ry="8" fill="url(#sq_fur_addict42)" stroke="#5d4a2f" stroke-width="1" transform="rotate(-30 155 175)"/>
+    <!-- Motion lines -->
+    <path d="M 155 185 L 155 175" stroke="#999" stroke-width="1" opacity="0.5"/>
+    <path d="M 160 183 L 160 173" stroke="#999" stroke-width="1" opacity="0.5"/>
+    
+    <!-- Fluffy tail -->
+    <path d="M 130 155 Q 115 160 110 175 Q 105 190 115 200 Q 125 210 135 200 Q 130 185 130 170 Q 130 162 130 155" fill="url(#sq_fur_addict42)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="40" y="45" width="210" height="52" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="140,95 150,115 160,95" fill="#fff"/>
+  <path d="M 140 97 L 150 117 L 160 97" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <text x="145" y="70" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Just one more scroll...</text>
+  <text x="145" y="90" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">I can stop anytime.</text>
+  
+  <!-- Panel 2 -->
+  <rect x="305" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Sifaka watching with concern -->
+  <g filter="url(#shadow_addict42)">
+    <ellipse cx="450" cy="240" rx="22" ry="28" fill="url(#lem_fur_addict42)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="450" cy="210" rx="18" ry="16" fill="url(#lem_fur_addict42)" stroke="#5a5a5a" stroke-width="1.3"/>
+    
+    <!-- Moderately-sized ears -->
+    <ellipse cx="425" cy="205" rx="14" ry="16" fill="url(#lem_fur_addict42)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="475" cy="205" rx="14" ry="16" fill="url(#lem_fur_addict42)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="425" cy="205" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="475" cy="205" rx="8" ry="10" fill="#f5b5c5"/>
+    
+    <!-- ENORMOUS concerned eyes -->
+    <ellipse cx="438" cy="210" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="438" cy="210" r="8" fill="#1a1a1a"/>
+    <circle cx="436" cy="208" r="2" fill="#fff"/>
+    
+    <ellipse cx="462" cy="210" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="462" cy="210" r="8" fill="#1a1a1a"/>
+    <circle cx="460" cy="208" r="2" fill="#fff"/>
+    
+    <ellipse cx="450" cy="218" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 443 222 Q 450 221 457 222" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Ring tail with stripes -->
+    <path d="M 430 245 Q 420 255 415 275 Q 410 295 415 310 Q 420 325 430 330 Q 440 332 450 325 Q 445 305 445 285 Q 445 265 440 250" fill="url(#lem_fur_addict42)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="415" y="275" width="30" height="8" fill="#1a1a1a"/>
+    <rect x="415" y="291" width="30" height="8" fill="#1a1a1a"/>
+    <rect x="415" y="307" width="30" height="8" fill="#1a1a1a"/>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="345" y="90" width="210" height="70" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="440,158 450,178 460,158" fill="#fff"/>
+  <path d="M 440 160 L 450 180 L 460 160" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <text x="450" y="115" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">You haven't eaten</text>
+  <text x="450" y="137" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">in twelve hours.</text>
+  
+  <!-- Panel 3 -->
+  <rect x="605" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Cache still scrolling, looking gaunt -->
+  <g filter="url(#shadow_addict42)">
+    <!-- Phone glowing -->
+    <rect x="740" y="180" width="30" height="50" rx="3" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="1.5"/>
+    <rect x="742" y="185" width="26" height="40" fill="#e1306c"/>
+    <rect x="738" y="178" width="34" height="54" rx="5" fill="#e1306c" opacity="0.3"/>
+    
+    <!-- Cache exhausted but still scrolling -->
+    <ellipse cx="750" cy="150" rx="18" ry="20" fill="url(#sq_fur_addict42)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="750" cy="128" rx="14" ry="13" fill="url(#sq_fur_addict42)" stroke="#5d4a2f" stroke-width="1.3"/>
+    
+    <!-- Drooping ears -->
+    <ellipse cx="743" cy="122" rx="6" ry="11" fill="url(#sq_fur_addict42)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-25 743 122)"/>
+    <ellipse cx="757" cy="122" rx="6" ry="11" fill="url(#sq_fur_addict42)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(25 757 122)"/>
+    <ellipse cx="743" cy="125" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-25 743 125)"/>
+    <ellipse cx="757" cy="125" rx="3" ry="6.5" fill="#cd853f" transform="rotate(25 757 125)"/>
+    
+    <!-- Bloodshot eyes -->
+    <ellipse cx="744" cy="130" rx="5" ry="6" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="744" cy="130" r="4" fill="#1a1a1a"/>
+    <path d="M 740 127 L 748 133" stroke="#e74c3c" stroke-width="0.5"/>
+    <path d="M 740 133 L 748 127" stroke="#e74c3c" stroke-width="0.5"/>
+    
+    <ellipse cx="756" cy="130" rx="5" ry="6" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="756" cy="130" r="4" fill="#1a1a1a"/>
+    <path d="M 752 127 L 760 133" stroke="#e74c3c" stroke-width="0.5"/>
+    <path d="M 752 133 L 760 127" stroke="#e74c3c" stroke-width="0.5"/>
+    
+    <ellipse cx="750" cy="135" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    
+    <!-- Fluffy tail limp -->
+    <path d="M 730 155 Q 715 165 710 180 Q 705 195 710 210 Q 715 220 725 225 Q 720 215 720 200 Q 720 185 725 170 Q 728 162 730 155" fill="url(#sq_fur_addict42)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="640" y="45" width="220" height="52" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="740,95 750,115 760,95" fill="#fff"/>
+  <path d="M 740 97 L 750 117 L 760 97" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <text x="750" y="70" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Good thing it's not</text>
+  <text x="750" y="90" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">clinically addictive.</text>
+</svg>
