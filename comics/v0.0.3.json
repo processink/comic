@@ -18,7 +18,7 @@
     "Cache",
     "Sifaka"
   ],
-  "learned": "",
+  "learned": "Manual selection \u2014 no community votes available",
   "explore": {
     "dimension": "line_weight",
     "variant_a_value": "medium",
@@ -32,6 +32,9 @@
     "a": "v0.0.3-a.svg",
     "b": "v0.0.3-b.svg"
   },
-  "posting": {},
+  "posting": {
+    "winner_tweet_id": "2021801812097933384",
+    "winner_post_url": "https://x.com/i/status/2021801812097933384"
+  },
   "voting": {}
 }
