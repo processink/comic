@@ -1,0 +1,41 @@
+{
+  "run_id": "v0.0.6",
+  "date": "2026-02-12",
+  "timestamp": "2026-02-12T05:05:27.499956+00:00",
+  "topic": "AI and automation",
+  "topic_source": "predefined",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Tighter pacing with three panels makes the automation joke land faster and sharper.",
+  "explore": {
+    "dimension": "panel_count",
+    "variant_a_value": 3,
+    "variant_b_value": 4
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.6.svg"
+  },
+  "variants": {
+    "a": "v0.0.6-a.svg",
+    "b": "v0.0.6-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2021812872578576425",
+    "ab_post_url": "https://x.com/i/status/2021812872578576425",
+    "winner_tweet_id": "2021895432658698669",
+    "winner_post_url": "https://x.com/i/status/2021895432658698669"
+  },
+  "voting": {}
+}
