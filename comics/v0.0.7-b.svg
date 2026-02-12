@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_prod89" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_prod89" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <filter id="shadow_prod89">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Panel 1 -->
+  <rect x="5" y="10" width="217" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Cache with phone showing app notifications -->
+  <g filter="url(#shadow_prod89)">
+    <ellipse cx="111" cy="180" rx="18" ry="20" fill="url(#sq_fur_prod89)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="111" cy="158" rx="14" ry="13" fill="url(#sq_fur_prod89)" stroke="#5d4a2f" stroke-width="1.3"/>
+    
+    <!-- Tall triangle ears -->
+    <ellipse cx="104" cy="152" rx="6" ry="11" fill="url(#sq_fur_prod89)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 104 152)"/>
+    <ellipse cx="118" cy="152" rx="6" ry="11" fill="url(#sq_fur_prod89)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 118 152)"/>
+    <ellipse cx="104" cy="155" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 104 155)"/>
+    <ellipse cx="118" cy="155" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 118 155)"/>
+    
+    <!-- Eyes focused on phone -->
+    <ellipse cx="105" cy="160" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="106" cy="161" r="2" fill="#1a1a1a"/>
+    <ellipse cx="117" cy="160" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="118" cy="161" r="2" fill="#1a1a1a"/>
+    
+    <ellipse cx="111" cy="165" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 107 167 Q 111 168 115 167" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Phone with notifications -->
+    <rect x="101" y="185" width="20" height="30" rx="2" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="1.2"/>
+    <rect x="103" y="187" width="16" height="24" fill="#4a86c7"/>
+    
+    <!-- Notification badges -->
+    <circle cx="107" cy="191" r="2" fill="#e63946"/>
+    <text x="107" y="193" font-family="DejaVu Sans" font-size="6" text-anchor="middle" fill="#fff">!</text>
+    <circle cx="111" cy="195" r="2" fill="#e63946"/>
+    <text x="111" y="197" font-family="DejaVu Sans" font-size="6" text-anchor="middle" fill="#fff">3</text>
+    <circle cx="115" cy="191" r="2" fill="#e63946"/>
+    <text x="115" y="193" font-family="DejaVu Sans" font-size="6" text-anchor="middle" fill="#fff">7</text>
+    
+    <!-- Fluffy tail -->
+    <path d="M 91 185 Q 76 190 71 205 Q 66 220 76 230 Q 86 240 96 230 Q 91 215 91 200 Q 91 192 91 185" fill="url(#sq_fur_prod89)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="25" y="55" width="172" height="70" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="101,123 111,143 121,123" fill="#fff"/>
+  <path d="M 101 125 L 111 145 L 121 125" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <text x="111" y="80" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Downloaded</text>
+  <text x="111" y="102" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">17 productivity</text>
+  <text x="111" y="124" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">apps today.</text>
+  
+  <!-- Panel 2 -->
+  <rect x="227" y="10" width="217" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Cache organizing apps -->
+  <g filter="url(#shadow_prod89)">
+    <!-- Phone with app folders -->
+    <rect x="323" y="180" width="30" height="50" rx="3" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="1.5"/>
+    <rect x="325" y="185" width="26" height="40" fill="#2a2a2a"/>
+    
+    <!-- App folder grid -->
+    <rect x="328" y="188" width="8" height="8" rx="1" fill="#4a86c7"/>
+    <rect x="337" y="188" width="8" height="8" rx="1" fill="#e63946"/>
+    <rect x="328" y="197" width="8" height="8" rx="1" fill="#f77f00"/>
+    <rect x="337" y="197" width="8" height="8" rx="1" fill="#06ffa5"/>
+    <rect x="328" y="206" width="8" height="8" rx="1" fill="#7209b7"/>
+    <rect x="337" y="206" width="8" height="8" rx="1" fill="#43aa8b"/>
+    
+    <!-- Cache organizing -->
+    <ellipse cx="338" cy="160" rx="18" ry="20" fill="url(#sq_fur_prod89)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="338" cy="138" rx="14" ry="13" fill="url(#sq_fur_prod89)" stroke="#5d4a2f" stroke-width="1.3"/>
+    
+    <!-- Ears -->
+    <ellipse cx="331" cy="132" rx="6" ry="11" fill="url(#sq_fur_prod89)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 331 132)"/>
+    <ellipse cx="345" cy="132" rx="6" ry="11" fill="url(#sq_fur_prod89)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 345 132)"/>
+    <ellipse cx="331" cy="135" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 331 135)"/>
+    <ellipse cx="345" cy="135" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 345 135)"/>
+    
+    <!-- Focused expression -->
+    <ellipse cx="332" cy="140" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="333" cy="141" r="2" fill="#1a1a1a"/>
+    <ellipse cx="344" cy="140" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="345" cy="141" r="2" fill="#1a1a1a"/>
+    
+    <ellipse cx="338" cy="145" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 334 147 Q 338 148 342 147" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Tail -->
+    <path d="M 318 165 Q 303 170 298 185 Q 293 200 303 210 Q 313 220 323 210 Q 318 195 318 180 Q 318 172 318 165" fill="url(#sq_fur_prod89)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="252" y="55" width="172" height="70" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="328,123 338,143 348,123" fill="#fff"/>
+  <path d="M 328 125 L 338 145 L 348 125" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <text x="338" y="80" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Spent 3 hours</text>
+  <text x="338" y="102" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">organizing them</text>
+  <text x="338" y="124" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">into folders.</text>
+  
+  <!-- Panel 3 -->
+  <rect x="454" y="10" width="217" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Sifaka watching -->
+  <g filter="url(#shadow_prod89)">
+    <ellipse cx="562" cy="200" rx="22" ry="28" fill="url(#lem_fur_prod89)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="562" cy="170" rx="18" ry="16" fill="url(#lem_fur_prod89)" stroke="#5a5a5a" stroke-width="1.3"/>
+    
+    <!-- Moderately-sized ears -->
+    <ellipse cx="537" cy="165" rx="14" ry="16" fill="url(#lem_fur_prod89)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="587" cy="165" rx="14" ry="16" fill="url(#lem_fur_prod89)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="537" cy="165" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="587" cy="165" rx="8" ry="10" fill="#f5b5c5"/>
+    
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="550" cy="170" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="550" cy="171" r="8" fill="#1a1a1a"/>
+    <circle cx="548" cy="169" r="2" fill="#fff"/>
+    
+    <ellipse cx="574" cy="170" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="574" cy="171" r="8" fill="#1a1a1a"/>
+    <circle cx="572" cy="169" r="2" fill="#fff"/>
+    
+    <ellipse cx="562" cy="178" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 555 182 Q 562 183 569 182" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Ring tail with stripes -->
+    <path d="M 542 205 Q 532 215 527 235 Q 522 255 527 270 Q 532 285 542 290 Q 552 292 562 285 Q 557 265 557 245 Q 557 225 552 210" fill="url(#lem_fur_prod89)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Stripes -->
+    <rect x="527" y="235" width="30" height="4" fill="#1a1a1a"/>
+    <rect x="527" y="243" width="30" height="4" fill="#1a1a1a"/>
+    <rect x="527" y="251" width="30" height="4" fill="#1a1a1a"/>
+    <rect x="527" y="259" width="30" height="4" fill="#1a1a1a"/>
+    <rect x="527" y="267" width="30" height="4" fill="#1a1a1a"/>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="479" y="55" width="172" height="52" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="552,105 562,125 572,105" fill="#fff"/>
+  <path d="M 552 107 L 562 127 L 572 107" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <text x="565" y="80" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Did you get any</text>
+  <text x="565" y="102" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">work done?</text>
+  
+  <!-- Panel 4 -->
+  <rect x="681" y="10" width="214" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+  
+  <!-- Cache looking satisfied -->
+  <g filter="url(#shadow_prod89)">
+    <ellipse cx="788" cy="180" rx="18" ry="20" fill="url(#sq_fur_prod89)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="788" cy="158" rx="14" ry="13" fill="url(#sq_fur_prod89)" stroke="#5d4a2f" stroke-width="1.3"/>
+    
+    <!-- Ears -->
+    <ellipse cx="781" cy="152" rx="6" ry="11" fill="url(#sq_fur_prod89)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 781 152)"/>
+    <ellipse cx="795" cy="152" rx="6" ry="11" fill="url(#sq_fur_prod89)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 795 152)"/>
+    <ellipse cx="781" cy="155" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 781 155)"/>
+    <ellipse cx="795" cy="155" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 795 155)"/>
+    
+    <!-- Satisfied expression -->
+    <ellipse cx="782" cy="160" rx="3" ry="2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="783" cy="160" r="1.5" fill="#1a1a1a"/>
+    <ellipse cx="794" cy="160" rx="3" ry="2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="795" cy="160" r="1.5" fill="#1a1a1a"/>
+    
+    <ellipse cx="788" cy="165" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 784 168 Q 788 169 792 168" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+    
+    <!-- Tail -->
+    <path d="M 768 185 Q 753 190 748 205 Q 743 220 753 230 Q 763 240 773 230 Q 768 215 768 200 Q 768 192 768 185" fill="url(#sq_fur_prod89)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+  
+  <!-- Speech bubble -->
+  <rect x="706" y="55" width="172" height="88" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="778,141 788,161 798,141" fill="#fff"/>
+  <path d="M 778 143 L 788 163 L 798 143" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <text x="792" y="80" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">No, but I was</text>
+  <text x="792" y="102" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">very productive</text>
+  <text x="792" y="124" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">at avoiding it.</text>
+</svg>

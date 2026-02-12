@@ -1,0 +1,41 @@
+{
+  "run_id": "v0.0.7",
+  "date": "2026-02-12",
+  "timestamp": "2026-02-12T10:39:25.855774+00:00",
+  "topic": "productivity apps that waste time",
+  "topic_source": "predefined",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Three panels force tighter pacing, making the irony land faster.",
+  "explore": {
+    "dimension": "panel_count",
+    "variant_a_value": 3,
+    "variant_b_value": 4
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.7.svg"
+  },
+  "variants": {
+    "a": "v0.0.7-a.svg",
+    "b": "v0.0.7-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2021896919501717919",
+    "ab_post_url": "https://x.com/i/status/2021896919501717919",
+    "winner_tweet_id": "2022068388730908795",
+    "winner_post_url": "https://x.com/i/status/2022068388730908795"
+  },
+  "voting": {}
+}
