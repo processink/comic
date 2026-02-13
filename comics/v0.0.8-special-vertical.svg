@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 960">
+  <defs>
+    <radialGradient id="sq_fur_vc9k_v" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_vc9k_v" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <radialGradient id="hum_skin_vc9k_v" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f5d3b8"/>
+      <stop offset="100%" style="stop-color:#e8b887"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="960" fill="#e8e8e0"/>
+
+  <!-- Panel 1 -->
+  <rect x="10" y="10" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Abe sitting cross-legged with laptop, meditating pose but coding -->
+  <g transform="translate(50, -10)">
+    <!-- Legs crossed -->
+    <ellipse cx="150" cy="285" rx="35" ry="12" fill="#4a6a5a" stroke="#3a5a4a" stroke-width="1.2"/>
+    <!-- Body -->
+    <ellipse cx="150" cy="240" rx="28" ry="35" fill="#5d8aa8" stroke="#4a6d8c" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="150" cy="190" rx="20" ry="23" fill="url(#hum_skin_vc9k_v)" stroke="#c8a882" stroke-width="1.3"/>
+    <!-- Hair -->
+    <path d="M 130 175 Q 150 168 170 175 Q 168 180 164 182 Q 150 178 136 182 Q 132 180 130 175" fill="#4a3728" stroke="#3a2618" stroke-width="1"/>
+    <!-- Eyes closed in meditation -->
+    <path d="M 138 190 Q 142 192 146 190" fill="none" stroke="#2a2a2a" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 154 190 Q 158 192 162 190" fill="none" stroke="#2a2a2a" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Serene mouth -->
+    <path d="M 145 200 Q 150 202 155 200" fill="none" stroke="#8a6d51" stroke-width="1" stroke-linecap="round"/>
+    <!-- Arms in lap position over laptop -->
+    <path d="M 122 235 Q 115 250 130 265" fill="none" stroke="url(#hum_skin_vc9k_v)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 178 235 Q 185 250 170 265" fill="none" stroke="url(#hum_skin_vc9k_v)" stroke-width="8" stroke-linecap="round"/>
+    <!-- Laptop in lap -->
+    <rect x="125" y="258" width="50" height="5" fill="#5a5a5a" stroke="#2a2a2a" stroke-width="1"/>
+    <rect x="128" y="238" width="44" height="20" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1"/>
+    <rect x="130" y="240" width="40" height="16" fill="#1a2a1a"/>
+    <!-- Code on screen -->
+    <text x="133" y="248" font-family="DejaVu Sans" font-size="5" fill="#44dd44">vibe --deploy</text>
+    <text x="133" y="254" font-family="DejaVu Sans" font-size="5" fill="#44dd44">✓ shipping...</text>
+    <!-- Meditation lines around head -->
+    <path d="M 125 178 Q 120 175 118 170" fill="none" stroke="#c4b49a" stroke-width="0.8" opacity="0.6"/>
+    <path d="M 175 178 Q 180 175 182 170" fill="none" stroke="#c4b49a" stroke-width="0.8" opacity="0.6"/>
+    <path d="M 150 165 Q 150 160 150 155" fill="none" stroke="#c4b49a" stroke-width="0.8" opacity="0.6"/>
+  </g>
+
+  <!-- Speech bubble Panel 1 -->
+  <rect x="40" y="25" width="320" height="70" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="185,93 200,113 215,93" fill="#fff"/>
+  <polygon points="187,95 200,110 213,95" fill="#fff"/>
+  <path d="M 185 95 L 200 113 L 215 95" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="200" y="52" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">I vibe code now.</text>
+  <text x="200" y="80" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">No thinking. Just flow.</text>
+
+  <!-- Panel 2 -->
+  <rect x="10" y="320" width="380" height="310" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache watching -->
+  <g transform="translate(5, 310)">
+    <!-- Body -->
+    <ellipse cx="130" cy="230" rx="18" ry="20" fill="url(#sq_fur_vc9k_v)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="130" cy="208" rx="14" ry="13" fill="url(#sq_fur_vc9k_v)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Tall triangle ears -->
+    <ellipse cx="123" cy="202" rx="6" ry="11" fill="url(#sq_fur_vc9k_v)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 123 202)"/>
+    <ellipse cx="137" cy="202" rx="6" ry="11" fill="url(#sq_fur_vc9k_v)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 137 202)"/>
+    <ellipse cx="123" cy="205" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 123 205)"/>
+    <ellipse cx="137" cy="205" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 137 205)"/>
+    <!-- Ear tufts -->
+    <path d="M 121 197 Q 118 191 120 189" fill="none" stroke="#5d4a2f" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M 139 197 Q 142 191 140 189" fill="none" stroke="#5d4a2f" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Half-lidded unimpressed eyes -->
+    <ellipse cx="124" cy="210" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="124" cy="210" r="1.8" fill="#1a1a1a"/>
+    <ellipse cx="136" cy="210" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="136" cy="210" r="1.8" fill="#1a1a1a"/>
+    <!-- Whiskers -->
+    <line x1="115" y1="213" x2="105" y2="212" stroke="#5d4a2f" stroke-width="0.8"/>
+    <line x1="115" y1="216" x2="106" y2="217" stroke="#5d4a2f" stroke-width="0.8"/>
+    <line x1="145" y1="213" x2="155" y2="212" stroke="#5d4a2f" stroke-width="0.8"/>
+    <line x1="145" y1="216" x2="154" y2="217" stroke="#5d4a2f" stroke-width="0.8"/>
+    <!-- Simple mouth -->
+    <path d="M 126 217 L 134 217" fill="none" stroke="#5d4a2f" stroke-width="1" stroke-linecap="round"/>
+    <!-- Fluffy tail -->
+    <path d="M 110 235 Q 95 240 90 255 Q 85 270 95 280 Q 105 288 115 278 Q 110 265 110 250 Q 110 242 110 235" fill="url(#sq_fur_vc9k_v)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Sifaka next to Cache -->
+  <g transform="translate(45, 310)">
+    <!-- Body -->
+    <ellipse cx="250" cy="230" rx="22" ry="28" fill="url(#lem_fur_vc9k_v)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="250" cy="200" rx="18" ry="16" fill="url(#lem_fur_vc9k_v)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Moderately-sized ears -->
+    <ellipse cx="225" cy="195" rx="14" ry="16" fill="url(#lem_fur_vc9k_v)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="275" cy="195" rx="14" ry="16" fill="url(#lem_fur_vc9k_v)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="225" cy="195" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="275" cy="195" rx="8" ry="10" fill="#f5b5c5"/>
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="238" cy="200" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="238" cy="200" r="8" fill="#1a1a1a"/>
+    <circle cx="236" cy="198" r="2" fill="#fff"/>
+    <ellipse cx="262" cy="200" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="262" cy="200" r="8" fill="#1a1a1a"/>
+    <circle cx="260" cy="198" r="2" fill="#fff"/>
+    <!-- Nose and mouth -->
+    <ellipse cx="250" cy="208" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 243 212 Q 250 213 257 212" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+    <!-- Ring tail with stripes -->
+    <path d="M 230 235 Q 220 245 215 265 Q 210 285 215 300 Q 220 312 230 315 Q 240 317 250 310 Q 245 290 245 270 Q 245 250 240 238" fill="url(#lem_fur_vc9k_v)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="215" y="265" width="30" height="7" fill="#1a1a1a"/>
+    <rect x="215" y="279" width="30" height="7" fill="#1a1a1a"/>
+    <rect x="215" y="293" width="30" height="7" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Speech bubble Panel 2 - Cache -->
+  <rect x="25" y="335" width="270" height="65" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="125,398 135,418 145,398" fill="#fff"/>
+  <polygon points="127,400 135,415 143,400" fill="#fff"/>
+  <path d="M 125 400 L 135 418 L 145 400" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="160" y="362" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">So... meditation but</text>
+  <text x="160" y="390" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">it ships to prod?</text>
+
+  <!-- Sifaka thought - small -->
+  <rect x="210" y="415" width="170" height="55" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="280,468 285,483 290,468" fill="#fff"/>
+  <polygon points="282,470 285,481 288,470" fill="#fff"/>
+  <path d="M 280 470 L 285 483 L 290 470" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="295" y="438" font-family="DejaVu Sans" font-size="20" text-anchor="middle" fill="#222">With no tests?</text>
+  <text x="295" y="460" font-family="DejaVu Sans" font-size="20" text-anchor="middle" fill="#222">Like... on purpose?</text>
+
+  <!-- Panel 3 -->
+  <rect x="10" y="640" width="380" height="310" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Abe eyes still closed, earbuds visible, laptop still open -->
+  <g transform="translate(50, 360)">
+    <!-- Legs crossed -->
+    <ellipse cx="150" cy="285" rx="35" ry="12" fill="#4a6a5a" stroke="#3a5a4a" stroke-width="1.2"/>
+    <!-- Body -->
+    <ellipse cx="150" cy="240" rx="28" ry="35" fill="#5d8aa8" stroke="#4a6d8c" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="150" cy="190" rx="20" ry="23" fill="url(#hum_skin_vc9k_v)" stroke="#c8a882" stroke-width="1.3"/>
+    <!-- Hair -->
+    <path d="M 130 175 Q 150 168 170 175 Q 168 180 164 182 Q 150 178 136 182 Q 132 180 130 175" fill="#4a3728" stroke="#3a2618" stroke-width="1"/>
+    <!-- Eyes closed, deeper serenity -->
+    <path d="M 138 190 Q 142 192 146 190" fill="none" stroke="#2a2a2a" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 154 190 Q 158 192 162 190" fill="none" stroke="#2a2a2a" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Slight smile -->
+    <path d="M 144 201 Q 150 204 156 201" fill="none" stroke="#8a6d51" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Earbuds -->
+    <circle cx="130" cy="193" r="3" fill="#1a1a1a" stroke="#333" stroke-width="0.8"/>
+    <circle cx="170" cy="193" r="3" fill="#1a1a1a" stroke="#333" stroke-width="0.8"/>
+    <path d="M 130 196 Q 128 210 135 220" fill="none" stroke="#333" stroke-width="1"/>
+    <path d="M 170 196 Q 172 210 165 220" fill="none" stroke="#333" stroke-width="1"/>
+    <!-- Arms in lap -->
+    <path d="M 122 235 Q 115 250 130 265" fill="none" stroke="url(#hum_skin_vc9k_v)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 178 235 Q 185 250 170 265" fill="none" stroke="url(#hum_skin_vc9k_v)" stroke-width="8" stroke-linecap="round"/>
+    <!-- Laptop still open -->
+    <rect x="125" y="258" width="50" height="5" fill="#5a5a5a" stroke="#2a2a2a" stroke-width="1"/>
+    <rect x="128" y="238" width="44" height="20" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1"/>
+    <rect x="130" y="240" width="40" height="16" fill="#1a2a1a"/>
+    <text x="133" y="249" font-family="DejaVu Sans" font-size="5" fill="#44dd44">✓ deployed</text>
+    <text x="133" y="254" font-family="DejaVu Sans" font-size="5" fill="#44dd44">0 tests passed</text>
+    <!-- Music notes floating - Slayer vibes -->
+    <text x="120" y="170" font-family="DejaVu Sans" font-size="11" fill="#E63946" opacity="0.7">♪</text>
+    <text x="178" y="165" font-family="DejaVu Sans" font-size="13" fill="#E63946" opacity="0.8">♫</text>
+    <text x="112" y="155" font-family="DejaVu Sans" font-size="9" fill="#E63946" opacity="0.5">♪</text>
+  </g>
+
+  <!-- Speech bubble Panel 3 -->
+  <rect x="35" y="655" width="330" height="100" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="190,753 200,773 210,753" fill="#fff"/>
+  <polygon points="192,755 200,770 208,755" fill="#fff"/>
+  <path d="M 190 755 L 200 775 L 210 755" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="200" y="683" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">Raining Blood on</text>
+  <text x="200" y="710" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">repeat. Presence isn't</text>
+  <text x="200" y="737" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">quiet. It's committed.</text>
+
+  <!-- Small label under laptop screen -->
+  <text x="200" y="935" font-family="DejaVu Sans" font-size="12" text-anchor="middle" fill="#888" font-style="italic">— 47 production errors later —</text>
+</svg>

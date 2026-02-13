@@ -1,0 +1,28 @@
+{
+  "run_id": "v0.0.8-special",
+  "date": "2026-02-13",
+  "timestamp": "2026-02-13T09:34:36.785839+00:00",
+  "type": "standalone",
+  "topic": "Vibe coding, Meditation,  and Slayer (the band)",
+  "topic_source": "manual",
+  "context": "Presence. it's the space between a Japanese tea ceremony and a Y Combinator demo day. Disciplined stillness meets intentional creation",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "file": "v0.0.8-special.svg",
+  "posting": {
+    "tweet_id": "2022243058843361513",
+    "tweet_url": "https://x.com/i/status/2022243058843361513"
+  }
+}
