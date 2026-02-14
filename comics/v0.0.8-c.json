@@ -1,0 +1,24 @@
+{
+  "run_id": "v0.0.8-c",
+  "date": "2026-02-14",
+  "timestamp": "2026-02-14T15:02:08.537490+00:00",
+  "type": "standalone",
+  "topic": "productivity apps that waste time",
+  "topic_source": "predefined",
+  "context": "",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 1,
+    "humor_style": "absurdist",
+    "detail_level": "moderate",
+    "character_style": "geometric_simple"
+  },
+  "characters": [],
+  "file": "v0.0.8-c.svg",
+  "posting": {
+    "tweet_id": "2022687885091283223",
+    "tweet_url": "https://x.com/i/status/2022687885091283223"
+  }
+}
