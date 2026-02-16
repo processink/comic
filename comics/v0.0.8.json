@@ -1,0 +1,41 @@
+{
+  "run_id": "v0.0.8-beta",
+  "date": "2026-02-16",
+  "timestamp": "2026-02-16T12:04:24.069346+00:00",
+  "topic": "dating apps",
+  "topic_source": "predefined",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Sifaka"
+  ],
+  "learned": "Deadpan delivery lets the absurd dating app premise land harder through contrast.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.8-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.8-beta-a.svg",
+    "b": "v0.0.8-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2023367855753064607",
+    "ab_post_url": "https://x.com/i/status/2023367855753064607",
+    "winner_tweet_id": "2023442344473985501",
+    "winner_post_url": "https://x.com/i/status/2023442344473985501"
+  },
+  "voting": {}
+}
