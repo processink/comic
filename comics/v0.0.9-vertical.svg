@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 960">
+  <defs>
+    <radialGradient id="sq_fur_v" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_v" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <filter id="shadow_v">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="960" fill="#e8e4dc"/>
+
+  <!-- ======== PANEL 1 ======== -->
+  <rect x="10" y="10" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Speech bubble panel 1 -->
+  <rect x="40" y="30" width="310" height="150" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="190,178 200,198 210,178" fill="#fff"/>
+  <path d="M 190 180 L 200 200 L 210 180" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="195" y="58" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">US ambassador</text>
+  <text x="195" y="86" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">visits Indian</text>
+  <text x="195" y="114" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">army. Gets</text>
+  <text x="195" y="142" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">"briefed."</text>
+  <text x="195" y="170" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">On Op Sindoor.</text>
+
+  <!-- Cache reading phone -->
+  <g filter="url(#shadow_v)">
+    <ellipse cx="200" cy="260" rx="18" ry="20" fill="url(#sq_fur_v)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="200" cy="238" rx="14" ry="13" fill="url(#sq_fur_v)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="193" cy="232" rx="6" ry="11" fill="url(#sq_fur_v)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 193 232)"/>
+    <ellipse cx="207" cy="232" rx="6" ry="11" fill="url(#sq_fur_v)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 207 232)"/>
+    <ellipse cx="193" cy="235" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 193 235)"/>
+    <ellipse cx="207" cy="235" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 207 235)"/>
+    <ellipse cx="194" cy="240" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="195" cy="241" r="2" fill="#1a1a1a"/>
+    <ellipse cx="206" cy="240" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="207" cy="241" r="2" fill="#1a1a1a"/>
+    <ellipse cx="200" cy="245" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 196 248 Q 200 247 204 248" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+    <path d="M 180 265 Q 165 270 160 285 Q 155 300 165 310 Q 175 320 185 310 Q 180 295 180 280 Q 180 272 180 265" fill="url(#sq_fur_v)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <rect x="210" y="250" width="16" height="24" rx="2" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1"/>
+    <rect x="212" y="253" width="12" height="17" fill="#E63946"/>
+    <path d="M 213 260 Q 219 255 217 250" fill="none" stroke="#c8923a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- ======== PANEL 2 ======== -->
+  <rect x="10" y="320" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Speech bubble panel 2 -->
+  <rect x="40" y="340" width="310" height="150" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="190,488 200,508 210,488" fill="#fff"/>
+  <path d="M 190 490 L 200 510 L 210 490" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="195" y="368" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">Is "briefed"</text>
+  <text x="195" y="396" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">when they tell</text>
+  <text x="195" y="424" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">you what they</text>
+  <text x="195" y="452" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">want you to</text>
+  <text x="195" y="480" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">already know?</text>
+
+  <!-- Sifaka staring -->
+  <g filter="url(#shadow_v)">
+    <ellipse cx="200" cy="565" rx="22" ry="28" fill="url(#lem_fur_v)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="200" cy="533" rx="18" ry="16" fill="url(#lem_fur_v)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="200" cy="535" rx="12" ry="11" fill="#efefef"/>
+    <ellipse cx="175" cy="527" rx="14" ry="16" fill="url(#lem_fur_v)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="225" cy="527" rx="14" ry="16" fill="url(#lem_fur_v)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="175" cy="527" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="225" cy="527" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="190" cy="533" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="190" cy="534" r="8" fill="#1a1a1a"/>
+    <circle cx="188" cy="531" r="2.2" fill="#fff"/>
+    <ellipse cx="210" cy="533" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="210" cy="534" r="8" fill="#1a1a1a"/>
+    <circle cx="208" cy="531" r="2.2" fill="#fff"/>
+    <ellipse cx="200" cy="542" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 194 546 Q 200 547 206 546" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+    <path d="M 180 570 Q 170 580 165 600 Q 160 620 170 630 Q 180 635 185 625 Q 175 610 175 590 Q 175 577 180 570" fill="url(#lem_fur_v)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <path d="M 168 603 Q 172 601 178 603" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 166 611 Q 171 609 177 611" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 168 619 Q 173 617 179 619" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 171 627 Q 176 625 181 627" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- ======== PANEL 3 ======== -->
+  <rect x="10" y="630" width="380" height="320" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Speech bubble panel 3 -->
+  <rect x="40" y="650" width="310" height="150" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="190,798 200,818 210,798" fill="#fff"/>
+  <path d="M 190 800 L 200 820 L 210 800" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="195" y="678" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">Every briefing</text>
+  <text x="195" y="706" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">is a fiction</text>
+  <text x="195" y="734" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">two countries</text>
+  <text x="195" y="762" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">agree to call</text>
+  <text x="195" y="790" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">a fact.</text>
+
+  <!-- Cache smoking with sunglasses -->
+  <g filter="url(#shadow_v)">
+    <ellipse cx="200" cy="880" rx="18" ry="20" fill="url(#sq_fur_v)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="200" cy="858" rx="14" ry="13" fill="url(#sq_fur_v)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="193" cy="852" rx="6" ry="11" fill="url(#sq_fur_v)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 193 852)"/>
+    <ellipse cx="207" cy="852" rx="6" ry="11" fill="url(#sq_fur_v)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 207 852)"/>
+    <ellipse cx="193" cy="855" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 193 855)"/>
+    <ellipse cx="207" cy="855" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 207 855)"/>
+    <rect x="191" y="856" width="10" height="7" rx="2" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="0.8"/>
+    <rect x="203" y="856" width="10" height="7" rx="2" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="0.8"/>
+    <line x1="201" y1="859" x2="203" y2="859" stroke="#0a0a0a" stroke-width="1"/>
+    <line x1="191" y1="859" x2="188" y2="857" stroke="#0a0a0a" stroke-width="1"/>
+    <line x1="213" y1="859" x2="216" y2="857" stroke="#0a0a0a" stroke-width="1"/>
+    <ellipse cx="200" cy="865" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 196 868 Q 200 867 204 868" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+    <rect x="204" y="866" width="18" height="3" rx="1" fill="#f5f0e0" stroke="#c8c0a8" stroke-width="0.5"/>
+    <rect x="220" y="866" width="3" height="3" rx="0.5" fill="#E63946"/>
+    <path d="M 223 865 Q 228 858 225 850" fill="none" stroke="#b8b8b8" stroke-width="1" opacity="0.6"/>
+    <path d="M 225 863 Q 232 855 228 846" fill="none" stroke="#b8b8b8" stroke-width="1" opacity="0.4"/>
+    <path d="M 180 885 Q 165 890 160 905 Q 155 920 165 930 Q 175 940 185 930 Q 180 915 180 900 Q 180 892 180 885" fill="url(#sq_fur_v)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+</svg>

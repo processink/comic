@@ -1,0 +1,41 @@
+{
+  "run_id": "v0.0.9-beta",
+  "date": "2026-02-16",
+  "timestamp": "2026-02-16T17:04:28.902801+00:00",
+  "topic": "US Ambassador Sergio Gor visit the Indian Army\u2019s Western Command, briefed on Op Sindoor",
+  "topic_source": "news",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Absurdist humor better subverts expectations of formal diplomatic situations through visual incongruity.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "B",
+    "file": "v0.0.9-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.9-beta-a.svg",
+    "b": "v0.0.9-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2023443373475201027",
+    "ab_post_url": "https://x.com/i/status/2023443373475201027",
+    "winner_tweet_id": "2023517844517122452",
+    "winner_post_url": "https://x.com/i/status/2023517844517122452"
+  },
+  "voting": {}
+}
