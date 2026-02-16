@@ -1,0 +1,28 @@
+{
+  "run_id": "v0.0.9-special",
+  "date": "2026-02-16",
+  "timestamp": "2026-02-16T13:10:41.681393+00:00",
+  "type": "standalone",
+  "topic": "Agentic Programming / \"Vibe Coding\"\nClaude Code versus Codex; \"Repo is heavily dirty with many unrelated in-progress files\" - Codex",
+  "topic_source": "manual",
+  "context": "Funny, Precise",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "file": "v0.0.9-special.svg",
+  "posting": {
+    "tweet_id": "2023384598303121886",
+    "tweet_url": "https://x.com/i/status/2023384598303121886"
+  }
+}
