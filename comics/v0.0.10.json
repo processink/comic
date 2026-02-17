@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.10-beta",
+  "date": "2026-02-17",
+  "timestamp": "2026-02-17T12:03:46.459351+00:00",
+  "topic": "\u201cFrom Movies to Music: Trending Entertainment Stories on usatrendingtodays\u201d",
+  "topic_source": "news",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Deadpan delivery creates sharper contrast with entertainment topics, making jokes land harder.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.10-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.10-beta-a.svg",
+    "b": "v0.0.10-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2023730085887701011",
+    "ab_post_url": "https://x.com/i/status/2023730085887701011",
+    "winner_tweet_id": "2023804721153380361",
+    "winner_post_url": "https://x.com/i/status/2023804721153380361"
+  },
+  "voting": {}
+}

@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 960">
+  <defs>
+    <radialGradient id="sq_fur_ent72v" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_ent72v" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <radialGradient id="hum_skin_ent72v" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f5d3b8"/>
+      <stop offset="100%" style="stop-color:#e8b887"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="960" fill="#e8e8e0"/>
+
+  <!-- Panel 1 -->
+  <rect x="10" y="10" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Abe scrolling phone -->
+  <g>
+    <ellipse cx="200" cy="220" rx="30" ry="38" fill="#5d8aa8" stroke="#4a6d8c" stroke-width="1.3"/>
+    <ellipse cx="200" cy="172" rx="22" ry="25" fill="url(#hum_skin_ent72v)" stroke="#c8a882" stroke-width="1.3"/>
+    <path d="M 178 157 Q 200 148 222 157 Q 220 162 216 164 Q 200 158 184 164 Q 180 162 178 157" fill="#4a3728" stroke="#3a2618" stroke-width="1"/>
+    <ellipse cx="191" cy="173" rx="3.5" ry="4.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="192" cy="174" r="2.2" fill="#2a2a2a"/>
+    <ellipse cx="209" cy="173" rx="3.5" ry="4.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="210" cy="174" r="2.2" fill="#2a2a2a"/>
+    <path d="M 200 180 L 200 184" stroke="#a8896d" stroke-width="1"/>
+    <path d="M 194 189 Q 200 191 206 189" fill="none" stroke="#8a6d51" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Phone -->
+    <rect x="215" y="215" width="30" height="50" rx="3" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1"/>
+    <rect x="217" y="218" width="26" height="42" fill="#4a86c7"/>
+    <text x="230" y="235" font-family="DejaVu Sans" font-size="6" text-anchor="middle" fill="#fff">TRENDING</text>
+    <text x="230" y="245" font-family="DejaVu Sans" font-size="5" text-anchor="middle" fill="#fff">Movie #1</text>
+    <text x="230" y="253" font-family="DejaVu Sans" font-size="5" text-anchor="middle" fill="#fff">Song #2</text>
+  </g>
+
+  <!-- Speech bubble P1 -->
+  <rect x="50" y="28" width="300" height="100" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="190,126 200,146 210,126" fill="#fff"/>
+  <line x1="190" y1="128" x2="200" y2="148" stroke="#333" stroke-width="2"/>
+  <line x1="200" y1="148" x2="210" y2="128" stroke="#333" stroke-width="2"/>
+
+  <text x="200" y="58" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">I only watch</text>
+  <text x="200" y="86" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">what's trending.</text>
+  <text x="200" y="114" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">Saves time.</text>
+
+  <!-- Panel 2 -->
+  <rect x="10" y="320" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache on a ledge -->
+  <g>
+    <ellipse cx="200" cy="540" rx="18" ry="22" fill="url(#sq_fur_ent72v)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="200" cy="516" rx="14" ry="14" fill="url(#sq_fur_ent72v)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <polygon points="190,502 187,484 195,500" fill="url(#sq_fur_ent72v)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="210,502 213,484 205,500" fill="url(#sq_fur_ent72v)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="191,501 189,488 194,500" fill="#cd853f"/>
+    <polygon points="209,501 211,488 206,500" fill="#cd853f"/>
+
+    <!-- Half-lidded unimpressed eyes -->
+    <ellipse cx="194" cy="517" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="194" cy="518" r="1.8" fill="#1a1a1a"/>
+    <ellipse cx="206" cy="517" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="206" cy="518" r="1.8" fill="#1a1a1a"/>
+
+    <ellipse cx="200" cy="522" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 196 525 Q 200 524 204 525" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Fluffy tail -->
+    <path d="M 182 545 Q 168 550 162 568 Q 158 585 168 595 Q 178 602 185 592 Q 180 578 180 562 Q 180 553 182 545" fill="url(#sq_fur_ent72v)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Speech bubble P2 -->
+  <rect x="40" y="338" width="320" height="130" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="190,466 200,486 210,466" fill="#fff"/>
+  <line x1="190" y1="468" x2="200" y2="488" stroke="#333" stroke-width="2"/>
+  <line x1="200" y1="488" x2="210" y2="468" stroke="#333" stroke-width="2"/>
+
+  <text x="200" y="370" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">So you skip</text>
+  <text x="200" y="398" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">discovering</text>
+  <text x="200" y="426" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">what you like</text>
+  <text x="200" y="454" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">to save time?</text>
+
+  <!-- Panel 3 -->
+  <rect x="10" y="630" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka with enormous eyes -->
+  <g>
+    <ellipse cx="200" cy="850" rx="22" ry="28" fill="url(#lem_fur_ent72v)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="200" cy="820" rx="18" ry="16" fill="url(#lem_fur_ent72v)" stroke="#5a5a5a" stroke-width="1.3"/>
+
+    <!-- Round ears -->
+    <ellipse cx="176" cy="815" rx="13" ry="15" fill="url(#lem_fur_ent72v)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="224" cy="815" rx="13" ry="15" fill="url(#lem_fur_ent72v)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="176" cy="815" rx="7" ry="9" fill="#f5b5c5"/>
+    <ellipse cx="224" cy="815" rx="7" ry="9" fill="#f5b5c5"/>
+
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="189" cy="820" rx="10" ry="12" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="189" cy="821" r="9" fill="#1a1a1a"/>
+    <circle cx="187" cy="818" r="2.5" fill="#fff"/>
+    <ellipse cx="211" cy="820" rx="10" ry="12" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="211" cy="821" r="9" fill="#1a1a1a"/>
+    <circle cx="209" cy="818" r="2.5" fill="#fff"/>
+
+    <ellipse cx="200" cy="830" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 194 834 Q 200 835 206 834" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Ring tail with stripes -->
+    <path d="M 180 855 Q 170 870 165 890 Q 162 905 168 920 Q 175 930 185 925 Q 180 910 180 890 Q 180 873 180 855" fill="url(#lem_fur_ent72v)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="165" y="875" width="18" height="7" fill="#1a1a1a"/>
+    <rect x="165" y="890" width="18" height="7" fill="#1a1a1a"/>
+    <rect x="166" y="905" width="17" height="7" fill="#1a1a1a"/>
+    <rect x="168" y="918" width="14" height="6" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Speech bubble P3 -->
+  <rect x="40" y="648" width="320" height="135" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="190,781 200,801 210,781" fill="#fff"/>
+  <line x1="190" y1="783" x2="200" y2="803" stroke="#333" stroke-width="2"/>
+  <line x1="200" y1="803" x2="210" y2="783" stroke="#333" stroke-width="2"/>
+
+  <text x="200" y="680" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">Time for what,</text>
+  <text x="200" y="708" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">though? Watching</text>
+  <text x="200" y="736" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">what everyone</text>
+  <text x="200" y="764" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">else picked?</text>
+
+  <!-- Tiny credit -->
+  <text x="385" y="955" font-family="DejaVu Sans" font-size="8" text-anchor="end" fill="#999">process.ink</text>
+</svg>
