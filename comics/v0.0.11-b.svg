@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_ori29" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_ori29" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="350" fill="#e8e8e0"/>
+
+  <!-- Panel 1 -->
+  <rect x="5" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache holding a tiny paper crane -->
+  <g>
+    <!-- Body -->
+    <ellipse cx="150" cy="235" rx="18" ry="22" fill="url(#sq_fur_ori29)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="150" cy="210" rx="14" ry="14" fill="url(#sq_fur_ori29)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <polygon points="140,196 137,176 145,194" fill="url(#sq_fur_ori29)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="160,196 163,176 155,194" fill="url(#sq_fur_ori29)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="141,195 139,180 144,194" fill="#cd853f"/>
+    <polygon points="159,195 161,180 156,194" fill="#cd853f"/>
+
+    <!-- Half-lidded eyes looking down -->
+    <ellipse cx="144" cy="212" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="145" cy="213" r="1.8" fill="#1a1a1a"/>
+    <ellipse cx="156" cy="212" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="157" cy="213" r="1.8" fill="#1a1a1a"/>
+
+    <!-- Nose and mouth -->
+    <ellipse cx="150" cy="218" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 146 221 Q 150 220 154 221" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Fluffy tail -->
+    <path d="M 132 240 Q 118 245 112 262 Q 108 278 118 288 Q 128 295 135 285 Q 130 272 130 256 Q 130 248 132 240" fill="url(#sq_fur_ori29)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Arm holding tiny origami -->
+    <ellipse cx="165" cy="232" rx="8" ry="6" fill="url(#sq_fur_ori29)" stroke="#5d4a2f" stroke-width="1" transform="rotate(20 165 232)"/>
+
+    <!-- Tiny origami crane -->
+    <polygon points="175,228 180,224 185,228 180,232" fill="#f5f5f5" stroke="#999" stroke-width="0.8"/>
+    <line x1="180" y1="224" x2="183" y2="220" stroke="#999" stroke-width="0.7"/>
+    <line x1="180" y1="224" x2="177" y2="220" stroke="#999" stroke-width="0.7"/>
+  </g>
+
+  <!-- Speech bubble P1 -->
+  <rect x="30" y="30" width="250" height="130" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="140,158 150,178 160,158" fill="#fff"/>
+  <line x1="140" y1="160" x2="150" y2="180" stroke="#333" stroke-width="2"/>
+  <line x1="150" y1="180" x2="160" y2="160" stroke="#333" stroke-width="2"/>
+
+  <text x="155" y="58" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">A 14-year-old</text>
+  <text x="155" y="82" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">folded paper</text>
+  <text x="155" y="106" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">that holds ten</text>
+  <text x="155" y="130" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">thousand times</text>
+  <text x="155" y="154" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">its weight.</text>
+
+  <!-- Panel 2 -->
+  <rect x="305" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka staring at a single sheet of paper on the ground -->
+  <g>
+    <!-- Body -->
+    <ellipse cx="450" cy="235" rx="22" ry="28" fill="url(#lem_fur_ori29)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="450" cy="205" rx="18" ry="16" fill="url(#lem_fur_ori29)" stroke="#5a5a5a" stroke-width="1.3"/>
+
+    <!-- Moderately-sized round ears -->
+    <ellipse cx="425" cy="200" rx="14" ry="16" fill="url(#lem_fur_ori29)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="475" cy="200" rx="14" ry="16" fill="url(#lem_fur_ori29)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="425" cy="200" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="475" cy="200" rx="8" ry="10" fill="#f5b5c5"/>
+
+    <!-- ENORMOUS eyes looking down at paper -->
+    <ellipse cx="438" cy="206" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="440" cy="209" r="8" fill="#1a1a1a"/>
+    <circle cx="438" cy="207" r="2" fill="#fff"/>
+
+    <ellipse cx="462" cy="206" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="464" cy="209" r="8" fill="#1a1a1a"/>
+    <circle cx="462" cy="207" r="2" fill="#fff"/>
+
+    <!-- Nose and mouth -->
+    <ellipse cx="450" cy="218" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 443 222 Q 450 224 457 222" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Ring tail with stripes -->
+    <path d="M 430 240 Q 420 250 415 270 Q 410 290 418 305 Q 426 315 436 308 Q 431 288 431 268 Q 431 253 430 240" fill="url(#lem_fur_ori29)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="414" y="270" width="18" height="7" fill="#1a1a1a"/>
+    <rect x="413" y="284" width="19" height="7" fill="#1a1a1a"/>
+    <rect x="415" y="298" width="18" height="7" fill="#1a1a1a"/>
+
+    <!-- Flat sheet of paper on ground -->
+    <rect x="440" y="290" width="40" height="30" fill="#f5f5f5" stroke="#bbb" stroke-width="1" transform="rotate(-5 460 305)"/>
+    <line x1="445" y1="298" x2="475" y2="296" stroke="#ddd" stroke-width="0.5"/>
+    <line x1="445" y1="305" x2="475" y2="303" stroke="#ddd" stroke-width="0.5"/>
+  </g>
+
+  <!-- Speech bubble P2 -->
+  <rect x="335" y="35" width="230" height="120" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="440,153 450,173 460,153" fill="#fff"/>
+  <line x1="440" y1="155" x2="450" y2="175" stroke="#333" stroke-width="2"/>
+  <line x1="450" y1="175" x2="460" y2="155" stroke="#333" stroke-width="2"/>
+
+  <text x="450" y="63" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">So the paper</text>
+  <text x="450" y="87" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">was always</text>
+  <text x="450" y="111" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">strong and we</text>
+  <text x="450" y="135" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">were just... flat?</text>
+
+  <!-- Panel 3 -->
+  <rect x="605" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache staring at viewer, existential -->
+  <g>
+    <!-- Body -->
+    <ellipse cx="750" cy="240" rx="18" ry="22" fill="url(#sq_fur_ori29)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="750" cy="215" rx="14" ry="14" fill="url(#sq_fur_ori29)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <polygon points="740,201 737,181 745,199" fill="url(#sq_fur_ori29)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="760,201 763,181 755,199" fill="url(#sq_fur_ori29)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="741,200 739,185 744,199" fill="#cd853f"/>
+    <polygon points="759,200 761,185 756,199" fill="#cd853f"/>
+
+    <!-- Wide-open eyes for once — unnerved -->
+    <ellipse cx="744" cy="216" rx="4.5" ry="5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="744" cy="217" r="2.5" fill="#1a1a1a"/>
+    <ellipse cx="756" cy="216" rx="4.5" ry="5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="756" cy="217" r="2.5" fill="#1a1a1a"/>
+
+    <!-- Nose and simple mouth -->
+    <ellipse cx="750" cy="223" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 746 226 L 754 226" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Fluffy tail -->
+    <path d="M 732 245 Q 718 250 712 268 Q 708 285 718 295 Q 728 302 735 292 Q 730 278 730 262 Q 730 253 732 245" fill="url(#sq_fur_ori29)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Hands holding an unfolded sheet of paper, looking at it -->
+    <ellipse cx="735" cy="240" rx="7" ry="5" fill="url(#sq_fur_ori29)" stroke="#5d4a2f" stroke-width="1" transform="rotate(-15 735 240)"/>
+    <ellipse cx="765" cy="240" rx="7" ry="5" fill="url(#sq_fur_ori29)" stroke="#5d4a2f" stroke-width="1" transform="rotate(15 765 240)"/>
+
+    <!-- Unfolded paper with creases -->
+    <rect x="738" y="248" width="24" height="30" fill="#f5f5f5" stroke="#bbb" stroke-width="1"/>
+    <line x1="750" y1="248" x2="750" y2="278" stroke="#ddd" stroke-width="0.7"/>
+    <line x1="738" y1="263" x2="762" y2="263" stroke="#ddd" stroke-width="0.7"/>
+    <line x1="738" y1="255" x2="762" y2="271" stroke="#eee" stroke-width="0.5"/>
+    <line x1="738" y1="271" x2="762" y2="255" stroke="#eee" stroke-width="0.5"/>
+  </g>
+
+  <!-- Speech bubble P3 -->
+  <rect x="635" y="30" width="230" height="140" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="740,168 750,188 760,168" fill="#fff"/>
+  <line x1="740" y1="170" x2="750" y2="190" stroke="#333" stroke-width="2"/>
+  <line x1="750" y1="190" x2="760" y2="170" stroke="#333" stroke-width="2"/>
+
+  <text x="750" y="58" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Every material</text>
+  <text x="750" y="82" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">is invincible.</text>
+  <text x="750" y="110" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">It just needs</text>
+  <text x="750" y="134" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">someone to</text>
+  <text x="750" y="158" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#E63946">believe in its shape.</text>
+
+  <!-- Signature -->
+  <text x="880" y="345" font-family="DejaVu Sans" font-size="9" text-anchor="end" fill="#999">process.ink</text>
+</svg>

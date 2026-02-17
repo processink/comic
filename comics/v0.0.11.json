@@ -1,0 +1,41 @@
+{
+  "run_id": "v0.0.11-beta",
+  "date": "2026-02-17",
+  "timestamp": "2026-02-17T17:04:15.157908+00:00",
+  "topic": "14-year-old Miles Wu folded origami pattern that holds 10k times its own weight",
+  "topic_source": "hn",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Deadpan delivery lets the absurd feat speak for itself without undermining it.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.11-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.11-beta-a.svg",
+    "b": "v0.0.11-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2023805703627170224",
+    "ab_post_url": "https://x.com/i/status/2023805703627170224",
+    "winner_tweet_id": "2023880382203261442",
+    "winner_post_url": "https://x.com/i/status/2023880382203261442"
+  },
+  "voting": {}
+}
