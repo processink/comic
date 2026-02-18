@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_qq41" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_qq41" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <radialGradient id="human_skin_qq41" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f5d3b8"/>
+      <stop offset="100%" style="stop-color:#e8b887"/>
+    </radialGradient>
+    <filter id="shadow_qq41">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="350" fill="#e8e0d8"/>
+
+  <!-- Panel 1 -->
+  <rect x="5" y="10" width="287" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Abe at desk, staring blankly -->
+  <g filter="url(#shadow_qq41)">
+    <!-- Desk -->
+    <rect x="60" y="248" width="180" height="6" fill="#8b7355" stroke="#6b5335" stroke-width="1"/>
+
+    <!-- Computer monitor -->
+    <rect x="170" y="200" width="60" height="45" fill="#3a3a3a" stroke="#1a1a1a" stroke-width="1.5"/>
+    <rect x="174" y="204" width="52" height="36" fill="#1a1a2a"/>
+    <rect x="194" y="245" width="12" height="6" fill="#4a4a4a"/>
+    <text x="200" y="222" font-family="DejaVu Sans" font-size="7" text-anchor="middle" fill="#444">SPREADSHEET</text>
+    <text x="200" y="232" font-family="DejaVu Sans" font-size="7" text-anchor="middle" fill="#444">Q3 METRICS</text>
+
+    <!-- Abe body -->
+    <ellipse cx="120" cy="230" rx="30" ry="38" fill="#5d8aa8" stroke="#4a6d8c" stroke-width="1.3"/>
+
+    <!-- Head -->
+    <ellipse cx="120" cy="178" rx="22" ry="25" fill="url(#human_skin_qq41)" stroke="#c8a882" stroke-width="1.3"/>
+
+    <!-- Hair -->
+    <path d="M 98 163 Q 120 152 142 163 Q 140 168 136 170 Q 120 164 104 170 Q 100 168 98 163" fill="#4a3728" stroke="#3a2618" stroke-width="1"/>
+
+    <!-- Eyes - completely dead inside -->
+    <ellipse cx="111" cy="178" rx="4" ry="5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="111" cy="179" r="2.5" fill="#2a2a2a"/>
+    <ellipse cx="129" cy="178" rx="4" ry="5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="129" cy="179" r="2.5" fill="#2a2a2a"/>
+
+    <!-- Flat mouth -->
+    <path d="M 113 192 L 127 192" fill="none" stroke="#8a6d51" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- Arms on desk -->
+    <ellipse cx="100" cy="250" rx="12" ry="6" fill="url(#human_skin_qq41)" stroke="#c8a882" stroke-width="1"/>
+    <ellipse cx="140" cy="250" rx="12" ry="6" fill="url(#human_skin_qq41)" stroke="#c8a882" stroke-width="1"/>
+
+    <!-- Coffee cup -->
+    <rect x="75" y="232" width="16" height="18" rx="2" fill="#fff" stroke="#999" stroke-width="1"/>
+    <path d="M 91 238 Q 97 240 91 248" fill="none" stroke="#999" stroke-width="1"/>
+    <path d="M 80 230 Q 82 225 84 230" fill="none" stroke="#aaa" stroke-width="0.8" opacity="0.5"/>
+  </g>
+
+  <!-- Speech bubble Panel 1 -->
+  <rect x="35" y="35" width="222" height="90" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="120,123 130,143 140,123" fill="#fff"/>
+  <path d="M 120 125 L 130 145 L 140 125" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="146" y="62" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">I'm not quiet</text>
+  <text x="146" y="86" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">quitting. I'm</text>
+  <text x="146" y="110" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">loud staying.</text>
+
+  <!-- Panel 2 -->
+  <rect x="297" y="10" width="287" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka on Abe's desk, staring at him -->
+  <g filter="url(#shadow_qq41)">
+    <!-- Sifaka body -->
+    <ellipse cx="440" cy="230" rx="22" ry="28" fill="url(#lem_fur_qq41)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="440" cy="198" rx="18" ry="16" fill="url(#lem_fur_qq41)" stroke="#5a5a5a" stroke-width="1.3"/>
+
+    <!-- Moderately-sized ears -->
+    <ellipse cx="415" cy="193" rx="14" ry="16" fill="url(#lem_fur_qq41)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="465" cy="193" rx="14" ry="16" fill="url(#lem_fur_qq41)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="415" cy="193" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="465" cy="193" rx="8" ry="10" fill="#f5b5c5"/>
+
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="428" cy="198" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="428" cy="198" r="8" fill="#1a1a1a"/>
+    <circle cx="426" cy="196" r="2.5" fill="#fff"/>
+
+    <ellipse cx="452" cy="198" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="452" cy="198" r="8" fill="#1a1a1a"/>
+    <circle cx="450" cy="196" r="2.5" fill="#fff"/>
+
+    <!-- Nose and mouth -->
+    <ellipse cx="440" cy="207" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 434 211 Q 440 213 446 211" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Ring tail with stripes - curled up on desk -->
+    <path d="M 420 235 Q 405 250 400 270 Q 395 290 405 305 Q 415 315 425 308 Q 420 290 420 270 Q 420 255 420 240" fill="url(#lem_fur_qq41)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="398" y="268" width="24" height="7" fill="#1a1a1a"/>
+    <rect x="398" y="282" width="24" height="7" fill="#1a1a1a"/>
+    <rect x="398" y="296" width="24" height="7" fill="#1a1a1a"/>
+
+    <!-- Little feet -->
+    <ellipse cx="425" cy="258" rx="8" ry="4" fill="url(#lem_fur_qq41)" stroke="#5a5a5a" stroke-width="1"/>
+    <ellipse cx="455" cy="258" rx="8" ry="4" fill="url(#lem_fur_qq41)" stroke="#5a5a5a" stroke-width="1"/>
+  </g>
+
+  <!-- Speech bubble Panel 2 -->
+  <rect x="332" y="35" width="220" height="115" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="430,148 440,168 450,148" fill="#fff"/>
+  <path d="M 430 150 L 440 170 L 450 150" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="442" y="62" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">What's the</text>
+  <text x="442" y="86" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">difference</text>
+  <text x="442" y="110" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">between that</text>
+  <text x="442" y="134" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">and a chair?</text>
+
+  <!-- Panel 3 -->
+  <rect x="589" y="10" width="306" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Abe still in exact same position, but now the chair is empty and Abe is gone. Just the chair and coffee. -->
+  <g filter="url(#shadow_qq41)">
+    <!-- Office chair - empty -->
+    <ellipse cx="720" cy="290" rx="28" ry="8" fill="#3a3a3a" stroke="#2a2a2a" stroke-width="1"/>
+    <rect x="710" y="240" width="20" height="50" fill="#4a4a4a" stroke="#2a2a2a" stroke-width="1"/>
+    <rect x="700" y="220" width="40" height="25" rx="4" fill="#4a4a4a" stroke="#2a2a2a" stroke-width="1"/>
+    <!-- Chair wheels -->
+    <circle cx="698" cy="296" r="4" fill="#2a2a2a"/>
+    <circle cx="742" cy="296" r="4" fill="#2a2a2a"/>
+
+    <!-- Desk -->
+    <rect x="650" y="248" width="180" height="6" fill="#8b7355" stroke="#6b5335" stroke-width="1"/>
+
+    <!-- Computer still on -->
+    <rect x="760" y="200" width="60" height="45" fill="#3a3a3a" stroke="#1a1a1a" stroke-width="1.5"/>
+    <rect x="764" y="204" width="52" height="36" fill="#1a1a2a"/>
+    <rect x="784" y="245" width="12" height="6" fill="#4a4a4a"/>
+    <text x="790" y="222" font-family="DejaVu Sans" font-size="7" text-anchor="middle" fill="#444">SPREADSHEET</text>
+    <text x="790" y="232" font-family="DejaVu Sans" font-size="7" text-anchor="middle" fill="#444">Q3 METRICS</text>
+
+    <!-- Coffee cup still steaming -->
+    <rect x="665" y="232" width="16" height="18" rx="2" fill="#fff" stroke="#999" stroke-width="1"/>
+    <path d="M 681 238 Q 687 240 681 248" fill="none" stroke="#999" stroke-width="1"/>
+    <path d="M 670 230 Q 672 224 674 230" fill="none" stroke="#aaa" stroke-width="0.8" opacity="0.5"/>
+    <path d="M 675 228 Q 677 222 679 228" fill="none" stroke="#aaa" stroke-width="0.8" opacity="0.4"/>
+  </g>
+
+  <!-- Cache sitting ON the empty chair -->
+  <g filter="url(#shadow_qq41)">
+    <ellipse cx="720" cy="210" rx="18" ry="20" fill="url(#sq_fur_qq41)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="720" cy="188" rx="14" ry="13" fill="url(#sq_fur_qq41)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <ellipse cx="713" cy="182" rx="6" ry="11" fill="url(#sq_fur_qq41)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 713 182)"/>
+    <ellipse cx="727" cy="182" rx="6" ry="11" fill="url(#sq_fur_qq41)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 727 182)"/>
+    <ellipse cx="713" cy="185" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 713 185)"/>
+    <ellipse cx="727" cy="185" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 727 185)"/>
+
+    <!-- Half-lidded eyes -->
+    <ellipse cx="714" cy="190" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="714" cy="190" r="1.8" fill="#1a1a1a"/>
+    <ellipse cx="726" cy="190" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="726" cy="190" r="1.8" fill="#1a1a1a"/>
+
+    <!-- Nose and simple mouth -->
+    <ellipse cx="720" cy="195" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 716 197 Q 720 198 724 197" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Fluffy tail draped over chair back -->
+    <path d="M 700 215 Q 685 220 680 235 Q 675 250 685 258 Q 695 266 705 258 Q 700 242 700 228 Q 700 220 700 215" fill="url(#sq_fur_qq41)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Speech bubble Panel 3 -->
+  <rect x="619" y="35" width="250" height="115" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="710,148 720,168 730,148" fill="#fff"/>
+  <path d="M 710 150 L 720 170 L 730 150" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="744" y="62" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">The chair was</text>
+  <text x="744" y="86" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">doing his job</text>
+  <text x="744" y="110" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">the whole time.</text>
+  <text x="744" y="134" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#E63946">Nobody noticed.</text>
+
+  <!-- Signature -->
+  <text x="880" y="345" font-family="DejaVu Sans" font-size="9" text-anchor="end" fill="#999">PROCESS</text>
+</svg>
