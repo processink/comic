@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_t256a" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_t256a" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <filter id="shadow_t256a">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="350" fill="#ddd8d0"/>
+
+  <!-- Panel 1 -->
+  <rect x="5" y="10" width="287" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache at terminal -->
+  <g filter="url(#shadow_t256a)">
+    <!-- Terminal/monitor -->
+    <rect x="155" y="195" width="75" height="55" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1.5"/>
+    <rect x="159" y="199" width="67" height="44" fill="#0a0a1a"/>
+    <!-- 256 color grid on screen (tiny squares) -->
+    <rect x="161" y="201" width="4" height="4" fill="#ff0000"/>
+    <rect x="166" y="201" width="4" height="4" fill="#00ff00"/>
+    <rect x="171" y="201" width="4" height="4" fill="#0000ff"/>
+    <rect x="176" y="201" width="4" height="4" fill="#ffff00"/>
+    <rect x="181" y="201" width="4" height="4" fill="#ff00ff"/>
+    <rect x="186" y="201" width="4" height="4" fill="#00ffff"/>
+    <rect x="191" y="201" width="4" height="4" fill="#ff8800"/>
+    <rect x="196" y="201" width="4" height="4" fill="#8800ff"/>
+    <rect x="201" y="201" width="4" height="4" fill="#88ff00"/>
+    <rect x="206" y="201" width="4" height="4" fill="#ff0088"/>
+    <rect x="211" y="201" width="4" height="4" fill="#0088ff"/>
+    <rect x="216" y="201" width="4" height="4" fill="#00ff88"/>
+    <rect x="161" y="207" width="4" height="4" fill="#af8700"/>
+    <rect x="166" y="207" width="4" height="4" fill="#5f5faf"/>
+    <rect x="171" y="207" width="4" height="4" fill="#87af5f"/>
+    <rect x="176" y="207" width="4" height="4" fill="#d75f5f"/>
+    <rect x="181" y="207" width="4" height="4" fill="#5fd7af"/>
+    <rect x="186" y="207" width="4" height="4" fill="#af5fd7"/>
+    <rect x="191" y="207" width="4" height="4" fill="#d7af5f"/>
+    <rect x="196" y="207" width="4" height="4" fill="#5fafaf"/>
+    <rect x="201" y="207" width="4" height="4" fill="#af5f5f"/>
+    <rect x="206" y="207" width="4" height="4" fill="#5faf5f"/>
+    <rect x="211" y="207" width="4" height="4" fill="#5f5fd7"/>
+    <rect x="216" y="207" width="4" height="4" fill="#d75fd7"/>
+    <text x="192" y="234" font-family="DejaVu Sans" font-size="7" text-anchor="middle" fill="#888">256 COLORS</text>
+    <rect x="182" y="250" width="20" height="5" fill="#4a4a4a"/>
+
+    <!-- Cache body -->
+    <ellipse cx="110" cy="215" rx="18" ry="20" fill="url(#sq_fur_t256a)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Head -->
+    <ellipse cx="110" cy="193" rx="14" ry="13" fill="url(#sq_fur_t256a)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <ellipse cx="103" cy="187" rx="6" ry="11" fill="url(#sq_fur_t256a)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 103 187)"/>
+    <ellipse cx="117" cy="187" rx="6" ry="11" fill="url(#sq_fur_t256a)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 117 187)"/>
+    <ellipse cx="103" cy="190" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 103 190)"/>
+    <ellipse cx="117" cy="190" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 117 190)"/>
+
+    <!-- Half-lidded eyes staring at screen -->
+    <ellipse cx="104" cy="195" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="105" cy="195" r="2" fill="#1a1a1a"/>
+    <ellipse cx="116" cy="195" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="117" cy="195" r="2" fill="#1a1a1a"/>
+
+    <ellipse cx="110" cy="200" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 106 203 L 114 203" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Fluffy tail -->
+    <path d="M 90 220 Q 75 225 70 240 Q 65 255 75 265 Q 85 275 95 265 Q 90 250 90 235 Q 90 227 90 220" fill="url(#sq_fur_t256a)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Speech bubble Panel 1 -->
+  <rect x="30" y="30" width="235" height="120" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="110,148 120,168 130,148" fill="#fff"/>
+  <path d="M 110 150 L 120 170 L 130 150" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="147" y="58" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Every terminal</text>
+  <text x="147" y="82" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">should render</text>
+  <text x="147" y="106" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">the full 256</text>
+  <text x="147" y="130" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">color palette.</text>
+
+  <!-- Panel 2 -->
+  <rect x="297" y="10" width="287" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka staring -->
+  <g filter="url(#shadow_t256a)">
+    <!-- Body -->
+    <ellipse cx="440" cy="235" rx="22" ry="28" fill="url(#lem_fur_t256a)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="440" cy="205" rx="18" ry="16" fill="url(#lem_fur_t256a)" stroke="#5a5a5a" stroke-width="1.3"/>
+
+    <!-- Moderately-sized ears -->
+    <ellipse cx="415" cy="200" rx="14" ry="16" fill="url(#lem_fur_t256a)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="465" cy="200" rx="14" ry="16" fill="url(#lem_fur_t256a)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="415" cy="200" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="465" cy="200" rx="8" ry="10" fill="#f5b5c5"/>
+
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="428" cy="205" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="428" cy="206" r="8" fill="#1a1a1a"/>
+    <circle cx="426" cy="204" r="2" fill="#fff"/>
+
+    <ellipse cx="452" cy="205" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="452" cy="206" r="8" fill="#1a1a1a"/>
+    <circle cx="450" cy="204" r="2" fill="#fff"/>
+
+    <ellipse cx="440" cy="214" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 433 218 Q 440 220 447 218" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Ring tail with stripes -->
+    <path d="M 420 240 Q 410 250 405 270 Q 400 290 405 305 Q 410 315 420 318 Q 430 320 435 312 Q 430 295 428 275 Q 426 255 422 245" fill="url(#lem_fur_t256a)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="401" y="270" width="28" height="7" fill="#1a1a1a"/>
+    <rect x="401" y="284" width="28" height="7" fill="#1a1a1a"/>
+    <rect x="401" y="298" width="28" height="7" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Speech bubble Panel 2 -->
+  <rect x="330" y="30" width="222" height="120" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="430,148 440,168 450,148" fill="#fff"/>
+  <path d="M 430 150 L 440 170 L 450 150" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="441" y="58" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">How many of</text>
+  <text x="441" y="82" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">those colors</text>
+  <text x="441" y="106" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">have you ever</text>
+  <text x="441" y="130" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">actually used?</text>
+
+  <!-- Panel 3 -->
+  <rect x="589" y="10" width="306" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache looking away from screen, deadpan -->
+  <g filter="url(#shadow_t256a)">
+    <!-- Cache body -->
+    <ellipse cx="720" cy="230" rx="18" ry="20" fill="url(#sq_fur_t256a)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Head -->
+    <ellipse cx="720" cy="208" rx="14" ry="13" fill="url(#sq_fur_t256a)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <ellipse cx="713" cy="202" rx="6" ry="11" fill="url(#sq_fur_t256a)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 713 202)"/>
+    <ellipse cx="727" cy="202" rx="6" ry="11" fill="url(#sq_fur_t256a)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 727 202)"/>
+    <ellipse cx="713" cy="205" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 713 205)"/>
+    <ellipse cx="727" cy="205" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 727 205)"/>
+
+    <!-- Half-lidded eyes staring into distance -->
+    <ellipse cx="714" cy="210" rx="4" ry="2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="713" cy="210" r="1.5" fill="#1a1a1a"/>
+    <ellipse cx="726" cy="210" rx="4" ry="2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="725" cy="210" r="1.5" fill="#1a1a1a"/>
+
+    <ellipse cx="720" cy="215" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 716 218 L 724 218" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Fluffy tail -->
+    <path d="M 700 235 Q 685 240 680 255 Q 675 270 685 280 Q 695 290 705 280 Q 700 265 700 250 Q 700 242 700 235" fill="url(#sq_fur_t256a)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Speech bubble Panel 3 -->
+  <rect x="620" y="30" width="248" height="145" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="710,173 720,193 730,173" fill="#fff"/>
+  <path d="M 710 175 L 720 195 L 730 175" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="744" y="58" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Desire was</text>
+  <text x="744" y="82" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">never about</text>
+  <text x="744" y="106" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">use. It's about</text>
+  <text x="744" y="130" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">knowing they</text>
+  <text x="744" y="154" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">exist for you.</text>
+
+  <!-- Tiny accent color bar at bottom of panel 3 -->
+  <rect x="660" y="300" width="170" height="3" fill="#E63946" opacity="0.6"/>
+
+</svg>
