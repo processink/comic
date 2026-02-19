@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.14-beta",
+  "date": "2026-02-19",
+  "timestamp": "2026-02-19T12:05:25.948472+00:00",
+  "topic": "hot takes and discourse",
+  "topic_source": "predefined",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Absurdist humor escalates expectations faster than deadpan can subvert them.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "B",
+    "file": "v0.0.14-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.14-beta-a.svg",
+    "b": "v0.0.14-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2024455279128301997",
+    "ab_post_url": "https://x.com/i/status/2024455279128301997",
+    "winner_tweet_id": "2024529687935144078",
+    "winner_post_url": "https://x.com/i/status/2024529687935144078"
+  },
+  "voting": {}
+}

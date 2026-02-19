@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_ht91" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_ht91" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <radialGradient id="hum_skin_ht91" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f5d3b8"/>
+      <stop offset="100%" style="stop-color:#e8b887"/>
+    </radialGradient>
+    <filter id="shadow_ht91">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="350" fill="#e8e4dc"/>
+
+  <!-- Panel 1 -->
+  <rect x="10" y="10" width="280" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Abe holding a microphone, standing at a podium -->
+  <g filter="url(#shadow_ht91)">
+    <!-- Podium -->
+    <rect x="110" y="230" width="80" height="60" fill="#8b6f47" stroke="#6b4f37" stroke-width="1.5"/>
+    <rect x="105" y="225" width="90" height="8" fill="#a67c52" stroke="#6b4f37" stroke-width="1"/>
+    <!-- Microphone stand -->
+    <rect x="148" y="170" width="4" height="60" fill="#4a4a4a"/>
+    <circle cx="150" cy="165" r="8" fill="#2a2a2a"/>
+    <ellipse cx="150" cy="165" rx="6" ry="5" fill="#3a3a3a"/>
+
+    <!-- Abe -->
+    <circle cx="150" cy="130" r="22" fill="url(#hum_skin_ht91)" stroke="#2a2a2a" stroke-width="1.2"/>
+    <path d="M 128 115 Q 138 102 150 100 Q 162 102 172 115" fill="#4a3728" stroke="#2a2a2a" stroke-width="1"/>
+    <!-- Eyes wide, excited -->
+    <ellipse cx="141" cy="128" rx="4.5" ry="5.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="141" cy="129" r="3" fill="#1a1a1a"/>
+    <ellipse cx="159" cy="128" rx="4.5" ry="5.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="159" cy="129" r="3" fill="#1a1a1a"/>
+    <line x1="150" y1="135" x2="150" y2="140" stroke="#c4a882" stroke-width="1"/>
+    <path d="M 144 145 Q 150 149 156 145" fill="none" stroke="#a67c52" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Neck and shirt -->
+    <rect x="142" y="152" width="16" height="12" fill="url(#hum_skin_ht91)"/>
+    <rect x="125" y="164" width="50" height="60" rx="3" fill="#5d8aa8" stroke="#3a5a6a" stroke-width="1.2"/>
+  </g>
+
+  <!-- Speech bubble panel 1 -->
+  <rect x="35" y="25" width="230" height="80" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="140,103 150,118 160,103" fill="#fff"/>
+  <path d="M 140,105 L 150,120 L 160,105" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="150" y="50" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">My hot take:</text>
+  <text x="150" y="75" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">soup is a drink.</text>
+  <text x="150" y="97" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Fight me.</text>
+
+  <!-- Panel 2 -->
+  <rect x="305" y="10" width="280" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache on a park bench, half-lidded -->
+  <g filter="url(#shadow_ht91)">
+    <!-- Bench -->
+    <rect x="340" y="260" width="120" height="8" fill="#8b6842" stroke="#6b4832" stroke-width="1"/>
+    <rect x="355" y="268" width="8" height="30" fill="#6b4832"/>
+    <rect x="437" y="268" width="8" height="30" fill="#6b4832"/>
+
+    <!-- Cache body -->
+    <ellipse cx="445" cy="240" rx="18" ry="20" fill="url(#sq_fur_ht91)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="445" cy="218" rx="14" ry="13" fill="url(#sq_fur_ht91)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <ellipse cx="438" cy="210" rx="6" ry="12" fill="url(#sq_fur_ht91)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 438 210)"/>
+    <ellipse cx="452" cy="210" rx="6" ry="12" fill="url(#sq_fur_ht91)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 452 210)"/>
+    <ellipse cx="438" cy="213" rx="3" ry="7" fill="#cd853f" transform="rotate(-15 438 213)"/>
+    <ellipse cx="452" cy="213" rx="3" ry="7" fill="#cd853f" transform="rotate(15 452 213)"/>
+
+    <!-- Ear tufts -->
+    <path d="M 436 205 Q 433 199 435 197" fill="none" stroke="#5d4a2f" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M 454 205 Q 457 199 455 197" fill="none" stroke="#5d4a2f" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- Half-lidded unimpressed eyes -->
+    <ellipse cx="439" cy="219" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="439" cy="220" r="1.8" fill="#1a1a1a"/>
+    <ellipse cx="451" cy="219" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="451" cy="220" r="1.8" fill="#1a1a1a"/>
+
+    <!-- Nose -->
+    <ellipse cx="445" cy="224" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+
+    <!-- Simple mouth -->
+    <path d="M 441 228 L 449 228" fill="none" stroke="#5d4a2f" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Whiskers -->
+    <line x1="433" y1="222" x2="420" y2="221" stroke="#1a1a1a" stroke-width="0.9"/>
+    <line x1="433" y1="225" x2="422" y2="226" stroke="#1a1a1a" stroke-width="0.9"/>
+    <line x1="457" y1="222" x2="470" y2="221" stroke="#1a1a1a" stroke-width="0.9"/>
+    <line x1="457" y1="225" x2="468" y2="226" stroke="#1a1a1a" stroke-width="0.9"/>
+
+    <!-- Fluffy tail curved upward -->
+    <path d="M 460 237 Q 478 228 488 215 Q 494 205 490 198 Q 485 205 477 215 Q 468 228 460 235 Z" fill="url(#sq_fur_ht91)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Sifaka sitting next to Cache on bench -->
+  <g filter="url(#shadow_ht91)">
+    <ellipse cx="380" cy="240" rx="20" ry="24" fill="url(#lem_fur_ht91)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="380" cy="215" rx="16" ry="14" fill="url(#lem_fur_ht91)" stroke="#5a5a5a" stroke-width="1.3"/>
+
+    <!-- Moderately-sized ears -->
+    <ellipse cx="358" cy="210" rx="12" ry="14" fill="url(#lem_fur_ht91)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="402" cy="210" rx="12" ry="14" fill="url(#lem_fur_ht91)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="358" cy="210" rx="7" ry="9" fill="#f5b5c5"/>
+    <ellipse cx="402" cy="210" rx="7" ry="9" fill="#f5b5c5"/>
+
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="370" cy="215" rx="9" ry="10" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="370" cy="216" r="7" fill="#1a1a1a"/>
+    <circle cx="368" cy="214" r="2" fill="#fff"/>
+
+    <ellipse cx="390" cy="215" rx="9" ry="10" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="390" cy="216" r="7" fill="#1a1a1a"/>
+    <circle cx="388" cy="214" r="2" fill="#fff"/>
+
+    <ellipse cx="380" cy="223" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 374 226 Q 380 228 386 226" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Ring tail with stripes -->
+    <path d="M 362 242 Q 350 255 345 270 Q 340 285 345 295 Q 350 300 358 298 Q 363 280 363 260 Q 363 250 362 242" fill="url(#lem_fur_ht91)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="342" y="270" width="22" height="6" fill="#1a1a1a"/>
+    <rect x="342" y="282" width="22" height="6" fill="#1a1a1a"/>
+    <rect x="342" y="294" width="22" height="5" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Speech bubble panel 2 - Cache -->
+  <rect x="335" y="25" width="220" height="90" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="435,113 445,128 455,113" fill="#fff"/>
+  <path d="M 435,115 L 445,130 L 455,115" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="445" y="52" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Every opinion</text>
+  <text x="445" y="77" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">is a hot take</text>
+  <text x="445" y="102" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">if the room's</text>
+
+  <!-- Sifaka speech bubble - small interjection -->
+  <rect x="320" y="135" width="130" height="48" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="370,183 378,198 386,183" fill="#fff"/>
+  <path d="M 370,183 L 378,198 L 386,183" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="385" y="165" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">cold enough.</text>
+
+  <!-- Panel 3 -->
+  <rect x="600" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- A literal thermometer with "DISCOURSE" written on it, melting -->
+  <g filter="url(#shadow_ht91)">
+    <!-- Giant thermometer -->
+    <rect x="720" y="70" width="30" height="200" rx="15" fill="#f5f5f5" stroke="#4a4a4a" stroke-width="2"/>
+    <circle cx="735" cy="280" r="25" fill="#f5f5f5" stroke="#4a4a4a" stroke-width="2"/>
+    <!-- Mercury -->
+    <rect x="728" y="90" width="14" height="180" fill="#E63946"/>
+    <circle cx="735" cy="280" r="20" fill="#E63946"/>
+    <!-- Temperature marks -->
+    <line x1="750" y1="100" x2="760" y2="100" stroke="#4a4a4a" stroke-width="1.5"/>
+    <line x1="750" y1="130" x2="760" y2="130" stroke="#4a4a4a" stroke-width="1.5"/>
+    <line x1="750" y1="160" x2="760" y2="160" stroke="#4a4a4a" stroke-width="1.5"/>
+    <line x1="750" y1="190" x2="760" y2="190" stroke="#4a4a4a" stroke-width="1.5"/>
+    <!-- "DISCOURSE" label on thermometer -->
+    <text x="735" y="115" font-family="DejaVu Sans" font-size="9" text-anchor="middle" fill="#fff" font-weight="bold" transform="rotate(-90 735 115)">DISCOURSE</text>
+    <!-- Mercury overflowing / exploding out top -->
+    <circle cx="735" cy="65" r="12" fill="#E63946" opacity="0.7"/>
+    <circle cx="725" cy="55" r="6" fill="#E63946" opacity="0.5"/>
+    <circle cx="748" cy="50" r="8" fill="#E63946" opacity="0.5"/>
+    <circle cx="735" cy="42" r="5" fill="#E63946" opacity="0.4"/>
+  </g>
+
+  <!-- Cache sitting below thermometer, deadpan -->
+  <g filter="url(#shadow_ht91)">
+    <ellipse cx="660" cy="260" rx="18" ry="20" fill="url(#sq_fur_ht91)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="660" cy="238" rx="14" ry="13" fill="url(#sq_fur_ht91)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <ellipse cx="653" cy="230" rx="6" ry="12" fill="url(#sq_fur_ht91)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 653 230)"/>
+    <ellipse cx="667" cy="230" rx="6" ry="12" fill="url(#sq_fur_ht91)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 667 230)"/>
+    <ellipse cx="653" cy="233" rx="3" ry="7" fill="#cd853f" transform="rotate(-15 653 233)"/>
+    <ellipse cx="667" cy="233" rx="3" ry="7" fill="#cd853f" transform="rotate(15 667 233)"/>
+
+    <!-- Half-lidded eyes looking at thermometer -->
+    <ellipse cx="654" cy="239" rx="4" ry="2.2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="655" cy="240" r="1.8" fill="#1a1a1a"/>
+    <ellipse cx="666" cy="239" rx="4" ry="2.2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="667" cy="240" r="1.8" fill="#1a1a1a"/>
+
+    <ellipse cx="660" cy="244" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 656 248 L 664 248" fill="none" stroke="#5d4a2f" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Whiskers -->
+    <line x1="648" y1="242" x2="635" y2="241" stroke="#1a1a1a" stroke-width="0.9"/>
+    <line x1="648" y1="245" x2="637" y2="246" stroke="#1a1a1a" stroke-width="0.9"/>
+    <line x1="672" y1="242" x2="685" y2="241" stroke="#1a1a1a" stroke-width="0.9"/>
+    <line x1="672" y1="245" x2="683" y2="246" stroke="#1a1a1a" stroke-width="0.9"/>
+
+    <!-- Tail -->
+    <path d="M 675 257 Q 693 248 700 235 Q 706 225 702 218 Q 697 225 691 235 Q 682 248 675 255 Z" fill="url(#sq_fur_ht91)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Speech bubble panel 3 -->
+  <rect x="620" y="25" width="250" height="120" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="655,143 665,158 675,143" fill="#fff"/>
+  <path d="M 655,145 L 665,160 L 675,145" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="745" y="52" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">The thermometer</text>
+  <text x="745" y="77" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">doesn't care</text>
+  <text x="745" y="102" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">what you think</text>
+  <text x="745" y="127" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">about the heat.</text>
+
+  <!-- Ground line panel 3 -->
+  <line x1="615" y1="300" x2="875" y2="300" stroke="#bbb" stroke-width="1.5"/>
+</svg>
