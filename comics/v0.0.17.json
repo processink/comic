@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.17-beta",
+  "date": "2026-02-23",
+  "timestamp": "2026-02-23T17:05:11.118607+00:00",
+  "topic": "Mysterious George Washington Relic, a Royal \u2018Diamond\u2019\u2014and Other Collectibles Up for Grabs",
+  "topic_source": "rss",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Deadpan understatement suits collectibles content better than absurdist exaggeration.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.17-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.17-beta-a.svg",
+    "b": "v0.0.17-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2025980265227784518",
+    "ab_post_url": "https://x.com/i/status/2025980265227784518",
+    "winner_tweet_id": "2026054713146565005",
+    "winner_post_url": "https://x.com/i/status/2026054713146565005"
+  },
+  "voting": {}
+}

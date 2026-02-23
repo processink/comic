@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 960">
+  <defs>
+    <radialGradient id="sq_fur_relic29" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_relic29" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <radialGradient id="hum_skin_relic29" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f5d3b8"/>
+      <stop offset="100%" style="stop-color:#e8b887"/>
+    </radialGradient>
+    <filter id="shadow_relic29">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Panel 1 -->
+  <rect x="10" y="10" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka holding newspaper -->
+  <g filter="url(#shadow_relic29)">
+    <ellipse cx="200" cy="225" rx="22" ry="28" fill="url(#lem_fur_relic29)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="200" cy="195" rx="18" ry="16" fill="url(#lem_fur_relic29)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="175" cy="190" rx="14" ry="16" fill="url(#lem_fur_relic29)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="225" cy="190" rx="14" ry="16" fill="url(#lem_fur_relic29)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="175" cy="190" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="225" cy="190" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="190" cy="195" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="190" cy="195" r="8" fill="#1a1a1a"/>
+    <circle cx="188" cy="193" r="2" fill="#fff"/>
+    <ellipse cx="212" cy="195" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="212" cy="195" r="8" fill="#1a1a1a"/>
+    <circle cx="210" cy="193" r="2" fill="#fff"/>
+    <ellipse cx="201" cy="204" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 195 208 Q 201 210 207 208" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+    <rect x="165" y="230" width="70" height="50" fill="#f5f0e0" stroke="#8b7355" stroke-width="1"/>
+    <text x="200" y="244" font-family="DejaVu Sans" font-size="6" text-anchor="middle" fill="#333">AUCTION NEWS</text>
+    <line x1="170" y1="248" x2="230" y2="248" stroke="#aaa" stroke-width="0.5"/>
+    <line x1="170" y1="253" x2="230" y2="253" stroke="#aaa" stroke-width="0.5"/>
+    <line x1="170" y1="258" x2="230" y2="258" stroke="#aaa" stroke-width="0.5"/>
+    <path d="M 180 230 Q 165 240 158 260 Q 153 280 160 295 Q 168 305 180 300 Q 175 280 175 260 Q 175 245 178 235" fill="url(#lem_fur_relic29)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="153" y="260" width="25" height="7" fill="#1a1a1a"/>
+    <rect x="153" y="274" width="25" height="7" fill="#1a1a1a"/>
+    <rect x="155" y="288" width="22" height="7" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Speech bubble Panel 1 -->
+  <rect x="50" y="30" width="300" height="120" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="190,148 200,165 210,148" fill="#fff"/>
+  <path d="M 190 150 L 200 168 L 210 150" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="200" y="56" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">They're selling</text>
+  <text x="200" y="82" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">Washington's</text>
+  <text x="200" y="108" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">mystery relic</text>
+  <text x="200" y="134" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">and a diamond!</text>
+
+  <!-- Panel 2 -->
+  <rect x="10" y="320" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache half-lidded on a branch -->
+  <g filter="url(#shadow_relic29)">
+    <rect x="100" y="570" width="200" height="8" fill="#8b7355" stroke="#5d4a2f" stroke-width="1"/>
+    <ellipse cx="200" cy="545" rx="20" ry="22" fill="url(#sq_fur_relic29)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="200" cy="520" rx="16" ry="15" fill="url(#sq_fur_relic29)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="191" cy="511" rx="6" ry="12" fill="url(#sq_fur_relic29)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 191 511)"/>
+    <ellipse cx="209" cy="511" rx="6" ry="12" fill="url(#sq_fur_relic29)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 209 511)"/>
+    <ellipse cx="191" cy="514" rx="3" ry="7" fill="#cd853f" transform="rotate(-15 191 514)"/>
+    <ellipse cx="209" cy="514" rx="3" ry="7" fill="#cd853f" transform="rotate(15 209 514)"/>
+    <ellipse cx="194" cy="522" rx="3.5" ry="2.2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="194" cy="522" r="1.8" fill="#1a1a1a"/>
+    <ellipse cx="206" cy="522" rx="3.5" ry="2.2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="206" cy="522" r="1.8" fill="#1a1a1a"/>
+    <ellipse cx="200" cy="527" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 195 531 L 205 531" fill="none" stroke="#8b6842" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M 215 540 Q 235 530 245 510 Q 250 495 245 485 Q 240 495 233 510 Q 225 528 215 537 Z" fill="url(#sq_fur_relic29)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Speech bubble Panel 2 -->
+  <rect x="40" y="340" width="320" height="130" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="190,468 200,485 210,468" fill="#fff"/>
+  <path d="M 190 470 L 200 488 L 210 470" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="200" y="370" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">A dead guy's</text>
+  <text x="200" y="396" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">stuff is worth</text>
+  <text x="200" y="422" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">millions and I</text>
+  <text x="200" y="448" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">can't sell a nut.</text>
+
+  <!-- Panel 3 -->
+  <rect x="10" y="630" width="380" height="320" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka in Panel 3 -->
+  <g filter="url(#shadow_relic29)">
+    <ellipse cx="150" cy="865" rx="18" ry="22" fill="url(#lem_fur_relic29)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="150" cy="840" rx="15" ry="13" fill="url(#lem_fur_relic29)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="130" cy="836" rx="11" ry="13" fill="url(#lem_fur_relic29)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="170" cy="836" rx="11" ry="13" fill="url(#lem_fur_relic29)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="130" cy="836" rx="6" ry="8" fill="#f5b5c5"/>
+    <ellipse cx="170" cy="836" rx="6" ry="8" fill="#f5b5c5"/>
+    <ellipse cx="141" cy="839" rx="8" ry="9" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="141" cy="838" r="6.5" fill="#1a1a1a"/>
+    <circle cx="139" cy="836" r="1.8" fill="#fff"/>
+    <ellipse cx="160" cy="839" rx="8" ry="9" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="160" cy="838" r="6.5" fill="#1a1a1a"/>
+    <circle cx="158" cy="836" r="1.8" fill="#fff"/>
+    <ellipse cx="150" cy="847" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 145 850 Q 150 851 155 850" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+    <path d="M 132 868 Q 120 878 116 895 Q 113 910 118 922 Q 123 930 132 926 Q 128 908 128 892 Q 128 878 130 870" fill="url(#lem_fur_relic29)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="113" y="895" width="20" height="6" fill="#1a1a1a"/>
+    <rect x="114" y="907" width="18" height="6" fill="#1a1a1a"/>
+    <rect x="116" y="919" width="16" height="6" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Acorn with price tag -->
+  <ellipse cx="280" cy="910" rx="8" ry="10" fill="#8b6842" stroke="#5d4a2f" stroke-width="1"/>
+  <ellipse cx="280" cy="902" rx="9" ry="5" fill="#5d4a2f" stroke="#3a2a1a" stroke-width="1"/>
+  <rect x="290" y="900" width="30" height="15" fill="#f5f0e0" stroke="#8b7355" stroke-width="0.8"/>
+  <text x="305" y="911" font-family="DejaVu Sans" font-size="7" text-anchor="middle" fill="#E63946">$0.00</text>
+
+  <!-- Speech bubble Panel 3 -->
+  <rect x="30" y="650" width="340" height="160" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="140,808 150,825 160,808" fill="#fff"/>
+  <path d="M 140 810 L 150 828 L 160 810" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="200" y="678" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">Maybe value</text>
+  <text x="200" y="704" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">isn't in the</text>
+  <text x="200" y="730" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">object. It's in</text>
+  <text x="200" y="756" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">how long you've</text>
+  <text x="200" y="782" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">been dead.</text>
+</svg>
