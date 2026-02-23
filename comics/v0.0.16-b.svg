@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_auto19" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_auto19" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <radialGradient id="human_skin_auto19" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f5d3b8"/>
+      <stop offset="100%" style="stop-color:#e8b887"/>
+    </radialGradient>
+    <filter id="shadow_auto19">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Panel 1 -->
+  <rect x="5" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Abe sitting at desk looking at laptop -->
+  <g filter="url(#shadow_auto19)">
+    <!-- Body -->
+    <ellipse cx="150" cy="250" rx="30" ry="40" fill="#5d8aa8" stroke="#3a5a6a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="150" cy="195" rx="22" ry="25" fill="url(#human_skin_auto19)" stroke="#c8a882" stroke-width="1.3"/>
+    <!-- Hair -->
+    <path d="M 128 180 Q 150 170 172 180 Q 170 185 166 187 Q 150 182 134 187 Q 130 185 128 180" fill="#4a3728" stroke="#3a2618" stroke-width="1"/>
+    <!-- Eyes looking at screen -->
+    <ellipse cx="141" cy="195" rx="4" ry="5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="142" cy="196" r="2.5" fill="#2a2a2a"/>
+    <ellipse cx="159" cy="195" rx="4" ry="5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="160" cy="196" r="2.5" fill="#2a2a2a"/>
+    <!-- Slight smile -->
+    <path d="M 144 207 Q 150 210 156 207" fill="none" stroke="#8a6d51" stroke-width="1" stroke-linecap="round"/>
+    <!-- Laptop -->
+    <rect x="115" y="260" width="70" height="45" fill="#4a4a4a" stroke="#2a2a2a" stroke-width="1"/>
+    <rect x="118" y="263" width="64" height="35" fill="#1a2a3a"/>
+    <!-- Text on screen -->
+    <text x="150" y="278" font-family="DejaVu Sans" font-size="7" fill="#00ff88" text-anchor="middle">AUTOMATING...</text>
+    <text x="150" y="288" font-family="DejaVu Sans" font-size="7" fill="#00ff88" text-anchor="middle">███████ 97%</text>
+    <rect x="110" y="305" width="80" height="5" fill="#5a5a5a" stroke="#2a2a2a" stroke-width="1"/>
+  </g>
+
+  <!-- Speech bubble panel 1 -->
+  <rect x="30" y="35" width="240" height="110" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="140,143 150,163 160,143" fill="#fff"/>
+  <path d="M 140,145 L 150,165 L 160,145" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="150" y="62" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">I automated</text>
+  <text x="150" y="88" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">my entire job</text>
+  <text x="150" y="114" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">in one weekend.</text>
+  <text x="150" y="138" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">I'm free!</text>
+
+  <!-- Panel 2 -->
+  <rect x="305" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka staring -->
+  <g filter="url(#shadow_auto19)">
+    <!-- Body -->
+    <ellipse cx="450" cy="245" rx="22" ry="28" fill="url(#lem_fur_auto19)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="450" cy="210" rx="18" ry="16" fill="url(#lem_fur_auto19)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Moderately-sized ears -->
+    <ellipse cx="425" cy="205" rx="14" ry="16" fill="url(#lem_fur_auto19)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="475" cy="205" rx="14" ry="16" fill="url(#lem_fur_auto19)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="425" cy="205" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="475" cy="205" rx="8" ry="10" fill="#f5b5c5"/>
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="438" cy="210" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="438" cy="210" r="8" fill="#1a1a1a"/>
+    <circle cx="436" cy="208" r="2" fill="#fff"/>
+    <ellipse cx="462" cy="210" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="462" cy="210" r="8" fill="#1a1a1a"/>
+    <circle cx="460" cy="208" r="2" fill="#fff"/>
+    <!-- Nose and mouth -->
+    <ellipse cx="450" cy="218" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 443 222 Q 450 223 457 222" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+    <!-- Ring tail with stripes -->
+    <path d="M 430 250 Q 420 260 415 278 Q 410 296 415 310 Q 420 322 430 325 Q 440 327 448 320 Q 443 300 443 280 Q 443 262 438 252" fill="url(#lem_fur_auto19)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="415" y="280" width="28" height="7" fill="#1a1a1a"/>
+    <rect x="415" y="294" width="28" height="7" fill="#1a1a1a"/>
+    <rect x="415" y="308" width="28" height="7" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Abe also in panel 2, smaller, in background -->
+  <g filter="url(#shadow_auto19)">
+    <ellipse cx="520" cy="255" rx="22" ry="30" fill="#5d8aa8" stroke="#3a5a6a" stroke-width="1.2"/>
+    <ellipse cx="520" cy="210" rx="18" ry="20" fill="url(#human_skin_auto19)" stroke="#c8a882" stroke-width="1.2"/>
+    <path d="M 502 197 Q 520 189 538 197 Q 536 201 533 203 Q 520 198 507 203 Q 503 201 502 197" fill="#4a3728" stroke="#3a2618" stroke-width="1"/>
+    <!-- Proud eyes -->
+    <ellipse cx="513" cy="210" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="513" cy="211" r="2" fill="#2a2a2a"/>
+    <ellipse cx="527" cy="210" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="527" cy="211" r="2" fill="#2a2a2a"/>
+    <path d="M 514 220 Q 520 223 526 220" fill="none" stroke="#8a6d51" stroke-width="1" stroke-linecap="round"/>
+  </g>
+
+  <!-- Sifaka speech bubble -->
+  <rect x="335" y="35" width="230" height="130" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="440,163 450,183 460,163" fill="#fff"/>
+  <path d="M 440,165 L 450,185 L 460,165" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="450" y="62" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Free to do</text>
+  <text x="450" y="88" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">what, though?</text>
+  <text x="450" y="114" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">What did you</text>
+  <text x="450" y="140" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">do before work?</text>
+
+  <!-- Panel 3 -->
+  <rect x="605" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Abe sitting alone, staring at wall, existential -->
+  <g filter="url(#shadow_auto19)">
+    <!-- Body, slumped -->
+    <ellipse cx="750" cy="260" rx="28" ry="38" fill="#5d8aa8" stroke="#3a5a6a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="750" cy="205" rx="22" ry="25" fill="url(#human_skin_auto19)" stroke="#c8a882" stroke-width="1.3"/>
+    <!-- Hair -->
+    <path d="M 728 190 Q 750 180 772 190 Q 770 195 766 197 Q 750 192 734 197 Q 730 195 728 190" fill="#4a3728" stroke="#3a2618" stroke-width="1"/>
+    <!-- Hollow stare eyes -->
+    <ellipse cx="741" cy="205" rx="4" ry="5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="741" cy="206" r="1.5" fill="#2a2a2a"/>
+    <ellipse cx="759" cy="205" rx="4" ry="5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="759" cy="206" r="1.5" fill="#2a2a2a"/>
+    <!-- Flat mouth -->
+    <path d="M 744 217 L 756 217" fill="none" stroke="#8a6d51" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Closed laptop next to him -->
+  <rect x="660" y="290" width="55" height="6" rx="2" fill="#4a4a4a" stroke="#2a2a2a" stroke-width="1"/>
+
+  <!-- Tiny robot on desk doing his work — accent color -->
+  <g>
+    <rect x="660" y="268" width="22" height="20" rx="3" fill="#E63946" stroke="#aa2a33" stroke-width="1.2"/>
+    <rect x="664" y="272" width="6" height="4" rx="1" fill="#fff"/>
+    <rect x="674" y="272" width="6" height="4" rx="1" fill="#fff"/>
+    <rect x="668" y="280" width="8" height="2" fill="#fff"/>
+    <!-- Tiny antenna -->
+    <line x1="671" y1="268" x2="671" y2="260" stroke="#aa2a33" stroke-width="1.2"/>
+    <circle cx="671" cy="258" r="2" fill="#E63946"/>
+    <!-- Little arms typing -->
+    <line x1="660" y1="278" x2="654" y2="285" stroke="#aa2a33" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="682" y1="278" x2="688" y2="285" stroke="#aa2a33" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Abe speech bubble -->
+  <rect x="635" y="35" width="240" height="130" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="740,163 750,183 760,163" fill="#fff"/>
+  <path d="M 740,165 L 750,185 L 760,165" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="755" y="62" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">...I trained</text>
+  <text x="755" y="88" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">for the job.</text>
+  <text x="755" y="118" font-family="DejaVu Sans" font-size="20" text-anchor="middle" fill="#888">The job was what</text>
+  <text x="755" y="142" font-family="DejaVu Sans" font-size="20" text-anchor="middle" fill="#888">I did instead of</text>
+  <text x="755" y="160" font-family="DejaVu Sans" font-size="20" text-anchor="middle" fill="#888">living.</text>
+
+</svg>

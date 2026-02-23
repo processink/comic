@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.16-beta",
+  "date": "2026-02-23",
+  "timestamp": "2026-02-23T12:05:06.184147+00:00",
+  "topic": "AI and automation",
+  "topic_source": "predefined",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Deadpan delivery lets the absurd AI premise land harder through contrast and understatement.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.16-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.16-beta-a.svg",
+    "b": "v0.0.16-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2025904746998218816",
+    "ab_post_url": "https://x.com/i/status/2025904746998218816",
+    "winner_tweet_id": "2025979230925013224",
+    "winner_post_url": "https://x.com/i/status/2025979230925013224"
+  },
+  "voting": {}
+}
