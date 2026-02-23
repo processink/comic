@@ -1,0 +1,28 @@
+{
+  "run_id": "v0.0.16-tribute",
+  "date": "2026-02-23",
+  "timestamp": "2026-02-23T09:23:00.667754+00:00",
+  "type": "standalone",
+  "topic": "AI Scott Adams",
+  "topic_source": "manual",
+  "context": "Funny, nostalgic, witty ",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "file": "v0.0.16-tribute.svg",
+  "posting": {
+    "tweet_id": "2025864025020801208",
+    "tweet_url": "https://x.com/i/status/2025864025020801208"
+  }
+}
