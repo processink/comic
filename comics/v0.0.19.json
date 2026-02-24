@@ -1,0 +1,41 @@
+{
+  "run_id": "v0.0.19-beta",
+  "date": "2026-02-24",
+  "timestamp": "2026-02-24T17:05:25.393685+00:00",
+  "topic": "We installed a single turnstile to feel secure",
+  "topic_source": "hn",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Deadpan delivery lets the absurd premise land harder through understated reaction.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.19-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.19-beta-a.svg",
+    "b": "v0.0.19-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2026342713323565091",
+    "ab_post_url": "https://x.com/i/status/2026342713323565091",
+    "winner_tweet_id": "2026417107291017236",
+    "winner_post_url": "https://x.com/i/status/2026417107291017236"
+  },
+  "voting": {}
+}

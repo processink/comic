@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_turn42" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_turn42" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <filter id="shadow_turn42">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="350" fill="#e8e8e0"/>
+
+  <!-- Panel 1 -->
+  <rect x="5" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Turnstile in middle of open field -->
+  <line x1="15" y1="285" x2="285" y2="285" stroke="#8b7355" stroke-width="2"/>
+
+  <!-- Turnstile structure -->
+  <rect x="140" y="230" width="8" height="55" fill="#7a7a7a" stroke="#4a4a4a" stroke-width="1.5"/>
+  <!-- Turnstile arms -->
+  <line x1="144" y1="245" x2="125" y2="230" stroke="#5a5a5a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="144" y1="245" x2="163" y2="230" stroke="#5a5a5a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="144" y1="245" x2="144" y2="260" stroke="#5a5a5a" stroke-width="3" stroke-linecap="round"/>
+  <!-- Small LED -->
+  <circle cx="144" cy="233" r="3" fill="#E63946"/>
+
+  <!-- No walls, no fence — just open space on either side -->
+  <!-- Dotted lines showing no barrier -->
+  <line x1="15" y1="250" x2="125" y2="250" stroke="#bbb" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="163" y1="250" x2="285" y2="250" stroke="#bbb" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Cache standing proudly next to turnstile -->
+  <g filter="url(#shadow_turn42)">
+    <!-- Body -->
+    <ellipse cx="200" cy="250" rx="18" ry="20" fill="url(#sq_fur_turn42)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="200" cy="228" rx="14" ry="13" fill="url(#sq_fur_turn42)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Tall triangle ears -->
+    <ellipse cx="193" cy="222" rx="6" ry="11" fill="url(#sq_fur_turn42)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 193 222)"/>
+    <ellipse cx="207" cy="222" rx="6" ry="11" fill="url(#sq_fur_turn42)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 207 222)"/>
+    <ellipse cx="193" cy="225" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 193 225)"/>
+    <ellipse cx="207" cy="225" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 207 225)"/>
+    <!-- Proud eyes -->
+    <ellipse cx="194" cy="230" rx="4" ry="3" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="194" cy="230" r="2" fill="#1a1a1a"/>
+    <ellipse cx="206" cy="230" rx="4" ry="3" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="206" cy="230" r="2" fill="#1a1a1a"/>
+    <!-- Nose -->
+    <ellipse cx="200" cy="235" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <!-- Smug smile -->
+    <path d="M 196 238 Q 200 241 204 238" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+    <!-- Arm gesturing to turnstile -->
+    <path d="M 185 245 Q 170 240 160 240" fill="none" stroke="#9d6b3a" stroke-width="3" stroke-linecap="round"/>
+    <!-- Fluffy tail -->
+    <path d="M 218 255 Q 233 260 238 275 Q 243 290 233 298 Q 223 305 213 298 Q 218 283 218 268 Q 218 260 218 255" fill="url(#sq_fur_turn42)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Speech bubble Panel 1 -->
+  <rect x="35" y="30" width="240" height="120" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="190,148 200,168 210,148" fill="#fff"/>
+  <polygon points="190,150 200,168 210,150" fill="#fff"/>
+  <path d="M 190 150 L 200 168 L 210 150" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="155" y="58" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">We installed</text>
+  <text x="155" y="82" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">a turnstile.</text>
+  <text x="155" y="106" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">The perimeter</text>
+  <text x="155" y="130" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">is secured.</text>
+
+  <!-- Panel 2 -->
+  <rect x="305" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Same turnstile, zoomed out more — clearly nothing around it -->
+  <line x1="315" y1="285" x2="585" y2="285" stroke="#8b7355" stroke-width="2"/>
+
+  <!-- Turnstile -->
+  <rect x="438" y="230" width="8" height="55" fill="#7a7a7a" stroke="#4a4a4a" stroke-width="1.5"/>
+  <line x1="442" y1="245" x2="423" y2="230" stroke="#5a5a5a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="442" y1="245" x2="461" y2="230" stroke="#5a5a5a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="442" y1="245" x2="442" y2="260" stroke="#5a5a5a" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="442" cy="233" r="3" fill="#E63946"/>
+
+  <!-- Sifaka walking casually AROUND the turnstile -->
+  <g filter="url(#shadow_turn42)">
+    <!-- Body -->
+    <ellipse cx="490" cy="250" rx="22" ry="28" fill="url(#lem_fur_turn42)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="490" cy="220" rx="18" ry="16" fill="url(#lem_fur_turn42)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Moderately-sized ears -->
+    <ellipse cx="465" cy="215" rx="14" ry="16" fill="url(#lem_fur_turn42)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="515" cy="215" rx="14" ry="16" fill="url(#lem_fur_turn42)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="465" cy="215" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="515" cy="215" rx="8" ry="10" fill="#f5b5c5"/>
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="478" cy="220" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="478" cy="220" r="8" fill="#1a1a1a"/>
+    <circle cx="476" cy="218" r="2" fill="#fff"/>
+    <ellipse cx="502" cy="220" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="502" cy="220" r="8" fill="#1a1a1a"/>
+    <circle cx="500" cy="218" r="2" fill="#fff"/>
+    <!-- Nose -->
+    <ellipse cx="490" cy="228" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <!-- Mouth -->
+    <path d="M 483 232 Q 490 234 497 232" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+    <!-- Ring tail with stripes -->
+    <path d="M 470 255 Q 460 265 455 280 Q 452 295 458 305 Q 465 312 475 308 Q 470 290 470 275 Q 470 265 470 255" fill="url(#lem_fur_turn42)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="455" y="278" width="18" height="6" fill="#1a1a1a"/>
+    <rect x="455" y="290" width="18" height="6" fill="#1a1a1a"/>
+    <rect x="455" y="302" width="18" height="6" fill="#1a1a1a"/>
+    <!-- Little footstep trail going around -->
+    <ellipse cx="520" cy="283" rx="4" ry="2" fill="#8b7355" opacity="0.4"/>
+    <ellipse cx="530" cy="280" rx="4" ry="2" fill="#8b7355" opacity="0.3"/>
+    <ellipse cx="540" cy="283" rx="4" ry="2" fill="#8b7355" opacity="0.2"/>
+  </g>
+
+  <!-- Speech bubble Panel 2 -->
+  <rect x="335" y="30" width="230" height="120" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="480,148 490,168 500,148" fill="#fff"/>
+  <polygon points="480,150 490,168 500,150" fill="#fff"/>
+  <path d="M 480 150 L 490 168 L 500 150" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="450" y="58" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">I just walked</text>
+  <text x="450" y="82" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">around it.</text>
+  <text x="450" y="106" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">There's nothing</text>
+  <text x="450" y="130" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">on either side.</text>
+
+  <!-- Panel 3 -->
+  <rect x="605" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache standing at turnstile, half-lidded, arms crossed -->
+  <line x1="615" y1="285" x2="885" y2="285" stroke="#8b7355" stroke-width="2"/>
+
+  <!-- Turnstile -->
+  <rect x="738" y="230" width="8" height="55" fill="#7a7a7a" stroke="#4a4a4a" stroke-width="1.5"/>
+  <line x1="742" y1="245" x2="723" y2="230" stroke="#5a5a5a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="742" y1="245" x2="761" y2="230" stroke="#5a5a5a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="742" y1="245" x2="742" y2="260" stroke="#5a5a5a" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="742" cy="233" r="3" fill="#E63946"/>
+
+  <!-- Cache leaning on turnstile -->
+  <g filter="url(#shadow_turn42)">
+    <ellipse cx="770" cy="250" rx="18" ry="20" fill="url(#sq_fur_turn42)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="770" cy="228" rx="14" ry="13" fill="url(#sq_fur_turn42)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Tall triangle ears -->
+    <ellipse cx="763" cy="222" rx="6" ry="11" fill="url(#sq_fur_turn42)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 763 222)"/>
+    <ellipse cx="777" cy="222" rx="6" ry="11" fill="url(#sq_fur_turn42)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 777 222)"/>
+    <ellipse cx="763" cy="225" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 763 225)"/>
+    <ellipse cx="777" cy="225" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 777 225)"/>
+    <!-- Half-lidded unimpressed eyes -->
+    <ellipse cx="764" cy="230" rx="4" ry="2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="764" cy="230" r="1.5" fill="#1a1a1a"/>
+    <ellipse cx="776" cy="230" rx="4" ry="2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="776" cy="230" r="1.5" fill="#1a1a1a"/>
+    <!-- Nose -->
+    <ellipse cx="770" cy="235" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <!-- Flat mouth -->
+    <path d="M 766 238 Q 770 237 774 238" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+    <!-- Fluffy tail -->
+    <path d="M 788 255 Q 803 260 808 275 Q 813 290 803 298 Q 793 305 783 298 Q 788 283 788 268 Q 788 260 788 255" fill="url(#sq_fur_turn42)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Speech bubble Panel 3 -->
+  <rect x="630" y="30" width="250" height="145" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="760,173 770,193 780,173" fill="#fff"/>
+  <polygon points="760,175 770,193 780,175" fill="#fff"/>
+  <path d="M 760 175 L 770 193 L 780 175" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="755" y="58" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">The turnstile</text>
+  <text x="755" y="82" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">was never for</text>
+  <text x="755" y="106" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">keeping you</text>
+  <text x="755" y="130" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">out. It's for</text>
+  <text x="755" y="154" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">making us</text>
+  <text x="755" y="168" font-family="DejaVu Sans" font-size="20" text-anchor="middle" fill="#E63946" font-style="italic">feel like a door.</text>
+</svg>
