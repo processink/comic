@@ -1,0 +1,41 @@
+{
+  "run_id": "v0.0.18-beta",
+  "date": "2026-02-24",
+  "timestamp": "2026-02-24T12:04:23.617518+00:00",
+  "topic": "NIGERIAN AFROBEATS REMA REVEALS HE PREFERS LOW-KEY PARTNERS WITH PRIVATE SOCIAL MEDIA PAGES",
+  "topic_source": "news",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Absurdist humor amplifies the contrast between celebrity privacy preferences and public personas.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "B",
+    "file": "v0.0.18-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.18-beta-a.svg",
+    "b": "v0.0.18-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2026266956970774553",
+    "ab_post_url": "https://x.com/i/status/2026266956970774553",
+    "winner_tweet_id": "2026341617335152645",
+    "winner_post_url": "https://x.com/i/status/2026341617335152645"
+  },
+  "voting": {}
+}

@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_rema47" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_rema47" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <filter id="shadow_rema47">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="350" fill="#e8e0d8"/>
+
+  <!-- Panel 1 -->
+  <rect x="5" y="10" width="285" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache on branch, half-lidded -->
+  <g filter="url(#shadow_rema47)">
+    <!-- Fluffy tail -->
+    <path d="M 115 245 Q 95 250 88 268 Q 82 285 92 296 Q 102 306 112 296 Q 107 280 108 265 Q 109 255 115 245" fill="url(#sq_fur_rema47)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Body -->
+    <ellipse cx="135" cy="248" rx="18" ry="22" fill="url(#sq_fur_rema47)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Head -->
+    <ellipse cx="135" cy="222" rx="15" ry="14" fill="url(#sq_fur_rema47)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <polygon points="122,215 126,195 131,215" fill="url(#sq_fur_rema47)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="125,213 127,199 130,213" fill="#cd853f"/>
+    <polygon points="139,215 144,195 148,215" fill="url(#sq_fur_rema47)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="141,213 144,199 147,213" fill="#cd853f"/>
+
+    <!-- Half-lidded skeptical eyes -->
+    <ellipse cx="129" cy="223" rx="4" ry="2.2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="129" cy="224" r="1.8" fill="#1a1a1a"/>
+    <ellipse cx="141" cy="223" rx="4" ry="2.2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="141" cy="224" r="1.8" fill="#1a1a1a"/>
+
+    <!-- Nose and mouth -->
+    <ellipse cx="135" cy="228" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 131 231 Q 135 230 139 231" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Phone in paw -->
+    <rect x="148" cy="240" y="237" width="14" height="22" rx="2" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="1"/>
+    <rect x="149" y="239" width="12" height="18" fill="#3a3a5a"/>
+    <text x="155" y="250" font-family="DejaVu Sans" font-size="5" text-anchor="middle" fill="#aaa">NEWS</text>
+  </g>
+
+  <!-- Speech bubble panel 1 -->
+  <rect x="30" y="35" width="240" height="128" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="125,161 135,178 145,161" fill="#fff"/>
+  <path d="M 125,163 L 135,180 L 145,163" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="150" y="62" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Rema says he</text>
+  <text x="150" y="86" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">wants a partner</text>
+  <text x="150" y="110" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">with a private</text>
+  <text x="150" y="134" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">social media.</text>
+
+  <!-- Panel 2 -->
+  <rect x="305" y="10" width="285" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka with enormous eyes, staring -->
+  <g filter="url(#shadow_rema47)">
+    <!-- Ring tail with stripes -->
+    <path d="M 420 260 Q 435 275 440 295 Q 443 310 435 318 Q 425 322 420 312 Q 425 298 425 280 Q 424 268 420 260" fill="url(#lem_fur_rema47)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <path d="M 425 280 Q 427 283 425 286" stroke="#1a1a1a" stroke-width="2.5" fill="none"/>
+    <path d="M 427 290 Q 429 293 427 296" stroke="#1a1a1a" stroke-width="2.5" fill="none"/>
+    <path d="M 430 300 Q 432 303 430 306" stroke="#1a1a1a" stroke-width="2.5" fill="none"/>
+    <path d="M 434 308 Q 435 311 433 313" stroke="#1a1a1a" stroke-width="2.5" fill="none"/>
+
+    <!-- Body -->
+    <ellipse cx="420" cy="255" rx="22" ry="28" fill="url(#lem_fur_rema47)" stroke="#5a5a5a" stroke-width="1.3"/>
+
+    <!-- Head -->
+    <ellipse cx="420" cy="220" rx="18" ry="16" fill="url(#lem_fur_rema47)" stroke="#5a5a5a" stroke-width="1.3"/>
+
+    <!-- Moderately-sized round ears -->
+    <ellipse cx="396" cy="215" rx="13" ry="15" fill="url(#lem_fur_rema47)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="444" cy="215" rx="13" ry="15" fill="url(#lem_fur_rema47)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="396" cy="215" rx="7" ry="9" fill="#f5b5c5"/>
+    <ellipse cx="444" cy="215" rx="7" ry="9" fill="#f5b5c5"/>
+
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="409" cy="220" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="409" cy="220" r="8" fill="#1a1a1a"/>
+    <circle cx="407" cy="218" r="2.2" fill="#fff"/>
+
+    <ellipse cx="431" cy="220" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="431" cy="220" r="8" fill="#1a1a1a"/>
+    <circle cx="429" cy="218" r="2.2" fill="#fff"/>
+
+    <!-- Nose and mouth -->
+    <ellipse cx="420" cy="229" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 414 233 Q 420 234 426 233" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+  </g>
+
+  <!-- Speech bubble panel 2 -->
+  <rect x="330" y="35" width="235" height="128" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="410,161 420,178 430,161" fill="#fff"/>
+  <path d="M 410,163 L 420,180 L 430,163" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="447" y="62" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">So a man with</text>
+  <text x="447" y="86" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">200 million</text>
+  <text x="447" y="110" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">followers wants</text>
+  <text x="447" y="134" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">someone invisible?</text>
+
+  <!-- Panel 3 -->
+  <rect x="605" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache, same position, not even looking up from phone -->
+  <g filter="url(#shadow_rema47)">
+    <!-- Fluffy tail -->
+    <path d="M 710 245 Q 690 250 683 268 Q 677 285 687 296 Q 697 306 707 296 Q 702 280 703 265 Q 704 255 710 245" fill="url(#sq_fur_rema47)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Body -->
+    <ellipse cx="730" cy="248" rx="18" ry="22" fill="url(#sq_fur_rema47)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Head -->
+    <ellipse cx="730" cy="222" rx="15" ry="14" fill="url(#sq_fur_rema47)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <polygon points="717,215 721,195 726,215" fill="url(#sq_fur_rema47)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="720,213 722,199 725,213" fill="#cd853f"/>
+    <polygon points="734,215 739,195 743,215" fill="url(#sq_fur_rema47)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="736,213 739,199 742,213" fill="#cd853f"/>
+
+    <!-- Half-lidded eyes looking down -->
+    <ellipse cx="724" cy="224" rx="4" ry="1.8" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="724" cy="225" r="1.5" fill="#1a1a1a"/>
+    <ellipse cx="736" cy="224" rx="4" ry="1.8" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="736" cy="225" r="1.5" fill="#1a1a1a"/>
+
+    <!-- Nose and flat mouth -->
+    <ellipse cx="730" cy="228" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 726 232 L 734 232" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+  </g>
+
+  <!-- Speech bubble panel 3 -->
+  <rect x="630" y="35" width="245" height="148" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="720,181 730,198 740,181" fill="#fff"/>
+  <path d="M 720,183 L 730,200 L 740,183" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="752" y="62" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Everyone who</text>
+  <text x="752" y="86" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">builds a stage</text>
+  <text x="752" y="110" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">eventually wants</text>
+  <text x="752" y="134" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">someone in the</text>
+  <text x="752" y="158" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">audience.</text>
+
+  <!-- Signature -->
+  <text x="880" y="345" font-family="DejaVu Sans" font-size="9" text-anchor="end" fill="#999">process.ink</text>
+</svg>
