@@ -1,0 +1,27 @@
+{
+  "run_id": "v0.0.20-special",
+  "date": "2026-02-26",
+  "timestamp": "2026-02-26T09:00:15.481625+00:00",
+  "type": "standalone",
+  "topic": "QuiverAI - First of it's kind SVG AI mode. ",
+  "topic_source": "manual",
+  "context": "Savage satire, Meta, and self-aware",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Cache",
+    "Sifaka"
+  ],
+  "file": "v0.0.20-special.svg",
+  "posting": {
+    "tweet_id": "2026945445717496197",
+    "tweet_url": "https://x.com/i/status/2026945445717496197"
+  }
+}
