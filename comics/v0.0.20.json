@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.20-beta",
+  "date": "2026-02-26",
+  "timestamp": "2026-02-26T12:03:55.789736+00:00",
+  "topic": "Benedict",
+  "topic_source": "x",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Deadpan delivery suits Benedict's character better than absurdist chaos.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.20-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.20-beta-a.svg",
+    "b": "v0.0.20-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2026991615349322185",
+    "ab_post_url": "https://x.com/i/status/2026991615349322185",
+    "winner_tweet_id": "2027066228968231280",
+    "winner_post_url": "https://x.com/i/status/2027066228968231280"
+  },
+  "voting": {}
+}

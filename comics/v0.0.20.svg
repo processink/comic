@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_bene73" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_bene73" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <radialGradient id="hum_skin_bene73" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f5d3b8"/>
+      <stop offset="100%" style="stop-color:#e8b887"/>
+    </radialGradient>
+    <radialGradient id="egg_grad_bene73" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#fff8e7"/>
+      <stop offset="100%" style="stop-color:#f5e6c8"/>
+    </radialGradient>
+    <filter id="shadow_bene73">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="350" fill="#e8e0d8"/>
+
+  <!-- Panel 1 -->
+  <rect x="10" y="10" width="280" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Abe at brunch table -->
+  <g filter="url(#shadow_bene73)">
+    <!-- Table -->
+    <rect x="60" y="250" width="180" height="6" fill="#8b7355" stroke="#6b5335" stroke-width="1"/>
+    <rect x="80" y="256" width="8" height="60" fill="#7a6345"/>
+    <rect x="212" y="256" width="8" height="60" fill="#7a6345"/>
+
+    <!-- Plate -->
+    <ellipse cx="150" cy="245" rx="45" ry="12" fill="#f0ece8" stroke="#c8c0b8" stroke-width="1.5"/>
+
+    <!-- English muffin bottom -->
+    <ellipse cx="150" cy="240" rx="25" ry="8" fill="#c8a060" stroke="#a08040" stroke-width="1"/>
+
+    <!-- Ham/bacon -->
+    <ellipse cx="150" cy="237" rx="20" ry="6" fill="#c87070" stroke="#a05050" stroke-width="0.8"/>
+
+    <!-- Poached egg -->
+    <ellipse cx="150" cy="233" rx="18" ry="9" fill="url(#egg_grad_bene73)" stroke="#e0d0b0" stroke-width="0.8"/>
+    <ellipse cx="150" cy="232" rx="8" ry="5" fill="#f5c840" opacity="0.7"/>
+
+    <!-- Hollandaise drip -->
+    <path d="M 135 233 Q 132 238 134 242" fill="none" stroke="#e8c840" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 165 234 Q 168 239 166 243" fill="none" stroke="#e8c840" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Abe body -->
+    <ellipse cx="150" cy="210" rx="28" ry="30" fill="#5d8aa8" stroke="#4a6d8c" stroke-width="1.3"/>
+
+    <!-- Abe head -->
+    <ellipse cx="150" cy="165" rx="20" ry="23" fill="url(#hum_skin_bene73)" stroke="#c8a882" stroke-width="1.3"/>
+
+    <!-- Hair -->
+    <path d="M 130 152 Q 150 145 170 152 Q 168 157 164 159 Q 150 155 136 159 Q 132 157 130 152" fill="#4a3728" stroke="#3a2618" stroke-width="1"/>
+
+    <!-- Eyes looking at plate -->
+    <ellipse cx="142" cy="166" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="142" cy="168" r="2" fill="#2a2a2a"/>
+    <ellipse cx="158" cy="166" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="158" cy="168" r="2" fill="#2a2a2a"/>
+
+    <!-- Slight smile -->
+    <path d="M 145 178 Q 150 181 155 178" fill="none" stroke="#8a6d51" stroke-width="1" stroke-linecap="round"/>
+  </g>
+
+  <!-- Speech bubble panel 1 -->
+  <rect x="35" y="30" width="230" height="90" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="140,118 150,138 160,118" fill="#fff"/>
+  <line x1="140" y1="120" x2="150" y2="140" stroke="#333" stroke-width="2"/>
+  <line x1="150" y1="140" x2="160" y2="120" stroke="#333" stroke-width="2"/>
+
+  <text x="150" y="58" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Eggs benedict.</text>
+  <text x="150" y="82" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">The perfect</text>
+  <text x="150" y="106" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">brunch.</text>
+
+  <!-- Panel 2 -->
+  <rect x="310" y="10" width="280" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka staring at the plate -->
+  <g filter="url(#shadow_bene73)">
+    <!-- Body -->
+    <ellipse cx="450" cy="240" rx="22" ry="28" fill="url(#lem_fur_bene73)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="450" cy="210" rx="18" ry="16" fill="url(#lem_fur_bene73)" stroke="#5a5a5a" stroke-width="1.3"/>
+
+    <!-- Moderately-sized ears -->
+    <ellipse cx="425" cy="205" rx="14" ry="16" fill="url(#lem_fur_bene73)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="475" cy="205" rx="14" ry="16" fill="url(#lem_fur_bene73)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="425" cy="205" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="475" cy="205" rx="8" ry="10" fill="#f5b5c5"/>
+
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="438" cy="210" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="438" cy="210" r="8" fill="#1a1a1a"/>
+    <circle cx="436" cy="208" r="2" fill="#fff"/>
+
+    <ellipse cx="462" cy="210" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="462" cy="210" r="8" fill="#1a1a1a"/>
+    <circle cx="460" cy="208" r="2" fill="#fff"/>
+
+    <!-- Nose and mouth -->
+    <ellipse cx="450" cy="218" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 443 222 Q 450 223 457 222" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Ring tail with stripes -->
+    <path d="M 430 245 Q 420 260 415 280 Q 412 300 420 315 Q 428 325 440 318 Q 435 300 435 280 Q 435 260 432 248" fill="url(#lem_fur_bene73)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="415" y="278" width="22" height="7" fill="#1a1a1a"/>
+    <rect x="415" y="292" width="22" height="7" fill="#1a1a1a"/>
+    <rect x="416" y="306" width="20" height="7" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Speech bubble panel 2 -->
+  <rect x="340" y="30" width="220" height="115" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="440,143 450,163 460,143" fill="#fff"/>
+  <line x1="440" y1="145" x2="450" y2="165" stroke="#333" stroke-width="2"/>
+  <line x1="450" y1="165" x2="460" y2="145" stroke="#333" stroke-width="2"/>
+
+  <text x="450" y="58" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Doesn't benedict</text>
+  <text x="450" y="82" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">mean "blessed"?</text>
+  <text x="450" y="110" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Who blessed it?</text>
+  <text x="450" y="134" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Was it the egg?</text>
+
+  <!-- Panel 3 -->
+  <rect x="610" y="10" width="280" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache, no cigarette, half-lidded -->
+  <g filter="url(#shadow_bene73)">
+    <!-- Body -->
+    <ellipse cx="750" cy="240" rx="18" ry="20" fill="url(#sq_fur_bene73)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="750" cy="218" rx="14" ry="13" fill="url(#sq_fur_bene73)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <polygon points="738,212 732,192 744,208" fill="url(#sq_fur_bene73)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="762,212 768,192 756,208" fill="url(#sq_fur_bene73)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="738,211 734,197 743,209" fill="#cd853f"/>
+    <polygon points="762,211 766,197 757,209" fill="#cd853f"/>
+
+    <!-- Half-lidded unimpressed eyes -->
+    <ellipse cx="744" cy="220" rx="4" ry="3" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="744" cy="221" r="2" fill="#1a1a1a"/>
+    <line x1="740" y1="218" x2="748" y2="218" stroke="#5d4a2f" stroke-width="2"/>
+
+    <ellipse cx="756" cy="220" rx="4" ry="3" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="756" cy="221" r="2" fill="#1a1a1a"/>
+    <line x1="752" y1="218" x2="760" y2="218" stroke="#5d4a2f" stroke-width="2"/>
+
+    <!-- Nose -->
+    <ellipse cx="750" cy="225" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+
+    <!-- Flat mouth -->
+    <line x1="745" y1="229" x2="755" y2="229" stroke="#8b6842" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- Fluffy tail -->
+    <path d="M 730 245 Q 715 250 710 265 Q 705 280 715 290 Q 725 298 735 290 Q 730 275 730 260 Q 730 252 730 245" fill="url(#sq_fur_bene73)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Speech bubble panel 3 -->
+  <rect x="640" y="28" width="220" height="140" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="740,166 750,186 760,166" fill="#fff"/>
+  <line x1="740" y1="168" x2="750" y2="188" stroke="#333" stroke-width="2"/>
+  <line x1="750" y1="188" x2="760" y2="168" stroke="#333" stroke-width="2"/>
+
+  <text x="750" y="56" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">It also means</text>
+  <text x="750" y="80" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">"traitor."</text>
+  <text x="750" y="112" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Every blessing</text>
+  <text x="750" y="136" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">is one yolk away</text>
+  <text x="750" y="160" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">from betrayal.</text>
+</svg>
