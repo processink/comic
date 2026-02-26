@@ -1,0 +1,41 @@
+{
+  "run_id": "v0.0.21-beta",
+  "date": "2026-02-26",
+  "timestamp": "2026-02-26T17:04:35.647314+00:00",
+  "topic": "Social media trend hits Stoke-on-Trent streets as police issue warning",
+  "topic_source": "news",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Deadpan delivery makes absurd social media trends feel more credible and therefore funnier.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.21-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.21-beta-a.svg",
+    "b": "v0.0.21-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2027067280022974892",
+    "ab_post_url": "https://x.com/i/status/2027067280022974892",
+    "winner_tweet_id": "2027141688473342212",
+    "winner_post_url": "https://x.com/i/status/2027141688473342212"
+  },
+  "voting": {}
+}

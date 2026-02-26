@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_stoke84" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_stoke84" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <radialGradient id="hum_skin_stoke84" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f5d3b8"/>
+      <stop offset="100%" style="stop-color:#e8b887"/>
+    </radialGradient>
+    <filter id="shadow_stoke84">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="350" fill="#e8e0d8"/>
+
+  <!-- Panel 1 -->
+  <rect x="10" y="10" width="280" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka holding phone, looking at it -->
+  <g filter="url(#shadow_stoke84)">
+    <!-- Body -->
+    <ellipse cx="150" cy="240" rx="22" ry="28" fill="url(#lem_fur_stoke84)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="150" cy="210" rx="18" ry="16" fill="url(#lem_fur_stoke84)" stroke="#5a5a5a" stroke-width="1.3"/>
+
+    <!-- Moderately-sized ears -->
+    <ellipse cx="125" cy="205" rx="14" ry="16" fill="url(#lem_fur_stoke84)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="175" cy="205" rx="14" ry="16" fill="url(#lem_fur_stoke84)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="125" cy="205" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="175" cy="205" rx="8" ry="10" fill="#f5b5c5"/>
+
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="138" cy="210" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="140" cy="212" r="8" fill="#1a1a1a"/>
+    <circle cx="138" cy="210" r="2" fill="#fff"/>
+
+    <ellipse cx="162" cy="210" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="164" cy="212" r="8" fill="#1a1a1a"/>
+    <circle cx="162" cy="210" r="2" fill="#fff"/>
+
+    <ellipse cx="150" cy="218" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 143 222 Q 150 223 157 222" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Arm holding phone -->
+    <ellipse cx="170" cy="235" rx="8" ry="6" fill="url(#lem_fur_stoke84)" stroke="#5a5a5a" stroke-width="1" transform="rotate(20 170 235)"/>
+
+    <!-- Phone -->
+    <rect x="175" y="225" width="18" height="28" rx="3" fill="#2a2a2a" stroke="#1a1a1a" stroke-width="1"/>
+    <rect x="177" y="228" width="14" height="20" fill="#4a86c7"/>
+    <!-- TikTok-ish icon on screen -->
+    <text x="184" y="242" font-family="DejaVu Sans" font-size="8" text-anchor="middle" fill="#fff">♪</text>
+
+    <!-- Ring tail with stripes -->
+    <path d="M 130 245 Q 120 255 115 275 Q 110 295 115 310 Q 120 325 130 328 Q 140 330 150 323 Q 145 303 145 283 Q 145 263 140 248" fill="url(#lem_fur_stoke84)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="115" y="275" width="30" height="8" fill="#1a1a1a"/>
+    <rect x="115" y="291" width="30" height="8" fill="#1a1a1a"/>
+    <rect x="115" y="307" width="30" height="8" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Speech bubble panel 1 -->
+  <rect x="35" y="30" width="230" height="120" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="140,148 150,168 160,148" fill="#fff"/>
+  <line x1="140" y1="150" x2="150" y2="170" stroke="#333" stroke-width="2"/>
+  <line x1="150" y1="170" x2="160" y2="150" stroke="#333" stroke-width="2"/>
+
+  <text x="150" y="56" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Police in</text>
+  <text x="150" y="80" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Stoke-on-Trent</text>
+  <text x="150" y="104" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">warned about</text>
+  <text x="150" y="128" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">a TikTok trend.</text>
+
+  <!-- Panel 2 -->
+  <rect x="310" y="10" width="280" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache looking unimpressed, no cigarette -->
+  <g filter="url(#shadow_stoke84)">
+    <!-- Body -->
+    <ellipse cx="450" cy="240" rx="18" ry="20" fill="url(#sq_fur_stoke84)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="450" cy="218" rx="14" ry="13" fill="url(#sq_fur_stoke84)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <ellipse cx="443" cy="212" rx="6" ry="11" fill="url(#sq_fur_stoke84)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 443 212)"/>
+    <ellipse cx="457" cy="212" rx="6" ry="11" fill="url(#sq_fur_stoke84)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 457 212)"/>
+    <ellipse cx="443" cy="215" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 443 215)"/>
+    <ellipse cx="457" cy="215" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 457 215)"/>
+
+    <!-- Half-lidded unimpressed eyes -->
+    <ellipse cx="444" cy="220" rx="4" ry="3" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="444" cy="221" r="2" fill="#1a1a1a"/>
+    <line x1="440" y1="217" x2="448" y2="218" stroke="#5d4a2f" stroke-width="1.5"/>
+
+    <ellipse cx="456" cy="220" rx="4" ry="3" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="456" cy="221" r="2" fill="#1a1a1a"/>
+    <line x1="452" y1="218" x2="460" y2="217" stroke="#5d4a2f" stroke-width="1.5"/>
+
+    <ellipse cx="450" cy="225" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <!-- Simple line mouth -->
+    <path d="M 446 229 L 454 229" fill="none" stroke="#5d4a2f" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Fluffy tail -->
+    <path d="M 465 235 Q 480 225 485 210 Q 490 195 485 185 Q 480 178 475 180 Q 470 185 472 195 Q 475 210 470 225 Q 468 232 465 235" fill="url(#sq_fur_stoke84)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Speech bubble panel 2 -->
+  <rect x="335" y="30" width="230" height="120" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="440,148 450,168 460,148" fill="#fff"/>
+  <line x1="440" y1="150" x2="450" y2="170" stroke="#333" stroke-width="2"/>
+  <line x1="450" y1="170" x2="460" y2="150" stroke="#333" stroke-width="2"/>
+
+  <text x="450" y="56" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">A warning is</text>
+  <text x="450" y="80" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">just a trend</text>
+  <text x="450" y="104" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">about a trend.</text>
+  <text x="450" y="128" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">It's trends</text>
+  <text x="450" y="148" font-family="DejaVu Sans" font-size="20" text-anchor="middle" fill="#222">all the way down.</text>
+
+  <!-- Panel 3 -->
+  <rect x="610" y="10" width="280" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka standing alone, looking at own hands -->
+  <g filter="url(#shadow_stoke84)">
+    <!-- Body -->
+    <ellipse cx="750" cy="250" rx="22" ry="28" fill="url(#lem_fur_stoke84)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="750" cy="220" rx="18" ry="16" fill="url(#lem_fur_stoke84)" stroke="#5a5a5a" stroke-width="1.3"/>
+
+    <!-- Moderately-sized ears -->
+    <ellipse cx="725" cy="215" rx="14" ry="16" fill="url(#lem_fur_stoke84)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="775" cy="215" rx="14" ry="16" fill="url(#lem_fur_stoke84)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="725" cy="215" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="775" cy="215" rx="8" ry="10" fill="#f5b5c5"/>
+
+    <!-- ENORMOUS eyes looking down at hands -->
+    <ellipse cx="738" cy="220" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="740" cy="224" r="8" fill="#1a1a1a"/>
+    <circle cx="738" cy="222" r="2" fill="#fff"/>
+
+    <ellipse cx="762" cy="220" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="764" cy="224" r="8" fill="#1a1a1a"/>
+    <circle cx="762" cy="222" r="2" fill="#fff"/>
+
+    <ellipse cx="750" cy="228" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 743 232 Q 750 233 757 232" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Hands held up, looking at them -->
+    <ellipse cx="730" cy="248" rx="7" ry="5" fill="url(#lem_fur_stoke84)" stroke="#5a5a5a" stroke-width="1"/>
+    <ellipse cx="770" cy="248" rx="7" ry="5" fill="url(#lem_fur_stoke84)" stroke="#5a5a5a" stroke-width="1"/>
+
+    <!-- Ring tail with stripes -->
+    <path d="M 730 255 Q 720 265 715 285 Q 710 305 715 318 Q 720 330 730 333 Q 740 335 750 328 Q 745 308 745 288 Q 745 268 740 253" fill="url(#lem_fur_stoke84)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="715" y="285" width="30" height="8" fill="#1a1a1a"/>
+    <rect x="715" y="301" width="30" height="8" fill="#1a1a1a"/>
+    <rect x="715" y="317" width="30" height="8" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Speech bubble panel 3 -->
+  <rect x="635" y="30" width="230" height="145" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="740,173 750,193 760,173" fill="#fff"/>
+  <line x1="740" y1="175" x2="750" y2="195" stroke="#333" stroke-width="2"/>
+  <line x1="750" y1="195" x2="760" y2="175" stroke="#333" stroke-width="2"/>
+
+  <text x="750" y="58" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">If copying</text>
+  <text x="750" y="82" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">strangers is</text>
+  <text x="750" y="106" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">a crime, what</text>
+  <text x="750" y="130" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">is having a</text>
+  <text x="750" y="154" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#E63946">personality?</text>
+
+</svg>
