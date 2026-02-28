@@ -1,0 +1,24 @@
+{
+  "run_id": "v0.0.22-weekend",
+  "date": "2026-02-28",
+  "timestamp": "2026-02-28T15:02:27.387746+00:00",
+  "type": "standalone",
+  "topic": "Action News Jax Investigates: Social media trend causing local lawyers to share warning \u2013 Action...",
+  "topic_source": "news",
+  "context": "",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 1,
+    "humor_style": "absurdist",
+    "detail_level": "moderate",
+    "character_style": "geometric_simple"
+  },
+  "characters": [],
+  "file": "v0.0.22-weekend.svg",
+  "posting": {
+    "winner_tweet_id": "2027761375045398574",
+    "winner_post_url": "https://x.com/i/status/2027761375045398574"
+  }
+}
