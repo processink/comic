@@ -1,10 +1,10 @@
 {
   "run_id": "v0.0.22-weekend",
-  "date": "2026-02-28",
-  "timestamp": "2026-02-28T15:02:27.387746+00:00",
+  "date": "2026-03-01",
+  "timestamp": "2026-03-01T15:01:57.142021+00:00",
   "type": "standalone",
-  "topic": "Action News Jax Investigates: Social media trend causing local lawyers to share warning \u2013 Action...",
-  "topic_source": "news",
+  "topic": "productivity apps that waste time",
+  "topic_source": "predefined",
   "context": "",
   "style_snapshot": {
     "line_weight": "medium",
@@ -18,7 +18,7 @@
   "characters": [],
   "file": "v0.0.22-weekend.svg",
   "posting": {
-    "winner_tweet_id": "2027761375045398574",
-    "winner_post_url": "https://x.com/i/status/2027761375045398574"
+    "winner_tweet_id": "2028123631742493069",
+    "winner_post_url": "https://x.com/i/status/2028123631742493069"
   }
 }
