@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.23-beta",
+  "date": "2026-03-02",
+  "timestamp": "2026-03-02T17:06:47.544404+00:00",
+  "topic": "productivity apps that waste time",
+  "topic_source": "predefined",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Absurdist humor's visual exaggeration better amplifies productivity app contradictions than deadpan's restraint.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "B",
+    "file": "v0.0.23-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.23-beta-a.svg",
+    "b": "v0.0.23-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2028517384739262770",
+    "ab_post_url": "https://x.com/i/status/2028517384739262770",
+    "winner_tweet_id": "2028591464339443907",
+    "winner_post_url": "https://x.com/i/status/2028591464339443907"
+  },
+  "voting": {}
+}
