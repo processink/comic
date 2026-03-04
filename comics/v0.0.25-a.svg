@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_auth91" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_auth91" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <radialGradient id="hum_skin_auth91" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f5d3b8"/>
+      <stop offset="100%" style="stop-color:#e8b887"/>
+    </radialGradient>
+    <filter id="shadow_auth91">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="350" fill="#e8e0d8"/>
+
+  <!-- Panel 1 -->
+  <rect x="10" y="10" width="280" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Abe taking a selfie with a "No Filter" filter -->
+  <g filter="url(#shadow_auth91)">
+    <!-- Body -->
+    <ellipse cx="150" cy="245" rx="28" ry="35" fill="#5d8aa8" stroke="#4a6d8c" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="150" cy="195" rx="20" ry="23" fill="url(#hum_skin_auth91)" stroke="#c8a882" stroke-width="1.3"/>
+    <!-- Hair -->
+    <path d="M 130 180 Q 150 173 170 180 Q 168 185 164 187 Q 150 183 136 187 Q 132 185 130 180" fill="#4a3728" stroke="#3a2618" stroke-width="1"/>
+    <!-- Eyes looking at phone, slight smile -->
+    <ellipse cx="142" cy="195" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="143" cy="195" r="2" fill="#2a2a2a"/>
+    <ellipse cx="158" cy="195" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="159" cy="195" r="2" fill="#2a2a2a"/>
+    <!-- Nose -->
+    <path d="M 150 200 L 150 203" stroke="#a8896d" stroke-width="1"/>
+    <!-- Practiced casual smile -->
+    <path d="M 144 208 Q 150 212 156 208" fill="none" stroke="#8a6d51" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- Phone held up for selfie -->
+    <rect x="170" y="185" width="22" height="36" rx="3" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="1"/>
+    <rect x="172" y="188" width="18" height="28" fill="#3a6a8a"/>
+    <!-- Camera dot -->
+    <circle cx="181" cy="186" r="1.5" fill="#555"/>
+    <!-- "no filter" text on screen -->
+    <text x="181" y="200" font-family="DejaVu Sans" font-size="5" text-anchor="middle" fill="#fff">NO</text>
+    <text x="181" y="206" font-family="DejaVu Sans" font-size="5" text-anchor="middle" fill="#fff">FILTER</text>
+    <!-- Little sparkle filter effect on screen -->
+    <text x="176" y="213" font-family="DejaVu Sans" font-size="5" fill="#E63946">✦</text>
+    <text x="185" y="210" font-family="DejaVu Sans" font-size="4" fill="#E63946">✦</text>
+
+    <!-- Arm to phone -->
+    <path d="M 165 230 Q 175 215 170 190" fill="none" stroke="url(#hum_skin_auth91)" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Speech bubble panel 1 -->
+  <rect x="35" y="35" width="220" height="108" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="145,141 155,158 165,141" fill="#fff"/>
+  <line x1="145" y1="143" x2="155" y2="160" stroke="#333" stroke-width="2"/>
+  <line x1="155" y1="160" x2="165" y2="143" stroke="#333" stroke-width="2"/>
+
+  <text x="145" y="62" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Posting my</text>
+  <text x="145" y="86" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">"no makeup"</text>
+  <text x="145" y="110" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">selfie.</text>
+  <text x="145" y="134" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Take fourteen.</text>
+
+  <!-- Panel 2 -->
+  <rect x="310" y="10" width="280" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache sitting, half-lidded -->
+  <g filter="url(#shadow_auth91)">
+    <!-- Body -->
+    <ellipse cx="450" cy="245" rx="18" ry="22" fill="url(#sq_fur_auth91)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="450" cy="210" rx="14" ry="13" fill="url(#sq_fur_auth91)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Tall triangle ears -->
+    <polygon points="438,197 442,172 446,199" fill="url(#sq_fur_auth91)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="454,199 458,172 462,197" fill="url(#sq_fur_auth91)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="440,197 442,178 444,198" fill="#cd853f"/>
+    <polygon points="456,198 458,178 460,197" fill="#cd853f"/>
+    <!-- Half-lidded eyes -->
+    <ellipse cx="444" cy="212" rx="4" ry="2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="444" cy="212" r="1.5" fill="#1a1a1a"/>
+    <ellipse cx="456" cy="212" rx="4" ry="2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="456" cy="212" r="1.5" fill="#1a1a1a"/>
+    <!-- Eyelids drooping -->
+    <path d="M 440 210 Q 444 209 448 210" fill="none" stroke="#5d4a2f" stroke-width="1.2"/>
+    <path d="M 452 210 Q 456 209 460 210" fill="none" stroke="#5d4a2f" stroke-width="1.2"/>
+    <!-- Nose and mouth -->
+    <ellipse cx="450" cy="217" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 446 220 Q 450 219 454 220" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+    <!-- Fluffy tail -->
+    <path d="M 432 245 Q 418 250 413 265 Q 408 280 418 290 Q 428 298 436 288 Q 430 274 430 260 Q 430 252 432 245" fill="url(#sq_fur_auth91)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Speech bubble panel 2 -->
+  <rect x="340" y="35" width="220" height="130" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="440,163 450,180 460,163" fill="#fff"/>
+  <line x1="440" y1="165" x2="450" y2="182" stroke="#333" stroke-width="2"/>
+  <line x1="450" y1="182" x2="460" y2="165" stroke="#333" stroke-width="2"/>
+
+  <text x="450" y="62" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">You rehearse</text>
+  <text x="450" y="86" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">being real</text>
+  <text x="450" y="110" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">the way actors</text>
+  <text x="450" y="134" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">rehearse</text>
+  <text x="450" y="158" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">dying.</text>
+
+  <!-- Panel 3 -->
+  <rect x="610" y="10" width="280" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka staring directly at viewer -->
+  <g filter="url(#shadow_auth91)">
+    <!-- Body -->
+    <ellipse cx="750" cy="248" rx="22" ry="28" fill="url(#lem_fur_auth91)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="750" cy="215" rx="18" ry="16" fill="url(#lem_fur_auth91)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Moderately-sized ears -->
+    <ellipse cx="725" cy="210" rx="13" ry="15" fill="url(#lem_fur_auth91)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="775" cy="210" rx="13" ry="15" fill="url(#lem_fur_auth91)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="725" cy="210" rx="7" ry="9" fill="#f5b5c5"/>
+    <ellipse cx="775" cy="210" rx="7" ry="9" fill="#f5b5c5"/>
+    <!-- ENORMOUS eyes staring straight out -->
+    <ellipse cx="739" cy="215" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="739" cy="215" r="8" fill="#1a1a1a"/>
+    <circle cx="737" cy="213" r="2.5" fill="#fff"/>
+    <ellipse cx="761" cy="215" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="761" cy="215" r="8" fill="#1a1a1a"/>
+    <circle cx="759" cy="213" r="2.5" fill="#fff"/>
+    <!-- Nose -->
+    <ellipse cx="750" cy="224" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <!-- Tiny neutral mouth -->
+    <path d="M 745 228 Q 750 229 755 228" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Ring tail with stripes - MUST be visible -->
+    <path d="M 730 255 Q 720 265 715 285 Q 710 300 718 312 Q 726 322 738 315 Q 732 295 732 275 Q 732 263 730 255" fill="url(#lem_fur_auth91)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="712" y="280" width="22" height="6" fill="#1a1a1a"/>
+    <rect x="712" y="292" width="22" height="6" fill="#1a1a1a"/>
+    <rect x="712" y="304" width="22" height="6" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Speech bubble panel 3 -->
+  <rect x="640" y="35" width="220" height="130" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="740,163 750,180 760,163" fill="#fff"/>
+  <line x1="740" y1="165" x2="750" y2="182" stroke="#333" stroke-width="2"/>
+  <line x1="750" y1="182" x2="760" y2="165" stroke="#333" stroke-width="2"/>
+
+  <text x="750" y="62" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">What if the</text>
+  <text x="750" y="86" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">performance</text>
+  <text x="750" y="110" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">is all there</text>
+  <text x="750" y="134" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">ever was</text>
+  <text x="750" y="158" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#E63946">underneath</text>
+</svg>
