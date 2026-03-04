@@ -1,0 +1,41 @@
+{
+  "run_id": "v0.0.24-beta",
+  "date": "2026-03-04",
+  "timestamp": "2026-03-04T12:04:21.063068+00:00",
+  "topic": "infinite scroll",
+  "topic_source": "predefined",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Absurdist humor's visual chaos matches infinite scroll's disorienting, boundless nature better.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "B",
+    "file": "v0.0.24-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.24-beta-a.svg",
+    "b": "v0.0.24-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2029166048977543499",
+    "ab_post_url": "https://x.com/i/status/2029166048977543499",
+    "winner_tweet_id": "2029240700236161425",
+    "winner_post_url": "https://x.com/i/status/2029240700236161425"
+  },
+  "voting": {}
+}
