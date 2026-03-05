@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.26-beta",
+  "date": "2026-03-05",
+  "timestamp": "2026-03-05T12:05:15.098561+00:00",
+  "topic": "Smalltalk's Browser: Unbeatable, yet Not Enough",
+  "topic_source": "hn",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Deadpan delivery lets technical absurdity land harder without competing tones.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.26-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.26-beta-a.svg",
+    "b": "v0.0.26-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2029528663230750891",
+    "ab_post_url": "https://x.com/i/status/2029528663230750891",
+    "winner_tweet_id": "2029603038218833985",
+    "winner_post_url": "https://x.com/i/status/2029603038218833985"
+  },
+  "voting": {}
+}
