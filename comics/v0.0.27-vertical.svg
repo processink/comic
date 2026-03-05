@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 960">
+  <defs>
+    <radialGradient id="sq_fur_v" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_v" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <radialGradient id="hum_skin_v" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f5d3b8"/>
+      <stop offset="100%" style="stop-color:#e8b887"/>
+    </radialGradient>
+    <filter id="shadow_v">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Panel 1 -->
+  <rect x="10" y="10" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Abe holding MacBook, excited -->
+  <g filter="url(#shadow_v)">
+    <!-- Body -->
+    <ellipse cx="200" cy="215" rx="28" ry="35" fill="#5d8aa8" stroke="#4a6d8c" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="200" cy="165" rx="20" ry="23" fill="url(#hum_skin_v)" stroke="#c8a882" stroke-width="1.3"/>
+    <!-- Hair -->
+    <path d="M 180 150 Q 200 143 220 150 Q 218 155 214 157 Q 200 153 186 157 Q 182 155 180 150" fill="#4a3728" stroke="#3a2618" stroke-width="1"/>
+    <!-- Excited eyes -->
+    <ellipse cx="192" cy="165" rx="4" ry="5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="192" cy="164" r="3" fill="#2a2a2a"/>
+    <circle cx="191" cy="163" r="1" fill="#fff"/>
+    <ellipse cx="208" cy="165" rx="4" ry="5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="208" cy="164" r="3" fill="#2a2a2a"/>
+    <circle cx="207" cy="163" r="1" fill="#fff"/>
+    <!-- Open mouth smile -->
+    <path d="M 193 178 Q 200 184 207 178" fill="none" stroke="#8a6d51" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Neck -->
+    <rect x="195" y="185" width="10" height="10" fill="url(#hum_skin_v)"/>
+
+    <!-- MacBook -->
+    <rect x="160" y="235" width="80" height="50" fill="#c0c0c0" stroke="#8a8a8a" stroke-width="1.2"/>
+    <rect x="163" y="238" width="74" height="40" fill="#1a1a1a"/>
+    <!-- Screen content -->
+    <rect x="166" y="241" width="68" height="34" fill="#2d2d2d"/>
+    <!-- Swift code on screen -->
+    <text x="170" y="253" font-family="DejaVu Sans" font-size="5" fill="#f77f00">import</text>
+    <text x="190" y="253" font-family="DejaVu Sans" font-size="5" fill="#e8e8e8">PersonaPlex</text>
+    <text x="170" y="261" font-family="DejaVu Sans" font-size="5" fill="#76b947">// full duplex</text>
+    <text x="170" y="269" font-family="DejaVu Sans" font-size="5" fill="#e63946">pipeline.start()</text>
+    <!-- Apple logo on MacBook -->
+    <text x="198" y="290" font-family="DejaVu Sans" font-size="7" text-anchor="middle" fill="#8a8a8a">⌘</text>
+
+    <!-- Sound waves from MacBook -->
+    <path d="M 245 255 Q 250 250 255 255" fill="none" stroke="#E63946" stroke-width="1" opacity="0.6"/>
+    <path d="M 248 255 Q 256 246 264 255" fill="none" stroke="#E63946" stroke-width="1" opacity="0.4"/>
+    <path d="M 251 255 Q 262 242 273 255" fill="none" stroke="#E63946" stroke-width="1" opacity="0.2"/>
+  </g>
+
+  <!-- Speech bubble Panel 1 -->
+  <rect x="40" y="22" width="320" height="110" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="195,130 205,150 215,130" fill="#fff"/>
+  <path d="M 195 132 L 205 152 L 215 132" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="200" y="50" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">PersonaPlex</text>
+  <text x="200" y="76" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">on my Mac!</text>
+  <text x="200" y="102" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">Full-duplex!</text>
+  <text x="200" y="126" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">It talks BACK!</text>
+
+  <!-- Panel 2 -->
+  <rect x="10" y="320" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka watching, enormous eyes -->
+  <g filter="url(#shadow_v)">
+    <!-- Body -->
+    <ellipse cx="200" cy="525" rx="22" ry="28" fill="url(#lem_fur_v)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="200" cy="495" rx="18" ry="16" fill="url(#lem_fur_v)" stroke="#5a5a5a" stroke-width="1.3"/>
+
+    <!-- Moderately-sized ears -->
+    <ellipse cx="175" cy="490" rx="14" ry="16" fill="url(#lem_fur_v)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="225" cy="490" rx="14" ry="16" fill="url(#lem_fur_v)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="175" cy="490" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="225" cy="490" rx="8" ry="10" fill="#f5b5c5"/>
+
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="188" cy="495" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="188" cy="495" r="8" fill="#1a1a1a"/>
+    <circle cx="186" cy="493" r="2" fill="#fff"/>
+
+    <ellipse cx="212" cy="495" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="212" cy="495" r="8" fill="#1a1a1a"/>
+    <circle cx="210" cy="493" r="2" fill="#fff"/>
+
+    <!-- Nose and mouth -->
+    <ellipse cx="200" cy="503" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 193 507 Q 200 508 207 507" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Ring tail with stripes -->
+    <path d="M 180 530 Q 170 540 165 560 Q 160 580 165 595 Q 170 605 180 600 Q 175 585 175 565 Q 175 545 180 530" fill="url(#lem_fur_v)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="162" y="565" width="18" height="6" fill="#1a1a1a"/>
+    <rect x="162" y="577" width="18" height="6" fill="#1a1a1a"/>
+    <rect x="162" y="589" width="18" height="6" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Two MacBooks talking to each other on surface -->
+  <rect x="90" y="570" width="40" height="28" fill="#c0c0c0" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="93" y="573" width="34" height="20" fill="#2d2d2d"/>
+  <text x="110" y="586" font-family="DejaVu Sans" font-size="5" text-anchor="middle" fill="#76b947">hi</text>
+
+  <rect x="270" y="570" width="40" height="28" fill="#c0c0c0" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="273" y="573" width="34" height="20" fill="#2d2d2d"/>
+  <text x="290" y="586" font-family="DejaVu Sans" font-size="5" text-anchor="middle" fill="#E63946">hello</text>
+
+  <!-- Sound waves between laptops -->
+  <path d="M 133 584 Q 160 575 187 584" fill="none" stroke="#E63946" stroke-width="1.2" opacity="0.5"/>
+  <path d="M 133 584 Q 160 593 187 584" fill="none" stroke="#E63946" stroke-width="1.2" opacity="0.5"/>
+  <path d="M 230 584 Q 250 575 267 584" fill="none" stroke="#E63946" stroke-width="1.2" opacity="0.5"/>
+  <path d="M 230 584 Q 250 593 267 584" fill="none" stroke="#E63946" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- Speech bubble Panel 2 -->
+  <rect x="40" y="335" width="320" height="130" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="195,463 205,483 215,463" fill="#fff"/>
+  <path d="M 195 465 L 205 485 L 215 465" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="200" y="363" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">Wait. You</text>
+  <text x="200" y="389" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">pointed two</text>
+  <text x="200" y="415" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">of them at</text>
+  <text x="200" y="441" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">each other?</text>
+  <text x="200" y="461" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">Why?</text>
+
+  <!-- Panel 3 -->
+  <rect x="10" y="630" width="380" height="320" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache smoking with sunglasses -->
+  <g filter="url(#shadow_v)">
+    <!-- Body -->
+    <ellipse cx="200" cy="855" rx="18" ry="20" fill="url(#sq_fur_v)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="200" cy="833" rx="14" ry="13" fill="url(#sq_fur_v)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <polygon points="188,825 192,807 196,825" fill="url(#sq_fur_v)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="204,825 208,807 212,825" fill="url(#sq_fur_v)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="190,824 192,811 194,824" fill="#cd853f"/>
+    <polygon points="206,824 208,811 210,824" fill="#cd853f"/>
+
+    <!-- Sunglasses -->
+    <rect x="188" y="830" width="10" height="6" rx="2" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="0.8"/>
+    <rect x="202" y="830" width="10" height="6" rx="2" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="0.8"/>
+    <line x1="198" y1="833" x2="202" y2="833" stroke="#0a0a0a" stroke-width="0.8"/>
+    <!-- Sunglasses arms -->
+    <line x1="188" y1="832" x2="183" y2="830" stroke="#0a0a0a" stroke-width="0.8"/>
+    <line x1="212" y1="832" x2="217" y2="830" stroke="#0a0a0a" stroke-width="0.8"/>
+
+    <!-- Nose -->
+    <ellipse cx="200" cy="839" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <!-- Simple mouth line -->
+    <path d="M 196 842 L 208 842" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Cigarette -->
+    <rect x="208" y="840" width="18" height="3" fill="#f5f5dc" stroke="#c8c8a0" stroke-width="0.5"/>
+    <rect x="224" y="840" width="4" height="3" fill="#E63946"/>
+    <!-- Smoke wisps -->
+    <path d="M 228 839 Q 232 832 229 825" fill="none" stroke="#b8b8b8" stroke-width="0.8" opacity="0.5"/>
+    <path d="M 230 838 Q 236 828 232 818" fill="none" stroke="#b8b8b8" stroke-width="0.6" opacity="0.3"/>
+
+    <!-- Fluffy tail -->
+    <path d="M 180 860 Q 165 865 160 880 Q 155 895 165 905 Q 175 915 185 905 Q 180 890 180 875 Q 180 867 180 860" fill="url(#sq_fur_v)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Two laptops on ground, still talking -->
+  <rect x="100" y="900" width="35" height="24" fill="#c0c0c0" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="103" y="903" width="29" height="17" fill="#2d2d2d"/>
+
+  <rect x="260" y="900" width="35" height="24" fill="#c0c0c0" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="263" y="903" width="29" height="17" fill="#2d2d2d"/>
+
+  <!-- Sound waves still going, faster -->
+  <path d="M 138 912 Q 144 905 150 912" fill="none" stroke="#E63946" stroke-width="1.2" opacity="0.7"/>
+  <path d="M 138 912 Q 144 919 150 912" fill="none" stroke="#E63946" stroke-width="1.2" opacity="0.7"/>
+
+  <!-- Speech bubble Panel 3 -->
+  <rect x="40" y="645" width="320" height="155" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="195,798 205,818 215,798" fill="#fff"/>
+  <path d="M 195 800 L 205 820 L 215 800" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="200" y="675" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">They've been</text>
+  <text x="200" y="703" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">talking for</text>
+  <text x="200" y="731" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">nine hours.</text>
+  <text x="200" y="763" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">They don't</text>
+  <text x="200" y="791" font-family="DejaVu Sans" font-size="24" text-anchor="middle" fill="#222">need us.</text>
+
+</svg>
