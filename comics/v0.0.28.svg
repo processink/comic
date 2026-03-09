@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_ca7x" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_ca7x" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <radialGradient id="human_skin_ca7x" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f5d3b8"/>
+      <stop offset="100%" style="stop-color:#e8b887"/>
+    </radialGradient>
+    <filter id="shadow_ca7x">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="350" fill="#e8e0d8"/>
+
+  <!-- Panel 1 -->
+  <rect x="5" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Abe holding a single acorn-sized tree seedling in a tiny pot -->
+  <g filter="url(#shadow_ca7x)">
+    <!-- Body -->
+    <ellipse cx="150" cy="235" rx="28" ry="35" fill="#5d8aa8" stroke="#3a5a6a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="150" cy="185" rx="20" ry="23" fill="url(#human_skin_ca7x)" stroke="#c8a882" stroke-width="1.3"/>
+    <!-- Hair -->
+    <path d="M 130 170 Q 150 162 170 170 Q 168 174 164 176 Q 150 172 136 176 Q 132 174 130 170" fill="#4a3728" stroke="#3a2618" stroke-width="1"/>
+    <!-- Earnest eyes -->
+    <ellipse cx="142" cy="185" rx="3.5" ry="4.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="142" cy="186" r="2.5" fill="#1a1a1a"/>
+    <circle cx="141" cy="184" r="0.8" fill="#fff"/>
+    <ellipse cx="158" cy="185" rx="3.5" ry="4.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="158" cy="186" r="2.5" fill="#1a1a1a"/>
+    <circle cx="157" cy="184" r="0.8" fill="#fff"/>
+    <!-- Hopeful smile -->
+    <path d="M 144 196 Q 150 200 156 196" fill="none" stroke="#8a6d51" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Neck -->
+    <rect x="144" cy="205" y="205" width="12" height="10" fill="url(#human_skin_ca7x)"/>
+    <!-- Arms holding tiny pot -->
+    <path d="M 128 240 Q 120 235 118 225 Q 116 218 125 215" fill="none" stroke="url(#human_skin_ca7x)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 172 240 Q 180 235 182 225 Q 184 218 175 215" fill="none" stroke="url(#human_skin_ca7x)" stroke-width="10" stroke-linecap="round"/>
+    <!-- Tiny pot -->
+    <rect x="138" y="212" width="24" height="18" rx="2" fill="#8b5e3c" stroke="#5d3a1a" stroke-width="1.2"/>
+    <rect x="135" y="210" width="30" height="5" rx="1" fill="#6b4226" stroke="#5d3a1a" stroke-width="0.8"/>
+    <!-- Tiny seedling -->
+    <line x1="150" y1="210" x2="150" y2="198" stroke="#4a7a3a" stroke-width="2"/>
+    <ellipse cx="145" cy="200" rx="5" ry="4" fill="#5a9a4a" stroke="#3a6a2a" stroke-width="0.8"/>
+    <ellipse cx="155" cy="198" rx="5" ry="4" fill="#5a9a4a" stroke="#3a6a2a" stroke-width="0.8"/>
+  </g>
+
+  <!-- Speech bubble panel 1 -->
+  <rect x="30" y="30" width="240" height="110" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="145,138 155,155 165,138" fill="#fff"/>
+  <polygon points="147,140 155,153 163,140" fill="#fff"/>
+  <path d="M 145 140 L 155 157 L 165 140" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="150" y="58" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">I planted a</text>
+  <text x="150" y="82" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">tree to offset</text>
+  <text x="150" y="106" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">my anxiety.</text>
+
+  <!-- Panel 2 -->
+  <rect x="305" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache half-lidded, sitting on branch stub -->
+  <g filter="url(#shadow_ca7x)">
+    <!-- Branch stub / stump -->
+    <rect x="410" y="255" width="60" height="14" rx="3" fill="#7a5a3a" stroke="#5d3a1a" stroke-width="1.2"/>
+    <rect x="420" y="269" width="40" height="50" rx="2" fill="#6a4a2a" stroke="#5d3a1a" stroke-width="1"/>
+
+    <!-- Body -->
+    <ellipse cx="440" cy="240" rx="18" ry="20" fill="url(#sq_fur_ca7x)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="440" cy="218" rx="14" ry="13" fill="url(#sq_fur_ca7x)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <polygon points="428,210 432,190 436,210" fill="url(#sq_fur_ca7x)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="430,208 432,194 434,208" fill="#cd853f"/>
+    <polygon points="444,210 448,190 452,210" fill="url(#sq_fur_ca7x)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="446,208 448,194 450,208" fill="#cd853f"/>
+
+    <!-- Half-lidded eyes -->
+    <ellipse cx="434" cy="220" rx="4" ry="2.2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="434" cy="220.5" r="1.8" fill="#1a1a1a"/>
+    <ellipse cx="446" cy="220" rx="4" ry="2.2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="446" cy="220.5" r="1.8" fill="#1a1a1a"/>
+
+    <!-- Nose -->
+    <ellipse cx="440" cy="225" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <!-- Flat mouth -->
+    <path d="M 435 229 L 445 229" fill="none" stroke="#5d4a2f" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- Fluffy tail -->
+    <path d="M 458 238 Q 475 230 482 215 Q 486 200 480 195 Q 474 200 470 215 Q 465 230 458 236 Z" fill="url(#sq_fur_ca7x)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Speech bubble panel 2 -->
+  <rect x="330" y="30" width="240" height="130" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="430,158 440,175 450,158" fill="#fff"/>
+  <polygon points="432,160 440,173 448,160" fill="#fff"/>
+  <path d="M 430 160 L 440 177 L 450 160" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="450" y="58" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Now you're</text>
+  <text x="450" y="82" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">anxious about</text>
+  <text x="450" y="106" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">the tree</text>
+  <text x="450" y="130" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">dying too.</text>
+
+  <!-- Panel 3 -->
+  <rect x="605" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka staring at the seedling which Abe has placed on the ground. Sifaka is crouched, enormous eyes level with the seedling -->
+  <g filter="url(#shadow_ca7x)">
+    <!-- Tiny pot on ground -->
+    <rect x="680" y="280" width="20" height="15" rx="2" fill="#8b5e3c" stroke="#5d3a1a" stroke-width="1"/>
+    <rect x="677" y="278" width="26" height="4" rx="1" fill="#6b4226" stroke="#5d3a1a" stroke-width="0.8"/>
+    <!-- Seedling -->
+    <line x1="690" y1="278" x2="690" y2="266" stroke="#4a7a3a" stroke-width="2"/>
+    <ellipse cx="685" cy="268" rx="4.5" ry="3.5" fill="#5a9a4a" stroke="#3a6a2a" stroke-width="0.8"/>
+    <ellipse cx="695" cy="266" rx="4.5" ry="3.5" fill="#5a9a4a" stroke="#3a6a2a" stroke-width="0.8"/>
+
+    <!-- Sifaka crouched, face level with seedling -->
+    <ellipse cx="740" cy="280" rx="20" ry="22" fill="url(#lem_fur_ca7x)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="740" cy="258" rx="16" ry="14" fill="url(#lem_fur_ca7x)" stroke="#5a5a5a" stroke-width="1.3"/>
+
+    <!-- Moderately-sized ears -->
+    <ellipse cx="718" cy="253" rx="12" ry="14" fill="url(#lem_fur_ca7x)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="762" cy="253" rx="12" ry="14" fill="url(#lem_fur_ca7x)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="718" cy="253" rx="7" ry="9" fill="#f5b5c5"/>
+    <ellipse cx="762" cy="253" rx="7" ry="9" fill="#f5b5c5"/>
+
+    <!-- ENORMOUS eyes staring at seedling -->
+    <ellipse cx="730" cy="258" rx="9" ry="10" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="728" cy="258" r="7" fill="#1a1a1a"/>
+    <circle cx="726" cy="256" r="2" fill="#fff"/>
+
+    <ellipse cx="750" cy="258" rx="9" ry="10" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="748" cy="258" r="7" fill="#1a1a1a"/>
+    <circle cx="746" cy="256" r="2" fill="#fff"/>
+
+    <!-- Nose -->
+    <ellipse cx="740" cy="266" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <!-- Tiny open mouth -->
+    <ellipse cx="740" cy="271" rx="3" ry="2" fill="#4a3030" stroke="#3a2020" stroke-width="0.6"/>
+
+    <!-- Ring tail with stripes -->
+    <path d="M 758 278 Q 770 270 778 255 Q 785 240 790 225 Q 793 215 788 212 Q 783 218 780 232 Q 775 248 768 262 Q 762 272 758 276 Z" fill="url(#lem_fur_ca7x)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="779" y="228" width="12" height="6" rx="1" fill="#1a1a1a" transform="rotate(-70 785 231)"/>
+    <rect x="776" y="242" width="12" height="6" rx="1" fill="#1a1a1a" transform="rotate(-60 782 245)"/>
+    <rect x="771" y="255" width="12" height="6" rx="1" fill="#1a1a1a" transform="rotate(-45 777 258)"/>
+  </g>
+
+  <!-- Speech bubble panel 3 -->
+  <rect x="630" y="30" width="245" height="155" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="735,183 745,200 755,183" fill="#fff"/>
+  <polygon points="737,185 745,198 753,185" fill="#fff"/>
+  <path d="M 735 185 L 745 202 L 755 185" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="752" y="58" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Does the tree</text>
+  <text x="752" y="82" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">know it's</text>
+  <text x="752" y="106" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">supposed to</text>
+  <text x="752" y="130" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">save us, or is</text>
+  <text x="752" y="154" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">it just a tree</text>
+
+  <!-- Accent color detail: tiny red "!" near Abe's head in panel 1 -->
+  <text x="180" y="178" font-family="DejaVu Sans" font-size="14" fill="#E63946" font-weight="bold">♥</text>
+
+</svg>
