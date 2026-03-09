@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.29-beta",
+  "date": "2026-03-09",
+  "timestamp": "2026-03-09T16:06:16.463631+00:00",
+  "topic": "news cycle exhaustion",
+  "topic_source": "predefined",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Absurdist humor escalates emotional stakes faster, making exhaustion feel cathartic rather than merely observed.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "B",
+    "file": "v0.0.29-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.29-beta-a.svg",
+    "b": "v0.0.29-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2031038869961945328",
+    "ab_post_url": "https://x.com/i/status/2031038869961945328",
+    "winner_tweet_id": "2031113186879922510",
+    "winner_post_url": "https://x.com/i/status/2031113186879922510"
+  },
+  "voting": {}
+}
