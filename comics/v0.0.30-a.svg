@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_ca91" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_ca91" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <filter id="shadow_ca91">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="350" fill="#e8e0d8"/>
+
+  <!-- Panel 1 -->
+  <rect x="5" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache burying acorns frantically -->
+  <g filter="url(#shadow_ca91)">
+    <!-- Body -->
+    <ellipse cx="150" cy="235" rx="18" ry="20" fill="url(#sq_fur_ca91)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="150" cy="213" rx="14" ry="13" fill="url(#sq_fur_ca91)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <ellipse cx="143" cy="207" rx="6" ry="11" fill="url(#sq_fur_ca91)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 143 207)"/>
+    <ellipse cx="157" cy="207" rx="6" ry="11" fill="url(#sq_fur_ca91)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 157 207)"/>
+    <ellipse cx="143" cy="210" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 143 210)"/>
+    <ellipse cx="157" cy="210" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 157 210)"/>
+
+    <!-- Half-lidded eyes -->
+    <ellipse cx="144" cy="215" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="144" cy="215" r="2" fill="#1a1a1a"/>
+    <ellipse cx="156" cy="215" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="156" cy="215" r="2" fill="#1a1a1a"/>
+
+    <!-- Nose and mouth -->
+    <ellipse cx="150" cy="220" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 146 223 Q 150 222 154 223" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Arms digging -->
+    <ellipse cx="133" cy="240" rx="8" ry="6" fill="url(#sq_fur_ca91)" stroke="#5d4a2f" stroke-width="1" transform="rotate(-40 133 240)"/>
+    <ellipse cx="167" cy="240" rx="8" ry="6" fill="url(#sq_fur_ca91)" stroke="#5d4a2f" stroke-width="1" transform="rotate(40 167 240)"/>
+
+    <!-- Fluffy tail -->
+    <path d="M 130 240 Q 115 245 110 260 Q 105 275 115 285 Q 125 295 135 285 Q 130 270 130 255 Q 130 247 130 240" fill="url(#sq_fur_ca91)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Dirt pile and acorns -->
+    <ellipse cx="150" cy="270" rx="35" ry="8" fill="#8b7355" stroke="#6b5335" stroke-width="1"/>
+    <ellipse cx="140" cy="265" rx="4" ry="5" fill="#6b5335" stroke="#5d4a2f" stroke-width="0.8"/>
+    <ellipse cx="155" cy="263" rx="4" ry="5" fill="#6b5335" stroke="#5d4a2f" stroke-width="0.8"/>
+    <ellipse cx="165" cy="267" rx="4" ry="5" fill="#6b5335" stroke="#5d4a2f" stroke-width="0.8"/>
+
+    <!-- Dirt particles flying -->
+    <circle cx="175" cy="250" r="2" fill="#8b7355"/>
+    <circle cx="180" cy="243" r="1.5" fill="#8b7355"/>
+    <circle cx="125" cy="248" r="2" fill="#8b7355"/>
+    <circle cx="120" cy="242" r="1.5" fill="#8b7355"/>
+  </g>
+
+  <!-- Ground line -->
+  <line x1="30" y1="278" x2="270" y2="278" stroke="#8b7355" stroke-width="1.5"/>
+
+  <!-- Speech bubble panel 1 -->
+  <rect x="35" y="35" width="230" height="120" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="140,153 150,173 160,153" fill="#fff"/>
+  <path d="M 140 155 L 150 175 L 160 155" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="150" y="62" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Read that</text>
+  <text x="150" y="87" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">oak trees are</text>
+  <text x="150" y="112" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">migrating</text>
+  <text x="150" y="137" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">north.</text>
+
+  <!-- Panel 2 -->
+  <rect x="305" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka standing, watching -->
+  <g filter="url(#shadow_ca91)">
+    <!-- Body -->
+    <ellipse cx="450" cy="235" rx="22" ry="28" fill="url(#lem_fur_ca91)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="450" cy="205" rx="18" ry="16" fill="url(#lem_fur_ca91)" stroke="#5a5a5a" stroke-width="1.3"/>
+
+    <!-- Moderately-sized round ears -->
+    <ellipse cx="425" cy="200" rx="14" ry="16" fill="url(#lem_fur_ca91)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="475" cy="200" rx="14" ry="16" fill="url(#lem_fur_ca91)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="425" cy="200" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="475" cy="200" rx="8" ry="10" fill="#f5b5c5"/>
+
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="438" cy="205" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="438" cy="206" r="8" fill="#1a1a1a"/>
+    <circle cx="436" cy="204" r="2" fill="#fff"/>
+
+    <ellipse cx="462" cy="205" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="462" cy="206" r="8" fill="#1a1a1a"/>
+    <circle cx="460" cy="204" r="2" fill="#fff"/>
+
+    <!-- Nose and mouth -->
+    <ellipse cx="450" cy="215" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 443 219 Q 450 221 457 219" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Ring tail with stripes -->
+    <path d="M 430 240 Q 420 250 415 270 Q 410 290 415 305 Q 420 315 430 310 Q 425 295 425 275 Q 425 260 430 245" fill="url(#lem_fur_ca91)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="413" y="270" width="16" height="6" fill="#1a1a1a"/>
+    <rect x="413" y="282" width="16" height="6" fill="#1a1a1a"/>
+    <rect x="413" y="294" width="16" height="6" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Ground line -->
+  <line x1="330" y1="278" x2="570" y2="278" stroke="#8b7355" stroke-width="1.5"/>
+
+  <!-- Speech bubble panel 2 -->
+  <rect x="335" y="35" width="230" height="120" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="440,153 450,173 460,153" fill="#fff"/>
+  <path d="M 440 155 L 450 175 L 460 155" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="450" y="62" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">If the trees</text>
+  <text x="450" y="87" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">are leaving,</text>
+  <text x="450" y="112" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">where does</text>
+  <text x="450" y="137" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">that leave us?</text>
+
+  <!-- Panel 3 -->
+  <rect x="605" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache stopped digging, staring into middle distance -->
+  <g filter="url(#shadow_ca91)">
+    <!-- Body -->
+    <ellipse cx="750" cy="235" rx="18" ry="20" fill="url(#sq_fur_ca91)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="750" cy="213" rx="14" ry="13" fill="url(#sq_fur_ca91)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <ellipse cx="743" cy="207" rx="6" ry="11" fill="url(#sq_fur_ca91)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 743 207)"/>
+    <ellipse cx="757" cy="207" rx="6" ry="11" fill="url(#sq_fur_ca91)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 757 207)"/>
+    <ellipse cx="743" cy="210" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 743 210)"/>
+    <ellipse cx="757" cy="210" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 757 210)"/>
+
+    <!-- Eyes staring blankly forward -->
+    <ellipse cx="744" cy="215" rx="4" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="743" cy="215" r="2" fill="#1a1a1a"/>
+    <ellipse cx="756" cy="215" rx="4" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="755" cy="215" r="2" fill="#1a1a1a"/>
+
+    <!-- Nose -->
+    <ellipse cx="750" cy="220" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <!-- Flat line mouth -->
+    <path d="M 746 224 L 754 224" fill="none" stroke="#8b6842" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- Arms at sides, holding single acorn -->
+    <ellipse cx="735" cy="240" rx="7" ry="5" fill="url(#sq_fur_ca91)" stroke="#5d4a2f" stroke-width="1"/>
+    <ellipse cx="765" cy="240" rx="7" ry="5" fill="url(#sq_fur_ca91)" stroke="#5d4a2f" stroke-width="1"/>
+
+    <!-- Single acorn in hand -->
+    <ellipse cx="770" cy="245" rx="4" ry="5" fill="#6b5335" stroke="#5d4a2f" stroke-width="0.8"/>
+    <path d="M 767 241 Q 770 238 773 241" fill="#4a3728" stroke="#3a2718" stroke-width="0.5"/>
+
+    <!-- Fluffy tail drooping -->
+    <path d="M 730 240 Q 718 250 715 268 Q 712 285 720 295 Q 728 303 735 293 Q 730 278 730 263 Q 730 252 730 240" fill="url(#sq_fur_ca91)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Ground line -->
+  <line x1="630" y1="278" x2="870" y2="278" stroke="#8b7355" stroke-width="1.5"/>
+
+  <!-- Speech bubble panel 3 -->
+  <rect x="635" y="35" width="230" height="145" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="740,178 750,198 760,178" fill="#fff"/>
+  <path d="M 740 180 L 750 200 L 760 180" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="750" y="63" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">I'm burying</text>
+  <text x="750" y="88" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">food for a</text>
+  <text x="750" y="113" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">future that's</text>
+  <text x="750" y="138" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">already</text>
+  <text x="750" y="163" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">walking away.</text>
+
+</svg>

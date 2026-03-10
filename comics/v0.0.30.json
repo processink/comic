@@ -1,0 +1,41 @@
+{
+  "run_id": "v0.0.30-beta",
+  "date": "2026-03-10",
+  "timestamp": "2026-03-10T11:05:16.986721+00:00",
+  "topic": "climate anxiety",
+  "topic_source": "predefined",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Absurdist humor defuses climate anxiety through exaggeration rather than emotional distance.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "B",
+    "file": "v0.0.30-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.30-beta-a.svg",
+    "b": "v0.0.30-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2031325510827982939",
+    "ab_post_url": "https://x.com/i/status/2031325510827982939",
+    "winner_tweet_id": "2031399906519199870",
+    "winner_post_url": "https://x.com/i/status/2031399906519199870"
+  },
+  "voting": {}
+}
