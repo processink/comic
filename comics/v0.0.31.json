@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.31-beta",
+  "date": "2026-03-10",
+  "timestamp": "2026-03-10T16:05:00.207838+00:00",
+  "topic": "news cycle exhaustion",
+  "topic_source": "predefined",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Absurdist humor defuses heavy topics through exaggeration rather than restraint.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "B",
+    "file": "v0.0.31-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.31-beta-a.svg",
+    "b": "v0.0.31-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2031400937974030410",
+    "ab_post_url": "https://x.com/i/status/2031400937974030410",
+    "winner_tweet_id": "2031475405996056806",
+    "winner_post_url": "https://x.com/i/status/2031475405996056806"
+  },
+  "voting": {}
+}
