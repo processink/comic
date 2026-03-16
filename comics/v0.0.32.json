@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.32-beta",
+  "date": "2026-03-16",
+  "timestamp": "2026-03-16T11:06:06.002331+00:00",
+  "topic": "Good Monday",
+  "topic_source": "x",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Absurdist humor's unexpected logic subverts Monday dread more effectively than deadpan's flat resignation.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "B",
+    "file": "v0.0.32-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.32-beta-a.svg",
+    "b": "v0.0.32-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2033500043265613845",
+    "ab_post_url": "https://x.com/i/status/2033500043265613845",
+    "winner_tweet_id": "2033574471760507058",
+    "winner_post_url": "https://x.com/i/status/2033574471760507058"
+  },
+  "voting": {}
+}
