@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.33-beta",
+  "date": "2026-03-16",
+  "timestamp": "2026-03-16T16:06:49.140508+00:00",
+  "topic": "The Art Market Returns to Growth",
+  "topic_source": "rss",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Deadpan understatement makes financial topics feel relatable and grounded rather than chaotic.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.33-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.33-beta-a.svg",
+    "b": "v0.0.33-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2033575721998639274",
+    "ab_post_url": "https://x.com/i/status/2033575721998639274",
+    "winner_tweet_id": "2033650047259169030",
+    "winner_post_url": "https://x.com/i/status/2033650047259169030"
+  },
+  "voting": {}
+}
