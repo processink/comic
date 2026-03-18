@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.36-beta",
+  "date": "2026-03-18",
+  "timestamp": "2026-03-18T11:05:42.075748+00:00",
+  "topic": "hustle culture",
+  "topic_source": "predefined",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Deadpan delivers sharper social commentary on hustle culture through understated contrast.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.36-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.36-beta-a.svg",
+    "b": "v0.0.36-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2034224718610325661",
+    "ab_post_url": "https://x.com/i/status/2034224718610325661",
+    "winner_tweet_id": "2034299013491482867",
+    "winner_post_url": "https://x.com/i/status/2034299013491482867"
+  },
+  "voting": {}
+}
