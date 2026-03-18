@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.37-beta",
+  "date": "2026-03-18",
+  "timestamp": "2026-03-18T16:05:20.066900+00:00",
+  "topic": "\ud83d\udcc8 Lazy Girl Jobs Trend: What\u2019s Going Viral on Social Media?",
+  "topic_source": "news",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Absurdist humor amplifies the satirical edge when mocking viral workplace trends.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "B",
+    "file": "v0.0.37-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.37-beta-a.svg",
+    "b": "v0.0.37-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2034300124738814184",
+    "ab_post_url": "https://x.com/i/status/2034300124738814184",
+    "winner_tweet_id": "2034374573282464223",
+    "winner_post_url": "https://x.com/i/status/2034374573282464223"
+  },
+  "voting": {}
+}
