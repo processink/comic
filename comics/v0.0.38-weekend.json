@@ -1,10 +1,10 @@
 {
   "run_id": "v0.0.38-weekend",
-  "date": "2026-03-21",
-  "timestamp": "2026-03-21T14:02:26.135471+00:00",
+  "date": "2026-03-22",
+  "timestamp": "2026-03-22T14:02:05.366325+00:00",
   "type": "standalone",
-  "topic": "Las redes sociales en 2026: de la visibilidad a la influencia",
-  "topic_source": "news",
+  "topic": "working from home",
+  "topic_source": "predefined",
   "context": "",
   "style_snapshot": {
     "line_weight": "medium",
@@ -18,7 +18,7 @@
   "characters": [],
   "file": "v0.0.38-weekend.svg",
   "posting": {
-    "winner_tweet_id": "2035356430488781297",
-    "winner_post_url": "https://x.com/i/status/2035356430488781297"
+    "winner_tweet_id": "2035718727170130291",
+    "winner_post_url": "https://x.com/i/status/2035718727170130291"
   }
 }
