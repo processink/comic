@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_og77" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_og77" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <radialGradient id="human_skin_og77" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f5d3b8"/>
+      <stop offset="100%" style="stop-color:#e8b887"/>
+    </radialGradient>
+    <filter id="shadow_og77">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="350" fill="#e8e8e0"/>
+
+  <!-- Panel 1 -->
+  <rect x="5" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Abe looking up at sky -->
+  <g filter="url(#shadow_og77)">
+    <!-- Body -->
+    <ellipse cx="150" cy="240" rx="28" ry="35" fill="#5d8aa8" stroke="#4a6d8c" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="150" cy="190" rx="20" ry="23" fill="url(#human_skin_og77)" stroke="#c8a882" stroke-width="1.3"/>
+    <!-- Hair -->
+    <path d="M 130 175 Q 150 168 170 175 Q 168 180 164 182 Q 150 178 136 182 Q 132 180 130 175" fill="#4a3728" stroke="#3a2618" stroke-width="1"/>
+    <!-- Eyes looking up -->
+    <ellipse cx="142" cy="188" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="142" cy="186" r="2" fill="#1a1a1a"/>
+    <ellipse cx="158" cy="188" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="158" cy="186" r="2" fill="#1a1a1a"/>
+    <!-- Mouth slightly open -->
+    <ellipse cx="150" cy="200" rx="4" ry="2.5" fill="#1a1a1a" opacity="0.6"/>
+    <!-- Arms raised slightly -->
+    <ellipse cx="120" cy="230" rx="8" ry="18" fill="url(#human_skin_og77)" stroke="#c8a882" stroke-width="1" transform="rotate(20 120 230)"/>
+    <ellipse cx="180" cy="230" rx="8" ry="18" fill="url(#human_skin_og77)" stroke="#c8a882" stroke-width="1" transform="rotate(-20 180 230)"/>
+  </g>
+
+  <!-- Speech bubble Panel 1 -->
+  <rect x="35" y="30" width="230" height="110" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="140,138 150,158 160,138" fill="#fff"/>
+  <path d="M 140,140 L 150,160 L 160,140" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="150" y="58" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">I prayed for</text>
+  <text x="150" y="82" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">a sign and my</text>
+  <text x="150" y="106" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">phone died.</text>
+  <text x="150" y="130" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">At 33%.</text>
+
+  <!-- Panel 2 -->
+  <rect x="305" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache half-lidded, unimpressed -->
+  <g filter="url(#shadow_og77)">
+    <!-- Body -->
+    <ellipse cx="450" cy="230" rx="18" ry="20" fill="url(#sq_fur_og77)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="450" cy="208" rx="14" ry="13" fill="url(#sq_fur_og77)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Tall triangle ears -->
+    <ellipse cx="443" cy="202" rx="6" ry="11" fill="url(#sq_fur_og77)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 443 202)"/>
+    <ellipse cx="457" cy="202" rx="6" ry="11" fill="url(#sq_fur_og77)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 457 202)"/>
+    <ellipse cx="443" cy="205" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 443 205)"/>
+    <ellipse cx="457" cy="205" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 457 205)"/>
+    <!-- Half-lidded eyes -->
+    <ellipse cx="444" cy="210" rx="4" ry="2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="444" cy="210" r="1.5" fill="#1a1a1a"/>
+    <ellipse cx="456" cy="210" rx="4" ry="2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="456" cy="210" r="1.5" fill="#1a1a1a"/>
+    <!-- Nose -->
+    <ellipse cx="450" cy="215" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <!-- Simple flat mouth -->
+    <path d="M 446 218 L 454 218" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+    <!-- Fluffy tail -->
+    <path d="M 430 235 Q 415 240 410 255 Q 405 270 415 280 Q 425 290 435 280 Q 430 265 430 250 Q 430 242 430 235" fill="url(#sq_fur_og77)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Speech bubble Panel 2 -->
+  <rect x="335" y="35" width="230" height="110" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="440,143 450,163 460,143" fill="#fff"/>
+  <path d="M 440,145 L 450,165 L 460,145" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="450" y="63" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">That's not</text>
+  <text x="450" y="87" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">a sign. That's</text>
+  <text x="450" y="111" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">a lithium ion</text>
+  <text x="450" y="135" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">battery.</text>
+
+  <!-- Panel 3 -->
+  <rect x="605" y="10" width="290" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka enormous eyes, staring into middle distance -->
+  <g filter="url(#shadow_og77)">
+    <!-- Body -->
+    <ellipse cx="750" cy="230" rx="22" ry="28" fill="url(#lem_fur_og77)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="750" cy="200" rx="18" ry="16" fill="url(#lem_fur_og77)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Moderately-sized ears -->
+    <ellipse cx="725" cy="195" rx="14" ry="16" fill="url(#lem_fur_og77)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="775" cy="195" rx="14" ry="16" fill="url(#lem_fur_og77)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="725" cy="195" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="775" cy="195" rx="8" ry="10" fill="#f5b5c5"/>
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="738" cy="200" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="738" cy="200" r="8" fill="#1a1a1a"/>
+    <circle cx="736" cy="198" r="2" fill="#fff"/>
+    <ellipse cx="762" cy="200" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="762" cy="200" r="8" fill="#1a1a1a"/>
+    <circle cx="760" cy="198" r="2" fill="#fff"/>
+    <!-- Nose -->
+    <ellipse cx="750" cy="208" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <!-- Tiny mouth -->
+    <path d="M 745 212 Q 750 213 755 212" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+    <!-- Ring tail with stripes -->
+    <path d="M 730 235 Q 720 245 715 265 Q 710 285 715 300 Q 720 315 730 318 Q 740 320 750 313 Q 745 293 745 273 Q 745 253 740 238" fill="url(#lem_fur_og77)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="715" y="265" width="30" height="8" fill="#1a1a1a"/>
+    <rect x="715" y="281" width="30" height="8" fill="#1a1a1a"/>
+    <rect x="715" y="297" width="30" height="8" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Speech bubble Panel 3 -->
+  <rect x="635" y="30" width="230" height="120" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="740,148 750,168 760,148" fill="#fff"/>
+  <path d="M 740,150 L 750,170 L 760,150" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="750" y="58" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">What if God</text>
+  <text x="750" y="82" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">answers every</text>
+  <text x="750" y="106" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">prayer and we</text>
+  <text x="750" y="130" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">just can't</text>
+  <text x="750" y="145" font-family="DejaVu Sans" font-size="17" text-anchor="middle" fill="#222">receive them?</text>
+
+  <!-- Tiny dead phone on ground in panel 3 -->
+  <rect x="790" y="295" width="14" height="22" rx="2" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="1"/>
+  <rect x="792" y="298" width="10" height="16" fill="#2a2a2a"/>
+</svg>

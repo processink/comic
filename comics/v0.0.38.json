@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.38-beta",
+  "date": "2026-03-23",
+  "timestamp": "2026-03-23T11:04:34.414108+00:00",
+  "topic": "O God",
+  "topic_source": "x",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Absurdist humor's illogical escalation lands better than deadpan's restrained delivery for irreverent religious topics.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "B",
+    "file": "v0.0.38-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.38-beta-a.svg",
+    "b": "v0.0.38-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2036036374961205428",
+    "ab_post_url": "https://x.com/i/status/2036036374961205428",
+    "winner_tweet_id": "2036110976538251586",
+    "winner_post_url": "https://x.com/i/status/2036110976538251586"
+  },
+  "voting": {}
+}
