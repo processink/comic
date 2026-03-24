@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_si41" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_si41" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <radialGradient id="hum_skin_si41" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f5d3b8"/>
+      <stop offset="100%" style="stop-color:#e8b887"/>
+    </radialGradient>
+    <filter id="shadow_si41">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="350" fill="#e8e0d8"/>
+
+  <!-- Panel 1 -->
+  <rect x="10" y="10" width="280" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Abe surrounded by self-help books -->
+  <g filter="url(#shadow_si41)">
+    <!-- Stack of books left -->
+    <rect x="45" y="245" width="35" height="8" fill="#E63946" stroke="#333" stroke-width="0.8"/>
+    <rect x="42" y="237" width="40" height="8" fill="#c4956a" stroke="#333" stroke-width="0.8"/>
+    <rect x="47" y="229" width="32" height="8" fill="#7a9a6a" stroke="#333" stroke-width="0.8"/>
+    <rect x="44" y="221" width="38" height="8" fill="#8a7a5a" stroke="#333" stroke-width="0.8"/>
+
+    <!-- Stack of books right -->
+    <rect x="215" y="249" width="38" height="8" fill="#5d8aa8" stroke="#333" stroke-width="0.8"/>
+    <rect x="218" y="241" width="32" height="8" fill="#a87a5d" stroke="#333" stroke-width="0.8"/>
+    <rect x="213" y="233" width="42" height="8" fill="#9a6a8a" stroke="#333" stroke-width="0.8"/>
+
+    <!-- Abe body -->
+    <rect x="130" y="200" width="40" height="15" fill="url(#hum_skin_si41)"/>
+    <rect x="120" y="215" width="60" height="40" rx="4" fill="#5d8aa8" stroke="#3a5a6a" stroke-width="1.2"/>
+
+    <!-- Abe head -->
+    <circle cx="150" cy="175" r="24" fill="url(#hum_skin_si41)" stroke="#c8a882" stroke-width="1.2"/>
+
+    <!-- Hair -->
+    <path d="M 126 162 Q 140 150 155 150 Q 170 150 174 162 Q 172 166 168 168 Q 155 160 140 160 Q 132 162 128 166 Z" fill="#4a3728" stroke="#3a2618" stroke-width="1"/>
+
+    <!-- Eyes - intense, reading -->
+    <ellipse cx="140" cy="174" rx="4" ry="5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="141" cy="175" r="2.5" fill="#1a1a1a"/>
+    <ellipse cx="160" cy="174" rx="4" ry="5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="161" cy="175" r="2.5" fill="#1a1a1a"/>
+
+    <!-- Nose and mouth -->
+    <path d="M 150 180 L 150 184" stroke="#a8896d" stroke-width="1"/>
+    <path d="M 144 189 Q 150 191 156 189" fill="none" stroke="#8a6d51" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Arms holding book -->
+    <rect x="135" y="210" width="30" height="40" rx="2" fill="#E63946" stroke="#b02030" stroke-width="1"/>
+    <text x="150" y="228" font-family="DejaVu Sans" font-size="5" text-anchor="middle" fill="#fff">OPTIMIZE</text>
+    <text x="150" y="235" font-family="DejaVu Sans" font-size="5" text-anchor="middle" fill="#fff">YOUR SELF</text>
+    <text x="150" y="242" font-family="DejaVu Sans" font-size="5" text-anchor="middle" fill="#fff">v4.0</text>
+
+    <!-- Ground -->
+    <line x1="35" y1="260" x2="265" y2="260" stroke="#999" stroke-width="1.5"/>
+  </g>
+
+  <!-- Speech bubble panel 1 -->
+  <rect x="45" y="30" width="210" height="105" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="140,133 150,148 160,133" fill="#fff"/>
+  <path d="M 140,135 L 150,150 L 160,135" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="150" y="56" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">I've read</text>
+  <text x="150" y="80" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">forty books on</text>
+  <text x="150" y="104" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">being present.</text>
+
+  <!-- Panel 2 -->
+  <rect x="310" y="10" width="280" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache on a branch -->
+  <g filter="url(#shadow_si41)">
+    <!-- Branch -->
+    <line x1="335" y1="230" x2="565" y2="230" stroke="#8b7355" stroke-width="5"/>
+
+    <!-- Cache body -->
+    <ellipse cx="450" cy="215" rx="18" ry="20" fill="url(#sq_fur_si41)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Cache head -->
+    <ellipse cx="450" cy="193" rx="14" ry="13" fill="url(#sq_fur_si41)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <ellipse cx="443" cy="187" rx="6" ry="11" fill="url(#sq_fur_si41)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 443 187)"/>
+    <ellipse cx="457" cy="187" rx="6" ry="11" fill="url(#sq_fur_si41)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 457 187)"/>
+    <ellipse cx="443" cy="190" rx="3" ry="6.5" fill="#cd853f" transform="rotate(-15 443 190)"/>
+    <ellipse cx="457" cy="190" rx="3" ry="6.5" fill="#cd853f" transform="rotate(15 457 190)"/>
+
+    <!-- Ear tufts -->
+    <path d="M 441 182 Q 438 176 440 174" fill="none" stroke="#5d4a2f" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M 459 182 Q 462 176 460 174" fill="none" stroke="#5d4a2f" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- Half-lidded unimpressed eyes -->
+    <ellipse cx="444" cy="195" rx="3.5" ry="2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="444" cy="195" r="1.5" fill="#1a1a1a"/>
+    <ellipse cx="456" cy="195" rx="3.5" ry="2" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="456" cy="195" r="1.5" fill="#1a1a1a"/>
+
+    <!-- Nose -->
+    <ellipse cx="450" cy="200" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+
+    <!-- Simple mouth - flat line -->
+    <path d="M 446 203 L 454 203" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Whiskers -->
+    <line x1="438" y1="197" x2="425" y2="196" stroke="#5d4a2f" stroke-width="0.8"/>
+    <line x1="438" y1="200" x2="427" y2="201" stroke="#5d4a2f" stroke-width="0.8"/>
+    <line x1="462" y1="197" x2="475" y2="196" stroke="#5d4a2f" stroke-width="0.8"/>
+    <line x1="462" y1="200" x2="473" y2="201" stroke="#5d4a2f" stroke-width="0.8"/>
+
+    <!-- Fluffy tail -->
+    <path d="M 466 210 Q 482 205 490 190 Q 496 175 490 165 Q 484 175 480 185 Q 474 200 466 208 Z" fill="url(#sq_fur_si41)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Speech bubble panel 2 -->
+  <rect x="345" y="30" width="210" height="120" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="440,148 450,163 460,148" fill="#fff"/>
+  <path d="M 440,150 L 450,165 L 460,150" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="450" y="56" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Were you</text>
+  <text x="450" y="80" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">present while</text>
+  <text x="450" y="104" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">you read</text>
+  <text x="450" y="128" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">them?</text>
+
+  <!-- Panel 3 -->
+  <rect x="610" y="10" width="280" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka staring into the distance -->
+  <g filter="url(#shadow_si41)">
+    <!-- Ground -->
+    <line x1="635" y1="280" x2="865" y2="280" stroke="#999" stroke-width="1.5"/>
+
+    <!-- Sifaka body -->
+    <ellipse cx="750" cy="255" rx="22" ry="28" fill="url(#lem_fur_si41)" stroke="#5a5a5a" stroke-width="1.3"/>
+
+    <!-- Sifaka head -->
+    <ellipse cx="750" cy="220" rx="18" ry="16" fill="url(#lem_fur_si41)" stroke="#5a5a5a" stroke-width="1.3"/>
+
+    <!-- Moderately-sized ears -->
+    <ellipse cx="725" cy="215" rx="14" ry="16" fill="url(#lem_fur_si41)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="775" cy="215" rx="14" ry="16" fill="url(#lem_fur_si41)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="725" cy="215" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="775" cy="215" rx="8" ry="10" fill="#f5b5c5"/>
+
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="738" cy="220" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="738" cy="220" r="8" fill="#1a1a1a"/>
+    <circle cx="736" cy="218" r="2" fill="#fff"/>
+
+    <ellipse cx="762" cy="220" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="762" cy="220" r="8" fill="#1a1a1a"/>
+    <circle cx="760" cy="218" r="2" fill="#fff"/>
+
+    <!-- Nose -->
+    <ellipse cx="750" cy="228" rx="2" ry="1.5" fill="#1a1a1a"/>
+
+    <!-- Tiny mouth -->
+    <path d="M 744 232 Q 750 233 756 232" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Ring tail with stripes -->
+    <path d="M 730 260 Q 720 270 715 285 Q 712 300 718 310 Q 724 318 732 315 Q 728 300 728 285 Q 728 275 730 265" fill="url(#lem_fur_si41)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="715" y="285" width="17" height="6" fill="#1a1a1a"/>
+    <rect x="715" y="297" width="17" height="6" fill="#1a1a1a"/>
+    <rect x="716" y="309" width="16" height="5" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Speech bubble panel 3 -->
+  <rect x="645" y="30" width="210" height="145" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="740,173 750,190 760,173" fill="#fff"/>
+  <path d="M 740,175 L 750,192 L 760,175" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="750" y="58" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">What if the</text>
+  <text x="750" y="82" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">self you keep</text>
+  <text x="750" y="106" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">improving is</text>
+  <text x="750" y="130" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">the one doing</text>
+  <text x="750" y="154" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">the damage?</text>
+
+  <!-- Tiny "process.ink" watermark -->
+  <text x="880" y="345" font-family="DejaVu Sans" font-size="9" text-anchor="end" fill="#aaa">process.ink</text>
+</svg>

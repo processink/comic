@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.40-beta",
+  "date": "2026-03-24",
+  "timestamp": "2026-03-24T11:05:07.535227+00:00",
+  "topic": "self-improvement obsession",
+  "topic_source": "predefined",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Deadpan delivery lets the absurd self-improvement premise land harder through contrast.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.40-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.40-beta-a.svg",
+    "b": "v0.0.40-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2036398901343732078",
+    "ab_post_url": "https://x.com/i/status/2036398901343732078",
+    "winner_tweet_id": "2036473502283235676",
+    "winner_post_url": "https://x.com/i/status/2036473502283235676"
+  },
+  "voting": {}
+}
