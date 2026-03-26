@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 960">
+  <defs>
+    <radialGradient id="sq_fur_clim83v" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_clim83v" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <radialGradient id="hum_skin_clim83v" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f5d3b8"/>
+      <stop offset="100%" style="stop-color:#e8b887"/>
+    </radialGradient>
+    <filter id="shadow_clim83v">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="960" fill="#e8e0d8"/>
+
+  <!-- Panel 1 -->
+  <rect x="10" y="10" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka holding a tiny plant in a pot -->
+  <g filter="url(#shadow_clim83v)">
+    <!-- Body -->
+    <ellipse cx="200" cy="215" rx="26" ry="32" fill="url(#lem_fur_clim83v)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="200" cy="175" rx="21" ry="19" fill="url(#lem_fur_clim83v)" stroke="#5a5a5a" stroke-width="1.3"/>
+
+    <!-- Moderately-sized ears -->
+    <ellipse cx="171" cy="169" rx="16" ry="18" fill="url(#lem_fur_clim83v)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="229" cy="169" rx="16" ry="18" fill="url(#lem_fur_clim83v)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="171" cy="169" rx="9" ry="11" fill="#f5b5c5"/>
+    <ellipse cx="229" cy="169" rx="9" ry="11" fill="#f5b5c5"/>
+
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="186" cy="175" rx="12" ry="13" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="186" cy="175" r="9.5" fill="#1a1a1a"/>
+    <circle cx="184" cy="173" r="2.4" fill="#fff"/>
+
+    <ellipse cx="214" cy="175" rx="12" ry="13" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="214" cy="175" r="9.5" fill="#1a1a1a"/>
+    <circle cx="212" cy="173" r="2.4" fill="#fff"/>
+
+    <!-- Nose and mouth -->
+    <ellipse cx="200" cy="187" rx="2.4" ry="1.8" fill="#1a1a1a"/>
+    <path d="M 192 191 Q 200 192.5 208 191" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Arms holding tiny pot -->
+    <ellipse cx="179" cy="221" rx="9" ry="6" fill="url(#lem_fur_clim83v)" stroke="#5a5a5a" stroke-width="1" transform="rotate(-20 179 221)"/>
+    <ellipse cx="221" cy="221" rx="9" ry="6" fill="url(#lem_fur_clim83v)" stroke="#5a5a5a" stroke-width="1" transform="rotate(20 221 221)"/>
+
+    <!-- Tiny pot -->
+    <rect x="190" y="224" width="20" height="16" rx="2" fill="#a0522d" stroke="#6b3410" stroke-width="1"/>
+    <rect x="188" y="222" width="24" height="4" rx="1" fill="#8b4513" stroke="#6b3410" stroke-width="0.8"/>
+
+    <!-- Tiny sad drooping plant -->
+    <path d="M 200 222 L 200 210" stroke="#5a7a3a" stroke-width="1.8"/>
+    <ellipse cx="196" cy="208" rx="5" ry="3.5" fill="#6b8e3a" stroke="#4a6a2a" stroke-width="0.8" transform="rotate(-30 196 208)"/>
+    <ellipse cx="204" cy="211" rx="3.5" ry="3" fill="#5a7a2a" stroke="#4a6a2a" stroke-width="0.8" transform="rotate(20 204 211)"/>
+
+    <!-- Ring tail with stripes -->
+    <path d="M 176 222 Q 164 234 158 256 Q 152 278 158 292 Q 164 302 174 304 Q 184 306 192 296 Q 186 274 186 252 Q 186 238 180 228" fill="url(#lem_fur_clim83v)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="155" y="256" width="33" height="8" fill="#1a1a1a"/>
+    <rect x="155" y="272" width="33" height="8" fill="#1a1a1a"/>
+    <rect x="155" y="288" width="33" height="8" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Speech bubble panel 1 -->
+  <rect x="75" y="25" width="250" height="110" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="185,133 200,153 215,133" fill="#fff"/>
+  <path d="M 185 135 L 200 155 L 215 135" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="200" y="53" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">I planted a</text>
+  <text x="200" y="81" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">tree to offset</text>
+  <text x="200" y="109" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">my anxiety.</text>
+
+  <!-- Panel 2 -->
+  <rect x="10" y="320" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache on a branch, half-lidded, unimpressed -->
+  <g filter="url(#shadow_clim83v)">
+    <!-- Branch -->
+    <line x1="25" y1="530" x2="375" y2="530" stroke="#8b7355" stroke-width="6"/>
+
+    <!-- Body -->
+    <ellipse cx="200" cy="513" rx="21" ry="23" fill="url(#sq_fur_clim83v)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="200" cy="489" rx="16" ry="15" fill="url(#sq_fur_clim83v)" stroke="#5d4a2f" stroke-width="1.3"/>
+
+    <!-- Tall triangle ears -->
+    <ellipse cx="192" cy="482" rx="7" ry="13" fill="url(#sq_fur_clim83v)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(-15 192 482)"/>
+    <ellipse cx="208" cy="482" rx="7" ry="13" fill="url(#sq_fur_clim83v)" stroke="#5d4a2f" stroke-width="1.2" transform="rotate(15 208 482)"/>
+    <ellipse cx="192" cy="485" rx="3.5" ry="7.5" fill="#cd853f" transform="rotate(-15 192 485)"/>
+    <ellipse cx="208" cy="485" rx="3.5" ry="7.5" fill="#cd853f" transform="rotate(15 208 485)"/>
+
+    <!-- Half-lidded eyes -->
+    <ellipse cx="193" cy="491" rx="3.5" ry="2.4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="193" cy="491" r="1.8" fill="#1a1a1a"/>
+    <ellipse cx="207" cy="491" rx="3.5" ry="2.4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="207" cy="491" r="1.8" fill="#1a1a1a"/>
+
+    <!-- Nose -->
+    <ellipse cx="200" cy="496" rx="1.8" ry="1.4" fill="#1a1a1a"/>
+    <!-- Simple mouth line -->
+    <path d="M 195 499 L 205 499" fill="none" stroke="#5d4a2f" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Fluffy tail -->
+    <path d="M 219 508 Q 244 499 260 483 Q 267 474 262 467 Q 256 474 247 483 Q 232 499 219 506 Z" fill="url(#sq_fur_clim83v)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Speech bubble panel 2 -->
+  <rect x="75" y="335" width="250" height="110" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="185,443 200,463 215,443" fill="#fff"/>
+  <path d="M 185 445 L 200 465 L 215 445" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="200" y="363" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">Now you have</text>
+  <text x="200" y="391" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">anxiety AND</text>
+  <text x="200" y="419" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">a dependent.</text>
+
+  <!-- Panel 3 -->
+  <rect x="10" y="630" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka staring at plant, plant now on fire, Sifaka unbothered -->
+  <g filter="url(#shadow_clim83v)">
+    <!-- Sifaka body -->
+    <ellipse cx="170" cy="855" rx="26" ry="32" fill="url(#lem_fur_clim83v)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="170" cy="815" rx="21" ry="19" fill="url(#lem_fur_clim83v)" stroke="#5a5a5a" stroke-width="1.3"/>
+
+    <!-- Ears -->
+    <ellipse cx="141" cy="809" rx="16" ry="18" fill="url(#lem_fur_clim83v)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="199" cy="809" rx="16" ry="18" fill="url(#lem_fur_clim83v)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="141" cy="809" rx="9" ry="11" fill="#f5b5c5"/>
+    <ellipse cx="199" cy="809" rx="9" ry="11" fill="#f5b5c5"/>
+
+    <!-- ENORMOUS eyes staring at plant -->
+    <ellipse cx="156" cy="815" rx="12" ry="13" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="158" cy="815" r="9.5" fill="#1a1a1a"/>
+    <circle cx="156" cy="813" r="2.4" fill="#fff"/>
+
+    <ellipse cx="184" cy="815" rx="12" ry="13" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="186" cy="815" r="9.5" fill="#1a1a1a"/>
+    <circle cx="184" cy="813" r="2.4" fill="#fff"/>
+
+    <!-- Nose and mouth -->
+    <ellipse cx="170" cy="827" rx="2.4" ry="1.8" fill="#1a1a1a"/>
+    <path d="M 163 831 Q 170 832.5 177 831" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Ring tail -->
+    <path d="M 146 860 Q 134 872 128 892 Q 122 912 128 924 Q 134 934 144 932 Q 154 930 160 918 Q 154 896 154 876 Q 154 866 149 860" fill="url(#lem_fur_clim83v)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <rect x="125" y="892" width="31" height="8" fill="#1a1a1a"/>
+    <rect x="125" y="908" width="31" height="8" fill="#1a1a1a"/>
+    <rect x="125" y="922" width="31" height="8" fill="#1a1a1a"/>
+
+    <!-- Pot on ground in front -->
+    <rect x="246" y="882" width="20" height="16" rx="2" fill="#a0522d" stroke="#6b3410" stroke-width="1"/>
+    <rect x="244" y="880" width="24" height="4" rx="1" fill="#8b4513" stroke="#6b3410" stroke-width="0.8"/>
+
+    <!-- Plant stem — on fire -->
+    <path d="M 256 880 L 256 866" stroke="#3a3a1a" stroke-width="1.8"/>
+
+    <!-- Fire on plant -->
+    <path d="M 250 868 Q 248 854 252 842 Q 256 835 260 842 Q 264 854 262 868 Z" fill="#E63946" opacity="0.9"/>
+    <path d="M 252 866 Q 251 856 255 846 Q 257 842 259 848 Q 261 858 260 866 Z" fill="#f4a261" opacity="0.85"/>
+    <path d="M 254 864 Q 254 857 256 852 Q 257 850 258 854 Q 259 858 258 864 Z" fill="#e9c46a" opacity="0.8"/>
+
+    <!-- Tiny smoke wisps -->
+    <path d="M 255 840 Q 250 830 253 820" fill="none" stroke="#9a9a9a" stroke-width="0.8" opacity="0.5"/>
+    <path d="M 258 838 Q 262 828 260 818" fill="none" stroke="#9a9a9a" stroke-width="0.8" opacity="0.4"/>
+  </g>
+
+  <!-- Speech bubble panel 3 -->
+  <rect x="60" y="645" width="280" height="140" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="170,783 182,803 194,783" fill="#fff"/>
+  <path d="M 170 785 L 182 805 L 194 785" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="200" y="674" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">It's on fire</text>
+  <text x="200" y="702" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">now. But I feel</text>
+  <text x="200" y="730" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">responsible for</text>
+  <text x="200" y="758" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">something. So.</text>
+
+  <!-- Tiny watermark -->
+  <text x="385" y="952" font-family="DejaVu Sans" font-size="9" text-anchor="end" fill="#aaa">process.ink</text>
+</svg>
