@@ -1,0 +1,41 @@
+{
+  "run_id": "v0.0.43-beta",
+  "date": "2026-03-26",
+  "timestamp": "2026-03-26T16:06:04.636542+00:00",
+  "topic": "Long-Lost Photos of Chelsea Hotel Resurface, Revealing a Vanished New York",
+  "topic_source": "rss",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Deadpan delivery grounds surreal historical subject matter, making absurdity feel credible.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.43-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.43-beta-a.svg",
+    "b": "v0.0.43-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2037199414528237768",
+    "ab_post_url": "https://x.com/i/status/2037199414528237768",
+    "winner_tweet_id": "2037273530073510155",
+    "winner_post_url": "https://x.com/i/status/2037273530073510155"
+  },
+  "voting": {}
+}
