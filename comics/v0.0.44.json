@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.44-beta",
+  "date": "2026-03-30",
+  "timestamp": "2026-03-30T11:04:27.106396+00:00",
+  "topic": "mindfulness paradox",
+  "topic_source": "predefined",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Deadpan delivery lets the conceptual contradiction land harder without visual distraction.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.44-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.44-beta-a.svg",
+    "b": "v0.0.44-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2038573059360092661",
+    "ab_post_url": "https://x.com/i/status/2038573059360092661",
+    "winner_tweet_id": "2038647613382111456",
+    "winner_post_url": "https://x.com/i/status/2038647613382111456"
+  },
+  "voting": {}
+}
