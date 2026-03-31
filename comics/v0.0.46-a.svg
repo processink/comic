@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
+  <defs>
+    <radialGradient id="sq_fur_kn42" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_kn42" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <radialGradient id="hum_skin_kn42" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f5d3b8"/>
+      <stop offset="100%" style="stop-color:#e8b887"/>
+    </radialGradient>
+    <filter id="shadow_kn42">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="350" fill="#e8e0d8"/>
+
+  <!-- Panel 1 -->
+  <rect x="10" y="10" width="280" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Abe looking at phone -->
+  <g filter="url(#shadow_kn42)">
+    <!-- Body -->
+    <ellipse cx="150" cy="255" rx="28" ry="35" fill="#5d8aa8" stroke="#4a6d8c" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="150" cy="200" rx="20" ry="23" fill="url(#hum_skin_kn42)" stroke="#c8a882" stroke-width="1.3"/>
+    <!-- Hair -->
+    <path d="M 130 185 Q 150 178 170 185 Q 168 190 164 192 Q 150 188 136 192 Q 132 190 130 185" fill="#4a3728" stroke="#3a2618" stroke-width="1"/>
+    <!-- Eyes looking down -->
+    <ellipse cx="142" cy="200" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="142" cy="202" r="2" fill="#2a2a2a"/>
+    <ellipse cx="158" cy="200" rx="3" ry="4" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="158" cy="202" r="2" fill="#2a2a2a"/>
+    <!-- Nose and mouth -->
+    <path d="M 150 206 L 150 209" stroke="#a8896d" stroke-width="1"/>
+    <path d="M 145 214 Q 150 216 155 214" fill="none" stroke="#8a6d51" stroke-width="1" stroke-linecap="round"/>
+    <!-- Arms holding phone -->
+    <ellipse cx="132" cy="248" rx="8" ry="6" fill="url(#hum_skin_kn42)" stroke="#c8a882" stroke-width="1" transform="rotate(-30 132 248)"/>
+    <ellipse cx="168" cy="248" rx="8" ry="6" fill="url(#hum_skin_kn42)" stroke="#c8a882" stroke-width="1" transform="rotate(30 168 248)"/>
+    <!-- Phone -->
+    <rect x="140" cy="245" y="245" width="20" height="32" rx="2" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="1"/>
+    <rect x="142" y="247" width="16" height="26" fill="#4a86c7"/>
+    <!-- Sad face emoji on screen -->
+    <circle cx="150" cy="256" r="5" fill="#f0c040"/>
+    <circle cx="148" cy="254" r="1" fill="#1a1a1a"/>
+    <circle cx="152" cy="254" r="1" fill="#1a1a1a"/>
+    <path d="M 147 259 Q 150 257 153 259" fill="none" stroke="#1a1a1a" stroke-width="0.8"/>
+  </g>
+
+  <!-- Speech bubble panel 1 -->
+  <rect x="35" y="35" width="230" height="120" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="140,153 150,173 160,153" fill="#fff"/>
+  <path d="M 140,155 L 150,175 L 160,155" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="150" y="62" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">My phone just</text>
+  <text x="150" y="86" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">suggested a</text>
+  <text x="150" y="110" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">therapist before</text>
+  <text x="150" y="134" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">I told anyone.</text>
+
+  <!-- Panel 2 -->
+  <rect x="310" y="10" width="280" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Sifaka with enormous eyes -->
+  <g filter="url(#shadow_kn42)">
+    <!-- Body -->
+    <ellipse cx="450" cy="250" rx="22" ry="28" fill="url(#lem_fur_kn42)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="450" cy="215" rx="18" ry="16" fill="url(#lem_fur_kn42)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Ears -->
+    <ellipse cx="425" cy="210" rx="14" ry="16" fill="url(#lem_fur_kn42)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="475" cy="210" rx="14" ry="16" fill="url(#lem_fur_kn42)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="425" cy="210" rx="8" ry="10" fill="#f5b5c5"/>
+    <ellipse cx="475" cy="210" rx="8" ry="10" fill="#f5b5c5"/>
+    <!-- ENORMOUS eyes -->
+    <ellipse cx="438" cy="215" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="438" cy="215" r="8" fill="#1a1a1a"/>
+    <circle cx="436" cy="213" r="2" fill="#fff"/>
+    <ellipse cx="462" cy="215" rx="10" ry="11" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="462" cy="215" r="8" fill="#1a1a1a"/>
+    <circle cx="460" cy="213" r="2" fill="#fff"/>
+    <!-- Nose and mouth -->
+    <ellipse cx="450" cy="223" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 443 227 Q 450 228 457 227" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+    <!-- Ring tail with stripes -->
+    <path d="M 430 255 Q 418 270 415 290 Q 413 305 420 315 Q 428 320 435 310 Q 430 295 430 275 Q 430 262 430 255" fill="url(#lem_fur_kn42)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <!-- Tail stripes -->
+    <path d="M 419 278 Q 425 276 431 278" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+    <path d="M 417 288 Q 424 286 430 288" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+    <path d="M 417 298 Q 424 296 430 298" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+    <path d="M 419 308 Q 426 306 432 308" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+  </g>
+
+  <!-- Speech bubble panel 2 -->
+  <rect x="345" y="35" width="220" height="120" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="440,153 450,173 460,153" fill="#fff"/>
+  <path d="M 440,155 L 450,175 L 460,155" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="455" y="62" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">Did the phone</text>
+  <text x="455" y="86" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">know you were</text>
+  <text x="455" y="110" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">sad, or did you</text>
+  <text x="455" y="134" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">know?</text>
+
+  <!-- Panel 3 -->
+  <rect x="610" y="10" width="280" height="330" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Abe staring at phone, frozen -->
+  <g filter="url(#shadow_kn42)">
+    <!-- Body -->
+    <ellipse cx="750" cy="255" rx="28" ry="35" fill="#5d8aa8" stroke="#4a6d8c" stroke-width="1.3"/>
+    <!-- Head -->
+    <ellipse cx="750" cy="200" rx="20" ry="23" fill="url(#hum_skin_kn42)" stroke="#c8a882" stroke-width="1.3"/>
+    <!-- Hair -->
+    <path d="M 730 185 Q 750 178 770 185 Q 768 190 764 192 Q 750 188 736 192 Q 732 190 730 185" fill="#4a3728" stroke="#3a2618" stroke-width="1"/>
+    <!-- Eyes wide, staring at phone -->
+    <ellipse cx="742" cy="200" rx="4" ry="5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="742" cy="201" r="2.5" fill="#2a2a2a"/>
+    <ellipse cx="758" cy="200" rx="4" ry="5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="758" cy="201" r="2.5" fill="#2a2a2a"/>
+    <!-- Nose -->
+    <path d="M 750 206 L 750 209" stroke="#a8896d" stroke-width="1"/>
+    <!-- Flat line mouth - stunned -->
+    <path d="M 744 215 L 756 215" fill="none" stroke="#8a6d51" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Arms holding phone limply -->
+    <ellipse cx="732" cy="248" rx="8" ry="6" fill="url(#hum_skin_kn42)" stroke="#c8a882" stroke-width="1" transform="rotate(-30 732 248)"/>
+    <ellipse cx="768" cy="248" rx="8" ry="6" fill="url(#hum_skin_kn42)" stroke="#c8a882" stroke-width="1" transform="rotate(30 768 248)"/>
+    <!-- Phone held loosely -->
+    <rect x="740" y="250" width="20" height="32" rx="2" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="1"/>
+    <rect x="742" y="252" width="16" height="26" fill="#4a86c7"/>
+    <!-- "You okay?" notification on screen -->
+    <text x="750" y="265" font-family="DejaVu Sans" font-size="6" text-anchor="middle" fill="#fff">You okay?</text>
+  </g>
+
+  <!-- Speech bubble panel 3 - small, quiet -->
+  <rect x="645" y="45" width="220" height="100" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="740,143 750,163 760,143" fill="#fff"/>
+  <path d="M 740,145 L 750,165 L 760,145" fill="none" stroke="#333" stroke-width="2"/>
+
+  <text x="755" y="75" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">It knew before</text>
+  <text x="755" y="100" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">I did. That's</text>
+  <text x="755" y="125" font-family="DejaVu Sans" font-size="22" text-anchor="middle" fill="#222">the worst part.</text>
+
+  <!-- Accent color subtle detail - red notification dot on Abe's phone panel 3 -->
+  <circle cx="757" cy="252" r="3" fill="#E63946"/>
+</svg>
