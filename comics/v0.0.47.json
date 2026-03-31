@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.47-beta",
+  "date": "2026-03-31",
+  "timestamp": "2026-03-31T16:06:19.770539+00:00",
+  "topic": "Social Media Debate: Why Bans May Fail And India Should Use Platforms To Spread Knowledge Instead",
+  "topic_source": "news",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Deadpan delivery cuts through policy complexity with understated clarity.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "A",
+    "file": "v0.0.47-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.47-beta-a.svg",
+    "b": "v0.0.47-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2039011416443650500",
+    "ab_post_url": "https://x.com/i/status/2039011416443650500",
+    "winner_tweet_id": "2039085505514508362",
+    "winner_post_url": "https://x.com/i/status/2039085505514508362"
+  },
+  "voting": {}
+}
