@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 960">
+  <defs>
+    <radialGradient id="sq_fur_nc41v" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#d9a066"/>
+      <stop offset="100%" style="stop-color:#9d6b3a"/>
+    </radialGradient>
+    <radialGradient id="lem_fur_nc41v" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#e8e8e8"/>
+      <stop offset="100%" style="stop-color:#b8b8b8"/>
+    </radialGradient>
+    <radialGradient id="hum_skin_nc41v" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#f5d3b8"/>
+      <stop offset="100%" style="stop-color:#e8b887"/>
+    </radialGradient>
+    <filter id="shadow_nc41v">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.5"/>
+      <feOffset dx="0.5" dy="1.5" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.3"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Panel 1 -->
+  <rect x="10" y="10" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Abe staring at phone, slumped -->
+  <g filter="url(#shadow_nc41v)">
+    <ellipse cx="200" cy="225" rx="28" ry="35" fill="#5d8aa8" stroke="#4a6d8c" stroke-width="1.3"/>
+    <ellipse cx="200" cy="175" rx="20" ry="23" fill="url(#hum_skin_nc41v)" stroke="#c8a882" stroke-width="1.3"/>
+    <path d="M 180 160 Q 200 153 220 160 Q 218 165 214 167 Q 200 163 186 167 Q 182 165 180 160" fill="#4a3728" stroke="#3a2618" stroke-width="1"/>
+    <ellipse cx="192" cy="176" rx="3.5" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="192" cy="177" r="1.8" fill="#2a2a2a"/>
+    <ellipse cx="208" cy="176" rx="3.5" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="208" cy="177" r="1.8" fill="#2a2a2a"/>
+    <path d="M 186 172 Q 192 171 198 173" fill="none" stroke="#3a2618" stroke-width="1.3" stroke-linecap="round"/>
+    <path d="M 202 173 Q 208 171 214 172" fill="none" stroke="#3a2618" stroke-width="1.3" stroke-linecap="round"/>
+    <path d="M 200 180 L 200 183" stroke="#a8896d" stroke-width="1"/>
+    <path d="M 194 189 L 206 189" fill="none" stroke="#8a6d51" stroke-width="1.3" stroke-linecap="round"/>
+    <rect x="213" y="205" width="20" height="32" rx="3" fill="#1a1a1a" stroke="#0a0a0a" stroke-width="1"/>
+    <rect x="215" y="208" width="16" height="25" fill="#E63946" opacity="0.8"/>
+    <text x="223" y="218" font-family="DejaVu Sans" font-size="5" text-anchor="middle" fill="#fff">BREAKING</text>
+    <text x="223" y="224" font-family="DejaVu Sans" font-size="5" text-anchor="middle" fill="#fff">BREAKING</text>
+    <text x="223" y="230" font-family="DejaVu Sans" font-size="5" text-anchor="middle" fill="#fff">BREAKING</text>
+    <path d="M 220 220 Q 218 210 215 208" fill="none" stroke="url(#hum_skin_nc41v)" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Speech bubble panel 1 -->
+  <rect x="40" y="28" width="320" height="115" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="185,141 200,158 215,141" fill="#fff"/>
+  <line x1="185" y1="143" x2="200" y2="160" stroke="#333" stroke-width="2"/>
+  <line x1="200" y1="160" x2="215" y2="143" stroke="#333" stroke-width="2"/>
+
+  <text x="200" y="56" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">I've read nine</text>
+  <text x="200" y="84" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">"breaking"</text>
+  <text x="200" y="112" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">alerts today.</text>
+  <text x="200" y="138" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">It's 8am.</text>
+
+  <!-- Panel 2 -->
+  <rect x="10" y="320" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache sitting, half-lidded, unimpressed -->
+  <g filter="url(#shadow_nc41v)">
+    <ellipse cx="140" cy="550" rx="18" ry="20" fill="url(#sq_fur_nc41v)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="140" cy="528" rx="14" ry="13" fill="url(#sq_fur_nc41v)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <polygon points="130,517 126,498 134,515" fill="url(#sq_fur_nc41v)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="146,515 154,498 150,517" fill="url(#sq_fur_nc41v)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="130,517 128,504 133,516" fill="#cd853f"/>
+    <polygon points="147,516 152,504 150,517" fill="#cd853f"/>
+    <ellipse cx="134" cy="530" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="134" cy="530.5" r="1.8" fill="#1a1a1a"/>
+    <ellipse cx="146" cy="530" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="146" cy="530.5" r="1.8" fill="#1a1a1a"/>
+    <ellipse cx="140" cy="535" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 136 538 L 144 538" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+    <path d="M 120 555 Q 105 560 100 575 Q 95 590 105 600 Q 115 610 125 600 Q 120 585 120 570 Q 120 562 120 555" fill="url(#sq_fur_nc41v)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Sifaka next to Cache -->
+  <g filter="url(#shadow_nc41v)">
+    <ellipse cx="260" cy="550" rx="20" ry="26" fill="url(#lem_fur_nc41v)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="260" cy="522" rx="16" ry="15" fill="url(#lem_fur_nc41v)" stroke="#5a5a5a" stroke-width="1.3"/>
+    <ellipse cx="238" cy="517" rx="12" ry="14" fill="url(#lem_fur_nc41v)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="282" cy="517" rx="12" ry="14" fill="url(#lem_fur_nc41v)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <ellipse cx="238" cy="517" rx="7" ry="9" fill="#f5b5c5"/>
+    <ellipse cx="282" cy="517" rx="7" ry="9" fill="#f5b5c5"/>
+    <ellipse cx="250" cy="522" rx="9" ry="10" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="250" cy="523" r="7" fill="#1a1a1a"/>
+    <circle cx="248" cy="521" r="2" fill="#fff"/>
+    <ellipse cx="270" cy="522" rx="9" ry="10" fill="#fff" stroke="#2a2a2a" stroke-width="1"/>
+    <circle cx="270" cy="523" r="7" fill="#1a1a1a"/>
+    <circle cx="268" cy="521" r="2" fill="#fff"/>
+    <ellipse cx="260" cy="530" rx="2" ry="1.5" fill="#1a1a1a"/>
+    <path d="M 256 534 Q 260 536 264 534" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-linecap="round"/>
+    <path d="M 278 560 Q 288 570 292 588 Q 296 606 290 618 Q 284 626 276 622 Q 270 615 273 600 Q 276 585 278 570" fill="url(#lem_fur_nc41v)" stroke="#5a5a5a" stroke-width="1.2"/>
+    <path d="M 290 590 Q 286 592 284 590" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 292 600 Q 288 602 286 600" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 290 610 Q 286 612 284 610" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M 286 620 Q 282 622 280 620" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Speech bubble panel 2 - Sifaka -->
+  <rect x="60" y="338" width="280" height="100" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="250,436 260,456 270,436" fill="#fff"/>
+  <line x1="250" y1="438" x2="260" y2="458" stroke="#333" stroke-width="2"/>
+  <line x1="260" y1="458" x2="270" y2="438" stroke="#333" stroke-width="2"/>
+
+  <text x="200" y="370" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">Did anything</text>
+  <text x="200" y="400" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">actually</text>
+  <text x="200" y="430" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">break?</text>
+
+  <!-- Panel 3 -->
+  <rect x="10" y="630" width="380" height="300" fill="#fff" stroke="#333" stroke-width="3"/>
+
+  <!-- Cache alone, staring forward, deadpan -->
+  <g filter="url(#shadow_nc41v)">
+    <ellipse cx="200" cy="850" rx="18" ry="20" fill="url(#sq_fur_nc41v)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <ellipse cx="200" cy="828" rx="14" ry="13" fill="url(#sq_fur_nc41v)" stroke="#5d4a2f" stroke-width="1.3"/>
+    <polygon points="190,817 186,798 194,815" fill="url(#sq_fur_nc41v)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="206,815 214,798 210,817" fill="url(#sq_fur_nc41v)" stroke="#5d4a2f" stroke-width="1.2"/>
+    <polygon points="190,817 188,804 193,816" fill="#cd853f"/>
+    <polygon points="207,816 212,804 210,817" fill="#cd853f"/>
+    <ellipse cx="194" cy="830" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="194" cy="830.5" r="1.8" fill="#1a1a1a"/>
+    <ellipse cx="206" cy="830" rx="4" ry="2.5" fill="#fff" stroke="#2a2a2a" stroke-width="0.8"/>
+    <circle cx="206" cy="830.5" r="1.8" fill="#1a1a1a"/>
+    <ellipse cx="200" cy="835" rx="1.5" ry="1.2" fill="#1a1a1a"/>
+    <path d="M 196 838 L 204 838" fill="none" stroke="#8b6842" stroke-width="1" stroke-linecap="round"/>
+    <path d="M 180 855 Q 165 860 160 875 Q 155 890 165 900 Q 175 910 185 900 Q 180 885 180 870 Q 180 862 180 855" fill="url(#sq_fur_nc41v)" stroke="#5d4a2f" stroke-width="1.3"/>
+  </g>
+
+  <!-- Speech bubble panel 3 - Cache's deadpan punchline -->
+  <rect x="40" y="648" width="320" height="155" rx="12" fill="#fff" stroke="#333" stroke-width="2"/>
+  <polygon points="190,801 200,815 210,801" fill="#fff"/>
+  <line x1="190" y1="803" x2="200" y2="817" stroke="#333" stroke-width="2"/>
+  <line x1="200" y1="817" x2="210" y2="803" stroke="#333" stroke-width="2"/>
+
+  <text x="200" y="680" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">Just your</text>
+  <text x="200" y="708" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">ability to</text>
+  <text x="200" y="736" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">distinguish</text>
+  <text x="200" y="764" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">days from</text>
+  <text x="200" y="792" font-family="DejaVu Sans" font-size="26" text-anchor="middle" fill="#222">each other.</text>
+
+  <!-- Signature -->
+  <text x="385" y="952" font-family="DejaVu Sans" font-size="9" text-anchor="end" fill="#999">process.ink</text>
+</svg>
