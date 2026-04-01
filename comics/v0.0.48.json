@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.48-beta",
+  "date": "2026-04-01",
+  "timestamp": "2026-04-01T11:05:28.454368+00:00",
+  "topic": "CERN levels up with new superconducting karts",
+  "topic_source": "hn",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Absurdist humor amplifies CERN's inherent strangeness, making the surreal premise feel more authentic.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "B",
+    "file": "v0.0.48-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.48-beta-a.svg",
+    "b": "v0.0.48-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2039298092046991683",
+    "ab_post_url": "https://x.com/i/status/2039298092046991683",
+    "winner_tweet_id": "2039372583284416593",
+    "winner_post_url": "https://x.com/i/status/2039372583284416593"
+  },
+  "voting": {}
+}
