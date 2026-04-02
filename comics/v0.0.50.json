@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.50-beta",
+  "date": "2026-04-02",
+  "timestamp": "2026-04-02T11:05:14.840379+00:00",
+  "topic": "algorithms knowing us too well",
+  "topic_source": "predefined",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Absurdist exaggeration lets the anxiety of algorithmic surveillance feel cathartic rather than creepy.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "B",
+    "file": "v0.0.50-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.50-beta-a.svg",
+    "b": "v0.0.50-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2039660422848999616",
+    "ab_post_url": "https://x.com/i/status/2039660422848999616",
+    "winner_tweet_id": "2039735025273286899",
+    "winner_post_url": "https://x.com/i/status/2039735025273286899"
+  },
+  "voting": {}
+}
