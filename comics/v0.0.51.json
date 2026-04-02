@@ -1,0 +1,42 @@
+{
+  "run_id": "v0.0.51-beta",
+  "date": "2026-04-02",
+  "timestamp": "2026-04-02T16:06:35.633890+00:00",
+  "topic": "IT rules may cover social media news",
+  "topic_source": "news",
+  "style_snapshot": {
+    "line_weight": "medium",
+    "palette": "muted_earth",
+    "accent_color": "#E63946",
+    "panel_count": 3,
+    "humor_style": "deadpan",
+    "detail_level": "minimal",
+    "character_style": "geometric_simple"
+  },
+  "characters": [
+    "Abe",
+    "Cache",
+    "Sifaka"
+  ],
+  "learned": "Absurdist humor's visual chaos better matches the irony of corporate IT policies restricting freedom.",
+  "explore": {
+    "dimension": "humor_style",
+    "variant_a_value": "deadpan",
+    "variant_b_value": "absurdist"
+  },
+  "winner": {
+    "variant": "B",
+    "file": "v0.0.51-beta.svg"
+  },
+  "variants": {
+    "a": "v0.0.51-beta-a.svg",
+    "b": "v0.0.51-beta-b.svg"
+  },
+  "posting": {
+    "ab_tweet_id": "2039736259489251672",
+    "ab_post_url": "https://x.com/i/status/2039736259489251672",
+    "winner_tweet_id": "2039810527124177173",
+    "winner_post_url": "https://x.com/i/status/2039810527124177173"
+  },
+  "voting": {}
+}
